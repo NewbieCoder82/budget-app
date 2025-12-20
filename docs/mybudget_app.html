@@ -1,1 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Budget App</title>
+    <style>
+        body { font-family: Arial; padding: 20px; max-width: 600px; margin: auto; }
+        input, button { margin: 5px 0; padding: 5px; }
+        table { border-collapse: collapse; width: 100%; margin-top: 10px; }
+        th, td { border: 1px solid #ccc; padding: 5px; text-align: left; }
+    </style>
+</head>
+<body>
+
+<h1>My Budget App</h1>
+
+<h2>Add Expense</h2>
+<label>Category: <input type="text" id="category" placeholder="e.g. Groceries"></label><br>
+<label>Amount: <input type="number" id="amount" placeholder="0.00"></label><br>
+<label>Note: <input type="text" id="note" placeholder="Optional"></label><br>
+<button onclick="addExpense()">Add Expense</button>
+
+<h2>Transactions</h2>
+<table id="transactions">
+    <tr><th>Date</th><th>Category</th><th>Amount</th><th>Note</th></tr>
+</table>
+
+<script>
+let transactions = JSON.parse(localStorage.getItem('transactions')) || [];
+
+function saveData() {
+    localStorage.setItem('transactions', JSON.stringify(transactions));
+}
+
+function addExpense() {
+    const category = document.getElementById('category').value.trim();
+    const amount = parseFloat(document.getElementById('amount').value);
+    const note = document.getElementById('note').value.trim();
+    if(!category || isNaN(amount)) { alert('Enter a category and valid amount'); return; }
+    
+    const expense = {
+        date: new Date().toLocaleDateString(),
+        category,
+        amount,
+        note
+    };
+    transactions.push(expense);
+    saveData();
+    renderTable();
+    
+    // Clear inputs
+    document.getElementById('category').value = '';
+    document.getElementById('amount').value = '';
+    document.getElementById('note').value = '';
+}
+
+function renderTable() {
+    const table = document.getElementById('transactions');
+    table.innerHTML = `<tr><th>Date</th><th>Category</th><th>Amount</th><th>Note</th></tr>`;
+    transactions.forEach(t => {
+        const row = table.insertRow();
+        row.insertCell(0).innerText = t.date;
+        row.insertCell(1).innerText = t.category;
+        row.insertCell(2).innerText = t.amount.toFixed(2);
+        row.insertCell(3).innerText = t.note;
+    });
+}
+
+// Render existing transactions on page load
+renderTable();
+</script>
+
+</body>
+</html>
 
