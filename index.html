@@ -75,6 +75,15 @@
 </table>
 
 <script>
+const currencyFormatter = new Intl.NumberFormat("en-US", {
+  style: "currency",
+  currency: "USD"
+});
+
+function formatCurrency(value) {
+  return currencyFormatter.format(value);
+}
+
 let data = JSON.parse(localStorage.getItem("budgetData")) || {
   deposit: 0,
   fixed: 0,
@@ -104,13 +113,24 @@ function recalc() {
 function renderTable() {
   const tbody = document.querySelector("#txnTable tbody");
   tbody.innerHTML = "";
+
   let runningLeft = data.deposit - data.fixed;
 
   data.transactions.forEach(t => {
     runningLeft -= t.amount;
+
     const r = tbody.insertRow();
-    Object.values(t).forEach(v => r.insertCell().innerText = v ?? "");
-    r.insertCell().innerText = runningLeft.toFixed(2);
+    r.insertCell().innerText = t.id;
+    r.insertCell().innerText = t.date;
+    r.insertCell().innerText = t.account;
+    r.insertCell().innerText = t.purchaser;
+    r.insertCell().innerText = t.maincat || "";
+    r.insertCell().innerText = t.subcat || "";
+    r.insertCell().innerText = t.subcat2 || "";
+    r.insertCell().innerText = formatCurrency(t.amount);
+    r.insertCell().innerText = t.place || "";
+    r.insertCell().innerText = t.notes || "";
+    r.insertCell().innerText = formatCurrency(runningLeft);
   });
 }
 
