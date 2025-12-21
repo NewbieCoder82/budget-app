@@ -1,71 +1,153 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>My Budget App</title>
-    <style>
-        body { font-family: Arial; padding: 20px; max-width: 600px; margin: auto; }
-        input, button { margin: 5px 0; padding: 5px; }
-        table { border-collapse: collapse; width: 100%; margin-top: 10px; }
-        th, td { border: 1px solid #ccc; padding: 5px; text-align: left; }
-    </style>
+  <title>My Budget App</title>
+  <style>
+    body { font-family: Arial; max-width: 1100px; margin: auto; padding: 20px; }
+    input, select, button { margin: 4px; padding: 4px; }
+    h2 { margin-top: 30px; }
+    table { border-collapse: collapse; width: 100%; margin-top: 10px; }
+    th, td { border: 1px solid #ccc; padding: 6px; font-size: 12px; }
+    th { background: #f4f4f4; }
+  </style>
 </head>
 <body>
 
 <h1>My Budget App</h1>
 
-<h2>Add Expense</h2>
-<label>Category: <input type="text" id="category" placeholder="e.g. Groceries"></label><br>
-<label>Amount: <input type="number" id="amount" placeholder="0.00"></label><br>
-<label>Note: <input type="text" id="note" placeholder="Optional"></label><br>
-<button onclick="addExpense()">Add Expense</button>
+<!-- MONTHLY OVERVIEW -->
+<h2>Monthly Overview</h2>
+<label>Deposit:
+  <input type="number" id="deposit">
+</label>
+<label>Fixed Expenses:
+  <input type="number" id="fixed">
+</label>
+<strong>Left for Budget: $<span id="leftForBudget">0.00</span></strong>
 
-<h2>Transactions</h2>
-<table id="transactions">
-    <tr><th>Date</th><th>Category</th><th>Amount</th><th>Note</th></tr>
+<hr>
+
+<!-- TRANSACTION ENTRY -->
+<h2>Add Daily Transaction</h2>
+
+<input type="date" id="date">
+<select id="account">
+  <option>APLE</option>
+  <option>CSTCO</option>
+  <option>HYTT</option>
+  <option>SPHRE</option>
+  <option>SVNG</option>
+</select>
+
+<select id="purchaser">
+  <option>AA</option>
+  <option>JJ</option>
+</select>
+
+<input placeholder="MainCat" id="maincat">
+<input placeholder="SubCat" id="subcat">
+<input placeholder="SubCat2" id="subcat2">
+<input type="number" placeholder="Amount" id="amount">
+<input placeholder="Place" id="place">
+<input placeholder="Notes" id="notes">
+
+<button onclick="addTransaction()">Add</button>
+
+<!-- CALCULATIONS -->
+<h2>Month Status</h2>
+<strong>Left for Month: $<span id="leftForMonth">0.00</span></strong><br>
+<strong>Daily Avg: $<span id="dailyAvg">0.00</span></strong>
+
+<!-- TABLE -->
+<h2>Daily Transactions</h2>
+<button onclick="exportCSV()">Export CSV</button>
+
+<table id="txnTable">
+  <thead>
+    <tr>
+      <th>ID</th><th>Date</th><th>Account</th><th>Purch</th>
+      <th>MainCat</th><th>SubCat</th><th>SubCat2</th>
+      <th>Amount</th><th>Place</th><th>Notes</th><th>Left</th>
+    </tr>
+  </thead>
+  <tbody></tbody>
 </table>
 
 <script>
-let transactions = JSON.parse(localStorage.getItem('transactions')) || [];
+let data = JSON.parse(localStorage.getItem("budgetData")) || {
+  deposit: 0,
+  fixed: 0,
+  nextId: 2619,
+  transactions: []
+};
 
-function saveData() {
-    localStorage.setItem('transactions', JSON.stringify(transactions));
+function save() {
+  localStorage.setItem("budgetData", JSON.stringify(data));
 }
 
-function addExpense() {
-    const category = document.getElementById('category').value.trim();
-    const amount = parseFloat(document.getElementById('amount').value);
-    const note = document.getElementById('note').value.trim();
-    if(!category || isNaN(amount)) { alert('Enter a category and valid amount'); return; }
-    
-    const expense = {
-        date: new Date().toLocaleDateString(),
-        category,
-        amount,
-        note
-    };
-    transactions.push(expense);
-    saveData();
-    renderTable();
-    
-    // Clear inputs
-    document.getElementById('category').value = '';
-    document.getElementById('amount').value = '';
-    document.getElementById('note').value = '';
+function recalc() {
+  const leftBudget = data.deposit - data.fixed;
+  document.getElementById("leftForBudget").innerText = leftBudget.toFixed(2);
+
+  let spent = data.transactions.reduce((a,b)=>a+b.amount,0);
+  let leftMonth = leftBudget - spent;
+  document.getElementById("leftForMonth").innerText = leftMonth.toFixed(2);
+
+  const today = new Date();
+  const daysInMonth = new Date(today.getFullYear(), today.getMonth()+1, 0).getDate();
+  const daysLeft = daysInMonth - today.getDate();
+  document.getElementById("dailyAvg").innerText =
+    daysLeft > 0 ? (leftMonth/daysLeft).toFixed(2) : "0.00";
 }
 
 function renderTable() {
-    const table = document.getElementById('transactions');
-    table.innerHTML = `<tr><th>Date</th><th>Category</th><th>Amount</th><th>Note</th></tr>`;
-    transactions.forEach(t => {
-        const row = table.insertRow();
-        row.insertCell(0).innerText = t.date;
-        row.insertCell(1).innerText = t.category;
-        row.insertCell(2).innerText = t.amount.toFixed(2);
-        row.insertCell(3).innerText = t.note;
-    });
+  const tbody = document.querySelector("#txnTable tbody");
+  tbody.innerHTML = "";
+  let runningLeft = data.deposit - data.fixed;
+
+  data.transactions.forEach(t => {
+    runningLeft -= t.amount;
+    const r = tbody.insertRow();
+    Object.values(t).forEach(v => r.insertCell().innerText = v ?? "");
+    r.insertCell().innerText = runningLeft.toFixed(2);
+  });
 }
 
-// Render existing transactions on page load
+function addTransaction() {
+  const t = {
+    id: data.nextId++,
+    date: date.value,
+    account: account.value,
+    purchaser: purchaser.value,
+    maincat: maincat.value,
+    subcat: subcat.value,
+    subcat2: subcat2.value,
+    amount: parseFloat(amount.value),
+    place: place.value,
+    notes: notes.value
+  };
+  data.transactions.push(t);
+  save();
+  recalc();
+  renderTable();
+}
+
+function exportCSV() {
+  let rows = [["ID","Date","Account","Purch","MainCat","SubCat","SubCat2","Amount","Place","Notes"]];
+  data.transactions.forEach(t => rows.push(Object.values(t)));
+  let csv = rows.map(r => r.join(",")).join("\n");
+  let a = document.createElement("a");
+  a.href = URL.createObjectURL(new Blob([csv]));
+  a.download = "transactions.csv";
+  a.click();
+}
+
+deposit.onchange = () => { data.deposit = +deposit.value; save(); recalc(); };
+fixed.onchange = () => { data.fixed = +fixed.value; save(); recalc(); };
+
+deposit.value = data.deposit;
+fixed.value = data.fixed;
+recalc();
 renderTable();
 </script>
 
