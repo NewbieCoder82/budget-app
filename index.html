@@ -75,6 +75,8 @@
 </table>
 
 <script>
+<script>
+/* ===== Currency Helpers ===== */
 const currencyFormatter = new Intl.NumberFormat("en-US", {
   style: "currency",
   currency: "USD"
@@ -84,33 +86,44 @@ function formatCurrency(value) {
   return currencyFormatter.format(value);
 }
 
-let data = JSON.parse(localStorage.getItem("budgetData")) || {
-  deposit: 0,
-  fixed: 0,
-  nextId: 2619,
-  transactions: []
-};
+/* ===== App State ===== */
+let data;
 
-function save() {
-  localStorage.setItem("budgetData", JSON.stringify(data));
+/* ===== Load Shared Data ===== */
+async function loadData() {
+  const response = await fetch("data.json");
+  data = await response.json();
 }
 
+/* ===== Save (placeholder for now) ===== */
+function save() {
+  // we will replace this with GitHub API logic
+}
+
+/* ===== Calculations ===== */
 function recalc() {
   const leftBudget = data.deposit - data.fixed;
-  document.getElementById("leftForBudget").innerText = formatCurrency(leftBudget);
+  document.getElementById("leftForBudget").innerText =
+    formatCurrency(leftBudget);
 
-  let spent = data.transactions.reduce((a,b)=>a+b.amount,0);
-  let leftMonth = leftBudget - spent;
-  document.getElementById("leftForMonth").innerText = formatCurrency(leftMonth);
+  const spent = data.transactions.reduce((a, b) => a + b.amount, 0);
+  const leftMonth = leftBudget - spent;
+  document.getElementById("leftForMonth").innerText =
+    formatCurrency(leftMonth);
 
   const today = new Date();
-  const daysInMonth = new Date(today.getFullYear(), today.getMonth()+1, 0).getDate();
+  const daysInMonth = new Date(
+    today.getFullYear(),
+    today.getMonth() + 1,
+    0
+  ).getDate();
   const daysLeft = daysInMonth - today.getDate();
-  document.getElementById("dailyAvg").innerText =
-  daysLeft > 0 ? formatCurrency(leftMonth / daysLeft) : formatCurrency(0);
 
+  document.getElementById("dailyAvg").innerText =
+    daysLeft > 0 ? formatCurrency(leftMonth / daysLeft) : formatCurrency(0);
 }
 
+/* ===== Table Rendering ===== */
 function renderTable() {
   const tbody = document.querySelector("#txnTable tbody");
   tbody.innerHTML = "";
@@ -119,8 +132,8 @@ function renderTable() {
 
   data.transactions.forEach(t => {
     runningLeft -= t.amount;
-
     const r = tbody.insertRow();
+
     r.insertCell().innerText = t.id;
     r.insertCell().innerText = t.date;
     r.insertCell().innerText = t.account;
@@ -135,43 +148,14 @@ function renderTable() {
   });
 }
 
-function addTransaction() {
-  const t = {
-    id: data.nextId++,
-    date: date.value,
-    account: account.value,
-    purchaser: purchaser.value,
-    maincat: maincat.value,
-    subcat: subcat.value,
-    subcat2: subcat2.value,
-    amount: parseFloat(amount.value),
-    place: place.value,
-    notes: notes.value
-  };
-  data.transactions.push(t);
-  save();
+/* ===== Startup ===== */
+(async () => {
+  await loadData();
   recalc();
   renderTable();
-}
-
-function exportCSV() {
-  let rows = [["ID","Date","Account","Purch","MainCat","SubCat","SubCat2","Amount","Place","Notes"]];
-  data.transactions.forEach(t => rows.push(Object.values(t)));
-  let csv = rows.map(r => r.join(",")).join("\n");
-  let a = document.createElement("a");
-  a.href = URL.createObjectURL(new Blob([csv]));
-  a.download = "transactions.csv";
-  a.click();
-}
-
-deposit.onchange = () => { data.deposit = +deposit.value; save(); recalc(); };
-fixed.onchange = () => { data.fixed = +fixed.value; save(); recalc(); };
-
-deposit.value = data.deposit;
-fixed.value = data.fixed;
-recalc();
-renderTable();
+})();
 </script>
+
 
 </body>
 </html>
