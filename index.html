@@ -97,11 +97,11 @@ function save() {
 
 function recalc() {
   const leftBudget = data.deposit - data.fixed;
-  document.getElementById("leftForBudget").innerText = leftBudget.toFixed(2);
+  document.getElementById("leftForBudget").innerText = formatCurrency(leftBudget);
 
   let spent = data.transactions.reduce((a,b)=>a+b.amount,0);
   let leftMonth = leftBudget - spent;
-  document.getElementById("leftForMonth").innerText = leftMonth.toFixed(2);
+  document.getElementById("leftForMonth").innerText = formatCurrency(leftMonth);
 
   const today = new Date();
   const daysInMonth = new Date(today.getFullYear(), today.getMonth()+1, 0).getDate();
