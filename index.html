@@ -107,7 +107,8 @@ function recalc() {
   const daysInMonth = new Date(today.getFullYear(), today.getMonth()+1, 0).getDate();
   const daysLeft = daysInMonth - today.getDate();
   document.getElementById("dailyAvg").innerText =
-    daysLeft > 0 ? (leftMonth/daysLeft).toFixed(2) : "0.00";
+  daysLeft > 0 ? formatCurrency(leftMonth / daysLeft) : formatCurrency(0);
+
 }
 
 function renderTable() {
