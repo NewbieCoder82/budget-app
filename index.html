@@ -74,7 +74,7 @@
   <tbody></tbody>
 </table>
 
-<script>
+
 <script>
 /* ===== Currency Helpers ===== */
 const currencyFormatter = new Intl.NumberFormat("en-US", {
@@ -87,14 +87,50 @@ function formatCurrency(value) {
 }
 
 /* ===== App State ===== */
-let data;
-
-/* ===== Load Shared Data ===== */
-async function loadData() {
-  const response = await fetch("data.json");
-  data = await response.json();
+let data;     //holds your budget data
+let fileSha;  //holds GitHub's file version (required for saving)
+  
+/* ===== Github Token Helper ===== */
+function getGitHubToken() {
+  let token = localStorage.getItem("github_budget_token");
+  if (!token) {
+      token = prompt("Enter your GitHub sync token:");
+      localStorage.setItem("github_budget_token", token);
+  }
+  return token;
+}
+  
+function formatCurrency(value) {
+  return currencyFormatter.format(value);
 }
 
+/* ===== App State ===== */
+//let data;     //holds your budget data
+//let fileSha; // holds GitHub's file version (required for saving)
+ 
+/* ===== Load Shared Data ===== */
+async function loadData() {
+  const token = getGitHubToken();
+
+  const response = await fetch(
+    "https://api.github.com/repos/NewbieCoder82/budget-app/contents/data.json",
+    {
+      headers: {
+          Authorization: 'token ${token}'
+      }
+    }
+  );
+
+  if (!response.ok) {
+      alert("Failed to load data.json from GitHub");
+      throw new Error("GitHub fetch failed");
+}
+
+const result = await response.json();
+filesha = result.sha;
+data = JSON.parse(atob(result.content));
+}
+  
 /* ===== Save (placeholder for now) ===== */
 function save() {
   // we will replace this with GitHub API logic
@@ -151,9 +187,12 @@ function renderTable() {
 /* ===== Startup ===== */
 (async () => {
   await loadData();
+  deposit.value = data.deposit;
+  fixed.value = data.fixed;
   recalc();
   renderTable();
 })();
+  
 </script>
 
 
