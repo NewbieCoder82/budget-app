@@ -76,19 +76,27 @@
 
 
 <script>
+const OWNER = "NewbieCoder82";
+const REPO  = "budget-app";      // example: "budget-app"
+const BRANCH = "main";
+const FILE_PATH = "data.json";  // since it's in /root
+
+/* ===== App State ===== */
+let data = null;     //holds your budget data
+let fileSha = null;  //holds GitHub's file version (required for saving)
+  
 /* ===== Currency Helpers ===== */
 const currencyFormatter = new Intl.NumberFormat("en-US", {
   style: "currency",
   currency: "USD"
 });
 
-function formatCurrency(value) {
-  return currencyFormatter.format(value);
+function formatMoney(n) {
+  const num = Number(n);
+  if (Number.isNaN(num)) returen currencyFormatter.format(num);
 }
 
-/* ===== App State ===== */
-let data;     //holds your budget data
-let fileSha;  //holds GitHub's file version (required for saving)
+
   
 /* ===== Github Token Helper ===== */
 function getGitHubToken() {
@@ -104,31 +112,28 @@ function formatCurrency(value) {
   return currencyFormatter.format(value);
 }
 
-/* ===== App State ===== */
-//let data;     //holds your budget data
-//let fileSha; // holds GitHub's file version (required for saving)
  
-/* ===== Load Shared Data ===== */
+/* ===== Load Shared Data (STEP B) ===== */
 async function loadData() {
   const token = getGitHubToken();
 
-  const response = await fetch(
-    "https://api.github.com/repos/NewbieCoder82/budget-app/contents/data.json",
-    {
-      headers: {
-          Authorization: 'token ${token}'
-      }
+  const url = `https://api.github.com/repos/${OWNER}/${REPO}/contents/${FILE_PATH}`;
+
+  const response = await fetch(url, {
+    headers: {
+      Authorization: `token ${token}`
     }
-  );
+  });
 
   if (!response.ok) {
-      alert("Failed to load data.json from GitHub");
-      throw new Error("GitHub fetch failed");
-}
+    alert("Failed to load data.json from GitHub");
+    throw new Error("GitHub fetch failed");
+  }
 
-const result = await response.json();
-filesha = result.sha;
-data = JSON.parse(atob(result.content));
+  const result = await response.json();
+
+  fileSha = result.sha;
+  data = JSON.parse(atob(result.content));
 }
   
 /* ===== Save (placeholder for now) ===== */
