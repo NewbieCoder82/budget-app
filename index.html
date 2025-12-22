@@ -114,6 +114,9 @@ function formatCurrency(value) {
 
  
 /* ===== Load Shared Data (STEP B) ===== */
+let data = null;
+let fileSha = null;
+
 async function loadData() {
   const token = getGitHubToken();
 
@@ -121,7 +124,8 @@ async function loadData() {
 
   const response = await fetch(url, {
     headers: {
-      Authorization: `token ${token}`
+      "Authorization": `token ${token}`,
+      "Accept": "application/vnd.github+json"
     }
   });
 
@@ -131,14 +135,8 @@ async function loadData() {
   }
 
   const result = await response.json();
-
   fileSha = result.sha;
   data = JSON.parse(atob(result.content));
-}
-  
-/* ===== Save (placeholder for now) ===== */
-function save() {
-  // we will replace this with GitHub API logic
 }
 
 /* ===== Calculations ===== */
