@@ -1,14 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="utf-8" />
   <title>My Budget App</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <style>
-    body { font-family: Arial; max-width: 1100px; margin: auto; padding: 20px; }
-    input, select, button { margin: 4px; padding: 4px; }
-    h2 { margin-top: 30px; }
+    body { font-family: Arial; max-width: 1200px; margin: auto; padding: 16px; }
+    input, select, button { margin: 4px; padding: 6px; }
+    h2 { margin-top: 22px; }
     table { border-collapse: collapse; width: 100%; margin-top: 10px; }
-    th, td { border: 1px solid #ccc; padding: 6px; font-size: 12px; }
+    th, td { border: 1px solid #ccc; padding: 6px; font-size: 12px; vertical-align: top; }
     th { background: #f4f4f4; }
+    .row-actions button { margin-right: 6px; }
+    .grid { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; }
+    .stat { padding: 8px 10px; border: 1px solid #ddd; border-radius: 8px; background: #fafafa; }
+    .small { font-size: 12px; color: #555; }
+    .danger { color: #b00020; }
   </style>
 </head>
 <body>
@@ -17,187 +24,530 @@
 
 <!-- MONTHLY OVERVIEW -->
 <h2>Monthly Overview</h2>
-<label>Deposit:
-  <input type="number" id="deposit">
-</label>
-<label>Fixed Expenses:
-  <input type="number" id="fixed">
-</label>
-<strong>Left for Budget: $<span id="leftForBudget">0.00</span></strong>
+<div class="grid">
+  <label class="stat">
+    <div class="small">This month's deposit</div>
+    <input type="text" id="deposit" inputmode="decimal" placeholder="$0.00">
+  </label>
+
+  <label class="stat">
+    <div class="small">This month's fixed expenses</div>
+    <input type="text" id="fixed" inputmode="decimal" placeholder="$0.00">
+  </label>
+
+  <div class="stat">
+    <div class="small">Left for Budget (Deposit - Fixed)</div>
+    <strong id="leftForBudget">$0.00</strong>
+  </div>
+
+  <div class="stat">
+    <div class="small">Left for Month (Left for Budget - Transactions)</div>
+    <strong id="leftForMonth">$0.00</strong>
+  </div>
+
+  <div class="stat">
+    <div class="small">Daily Avg (Left for Month / Days left)</div>
+    <strong id="dailyAvg">$0.00</strong>
+  </div>
+
+  <button id="syncNowBtn">Sync now</button>
+  <button id="resetTokenBtn" class="danger">Reset token</button>
+</div>
 
 <hr>
 
 <!-- TRANSACTION ENTRY -->
 <h2>Add Daily Transaction</h2>
 
-<input type="date" id="date">
-<select id="account">
-  <option>APLE</option>
-  <option>CSTCO</option>
-  <option>HYTT</option>
-  <option>ULTM</option>
-  <option>SPHRE</option>
-  <option>SVNG</option>
-</select>
+<div class="grid">
+  <label>Date:
+    <input type="date" id="transDate">
+  </label>
 
-<select id="purchaser">
-  <option>AA</option>
-  <option>JJ</option>
-</select>
+  <label>Account:
+    <select id="account">
+      <option>APLE</option>
+      <option>CSTCO</option>
+      <option>HYTT</option>
+      <option>SPHRE</option>
+      <option>SVNG</option>
+    </select>
+  </label>
 
-<input placeholder="MainCat" id="maincat">
-<input placeholder="SubCat" id="subcat">
-<input placeholder="SubCat2" id="subcat2">
-<input type="number" placeholder="Amount" id="amount">
-<input placeholder="Place" id="place">
-<input placeholder="Notes" id="notes">
+  <label>Purchaser:
+    <select id="purchaser">
+      <option>AA</option>
+      <option>JJ</option>
+    </select>
+  </label>
 
-<button onclick="addTransaction()">Add</button>
+  <input placeholder="MainCat (optional)" id="maincat">
+  <input placeholder="SubCat (optional)" id="subcat">
+  <input placeholder="SubCat2 (optional)" id="subcat2">
 
-<!-- CALCULATIONS -->
-<h2>Month Status</h2>
-<strong>Left for Month: $<span id="leftForMonth">0.00</span></strong><br>
-<strong>Daily Avg: $<span id="dailyAvg">0.00</span></strong>
+  <label>Amount:
+    <input type="text" id="amount" inputmode="decimal" placeholder="$0.00">
+  </label>
+
+  <input placeholder="Place (optional)" id="place">
+  <input placeholder="Notes (optional)" id="notes">
+
+  <button id="addBtn">Add</button>
+</div>
 
 <!-- TABLE -->
 <h2>Daily Transactions</h2>
-<button onclick="exportCSV()">Export CSV</button>
+<div class="grid">
+  <button id="exportBtn">Export CSV</button>
+</div>
 
 <table id="txnTable">
   <thead>
     <tr>
-      <th>ID</th><th>Date</th><th>Account</th><th>Purch</th>
-      <th>MainCat</th><th>SubCat</th><th>SubCat2</th>
-      <th>Amount</th><th>Place</th><th>Notes</th><th>Left</th>
+      <th>ID</th>
+      <th>Date</th>
+      <th>Account</th>
+      <th>Purch</th>
+      <th>MainCat</th>
+      <th>SubCat</th>
+      <th>SubCat2</th>
+      <th>Amount</th>
+      <th>Place</th>
+      <th>Notes</th>
+      <th>Left for Month (running)</th>
+      <th>Actions</th>
     </tr>
   </thead>
   <tbody></tbody>
 </table>
 
-
 <script>
+/** =========================
+ *  CONFIG (EDIT THESE 3)
+ *  ========================= */
 const OWNER = "NewbieCoder82";
-const REPO  = "budget-app";      // example: "budget-app"
+const REPO  = "budget-app";
 const BRANCH = "main";
-const FILE_PATH = "data.json";  // since it's in /root
+const FILE_PATH = "data.json";
 
-/* ===== App State ===== */
-let data = null;     //holds your budget data
-let fileSha = null;  //holds GitHub's file version (required for saving)
-  
-/* ===== Currency Helpers ===== */
-const currencyFormatter = new Intl.NumberFormat("en-US", {
-  style: "currency",
-  currency: "USD"
-});
+/** =========================
+ *  GitHub sync state
+ *  ========================= */
+let data = null;     // budget data in memory
+let fileSha = null;  // required for PUT updates
 
-function formatMoney(n) {
-  const num = Number(n);
-  if (Number.isNaN(num)) returen currencyFormatter.format(num);
+/** =========================
+ *  Helpers
+ *  ========================= */
+const currencyFormatter = new Intl.NumberFormat("en-US", { style: "currency", currency: "USD" });
+
+function formatCurrency(value) {
+  const n = Number(value);
+  return currencyFormatter.format(Number.isFinite(n) ? n : 0);
 }
 
+// Allow "$1,234.56" or "1234.56"
+function parseMoney(input) {
+  if (input === null || input === undefined) return 0;
+  const cleaned = String(input).replace(/[^0-9.-]/g, "");
+  const n = Number(cleaned);
+  return Number.isFinite(n) ? n : 0;
+}
 
-  
-/* ===== Github Token Helper ===== */
+function todayISO() {
+  const d = new Date();
+  const mm = String(d.getMonth() + 1).padStart(2, "0");
+  const dd = String(d.getDate()).padStart(2, "0");
+  return `${d.getFullYear()}-${mm}-${dd}`;
+}
+
+function daysLeftInMonth() {
+  const now = new Date();
+  const daysInMonth = new Date(now.getFullYear(), now.getMonth() + 1, 0).getDate();
+  return Math.max(0, daysInMonth - now.getDate());
+}
+
 function getGitHubToken() {
   let token = localStorage.getItem("github_budget_token");
   if (!token) {
-      token = prompt("Enter your GitHub sync token:");
-      localStorage.setItem("github_budget_token", token);
+    token = prompt("Enter your GitHub sync token (fine-grained token with Contents: Read/Write for this repo):");
+    if (!token) throw new Error("Token required for sync.");
+    localStorage.setItem("github_budget_token", token);
   }
   return token;
 }
-  
-function formatCurrency(value) {
-  return currencyFormatter.format(value);
+
+function resetToken() {
+  localStorage.removeItem("github_budget_token");
+  alert("Token cleared. Next sync will ask again.");
 }
 
- 
-/* ===== Load Shared Data (STEP B) ===== */
-let data = null;
-let fileSha = null;
+/** =========================
+ *  GitHub API URLs
+ *  ========================= */
+function contentsUrl() {
+  // NOTE: must be in backticks, and variables must be variables.
+  return `https://api.github.com/repos/${OWNER}/${REPO}/contents/${FILE_PATH}?ref=${BRANCH}`;
+}
 
-async function loadData() {
+/** =========================
+ *  Load / Save shared JSON
+ *  ========================= */
+async function loadDataFromGitHub() {
   const token = getGitHubToken();
 
-  const url = `https://api.github.com/repos/${OWNER}/${REPO}/contents/${FILE_PATH}`;
-
-  const response = await fetch(url, {
+  const resp = await fetch(contentsUrl(), {
     headers: {
       "Authorization": `token ${token}`,
       "Accept": "application/vnd.github+json"
     }
   });
 
-  if (!response.ok) {
-    alert("Failed to load data.json from GitHub");
-    throw new Error("GitHub fetch failed");
+  if (!resp.ok) {
+    alert("Failed to load data.json from GitHub. Check OWNER/REPO/FILE_PATH and token permissions.");
+    throw new Error(`GitHub GET failed: ${resp.status}`);
   }
 
-  const result = await response.json();
+  const result = await resp.json();
   fileSha = result.sha;
-  data = JSON.parse(atob(result.content));
+
+  // GitHub returns file content base64 (may include newlines)
+  const base64 = (result.content || "").replace(/\n/g, "");
+  const jsonText = atob(base64);
+  data = JSON.parse(jsonText);
+
+  // Ensure defaults
+  if (typeof data.deposit !== "number") data.deposit = 0;
+  if (typeof data.fixed !== "number") data.fixed = 0;
+  if (typeof data.nextTransId !== "number") data.nextTransId = 2619;
+  if (!Array.isArray(data.transactions)) data.transactions = [];
 }
 
-/* ===== Calculations ===== */
-function recalc() {
-  const leftBudget = data.deposit - data.fixed;
-  document.getElementById("leftForBudget").innerText =
-    formatCurrency(leftBudget);
+async function saveDataToGitHub(commitMessage = "Update budget data") {
+  const token = getGitHubToken();
 
-  const spent = data.transactions.reduce((a, b) => a + b.amount, 0);
+  const payload = {
+    message: commitMessage,
+    content: btoa(unescape(encodeURIComponent(JSON.stringify(data, null, 2)))),
+    sha: fileSha,
+    branch: BRANCH
+  };
+
+  const resp = await fetch(`https://api.github.com/repos/${OWNER}/${REPO}/contents/${FILE_PATH}`, {
+    method: "PUT",
+    headers: {
+      "Authorization": `token ${token}`,
+      "Accept": "application/vnd.github+json",
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify(payload)
+  });
+
+  if (!resp.ok) {
+    const txt = await resp.text();
+    alert("Failed to save to GitHub. Check token permissions. Details in console.");
+    console.error("GitHub PUT failed:", resp.status, txt);
+    throw new Error(`GitHub PUT failed: ${resp.status}`);
+  }
+
+  const result = await resp.json();
+  fileSha = result.content.sha; // update sha after save
+}
+
+/** =========================
+ *  UI: calculations + render
+ *  ========================= */
+function recalcAndRenderStats() {
+  const leftBudget = (data.deposit || 0) - (data.fixed || 0);
+  document.getElementById("leftForBudget").innerText = formatCurrency(leftBudget);
+
+  const spent = data.transactions.reduce((sum, t) => sum + (Number(t.amount) || 0), 0);
   const leftMonth = leftBudget - spent;
-  document.getElementById("leftForMonth").innerText =
-    formatCurrency(leftMonth);
+  document.getElementById("leftForMonth").innerText = formatCurrency(leftMonth);
 
-  const today = new Date();
-  const daysInMonth = new Date(
-    today.getFullYear(),
-    today.getMonth() + 1,
-    0
-  ).getDate();
-  const daysLeft = daysInMonth - today.getDate();
-
-  document.getElementById("dailyAvg").innerText =
-    daysLeft > 0 ? formatCurrency(leftMonth / daysLeft) : formatCurrency(0);
+  const dl = daysLeftInMonth();
+  const avg = dl > 0 ? (leftMonth / dl) : 0;
+  document.getElementById("dailyAvg").innerText = formatCurrency(avg);
 }
 
-/* ===== Table Rendering ===== */
 function renderTable() {
   const tbody = document.querySelector("#txnTable tbody");
   tbody.innerHTML = "";
 
-  let runningLeft = data.deposit - data.fixed;
+  // sort by date then id
+  const txns = [...data.transactions].sort((a,b) => {
+    const da = (a.date || "");
+    const db = (b.date || "");
+    if (da < db) return -1;
+    if (da > db) return 1;
+    return (a.id || 0) - (b.id || 0);
+  });
 
-  data.transactions.forEach(t => {
-    runningLeft -= t.amount;
-    const r = tbody.insertRow();
+  const leftBudgetStart = (data.deposit || 0) - (data.fixed || 0);
+  let runningLeft = leftBudgetStart;
 
-    r.insertCell().innerText = t.id;
-    r.insertCell().innerText = t.date;
-    r.insertCell().innerText = t.account;
-    r.insertCell().innerText = t.purchaser;
-    r.insertCell().innerText = t.maincat || "";
-    r.insertCell().innerText = t.subcat || "";
-    r.insertCell().innerText = t.subcat2 || "";
-    r.insertCell().innerText = formatCurrency(t.amount);
-    r.insertCell().innerText = t.place || "";
-    r.insertCell().innerText = t.notes || "";
-    r.insertCell().innerText = formatCurrency(runningLeft);
+  for (const t of txns) {
+    runningLeft -= (Number(t.amount) || 0);
+
+    const tr = document.createElement("tr");
+
+    tr.appendChild(tdText(t.id));
+
+    // Editable inputs
+    tr.appendChild(tdInput("date", t.date || todayISO(), (val) => { t.date = val; scheduleSave("Edit transaction"); }));
+
+    tr.appendChild(tdSelect(["APLE","CSTCO","HYTT","SPHRE","SVNG"], t.account || "APLE", (val) => { t.account = val; scheduleSave("Edit transaction"); }));
+    tr.appendChild(tdSelect(["AA","JJ"], t.purchaser || "AA", (val) => { t.purchaser = val; scheduleSave("Edit transaction"); }));
+
+    tr.appendChild(tdInput("text", t.maincat || "", (val) => { t.maincat = val; scheduleSave("Edit transaction"); }));
+    tr.appendChild(tdInput("text", t.subcat || "", (val) => { t.subcat = val; scheduleSave("Edit transaction"); }));
+    tr.appendChild(tdInput("text", t.subcat2 || "", (val) => { t.subcat2 = val; scheduleSave("Edit transaction"); }));
+
+    // amount editable + currency formatting on blur
+    tr.appendChild(tdMoney(t.amount ?? 0, (numVal) => { t.amount = numVal; scheduleSave("Edit transaction"); }));
+
+    tr.appendChild(tdInput("text", t.place || "", (val) => { t.place = val; scheduleSave("Edit transaction"); }));
+    tr.appendChild(tdInput("text", t.notes || "", (val) => { t.notes = val; scheduleSave("Edit transaction"); }));
+
+    tr.appendChild(tdText(formatCurrency(runningLeft)));
+
+    const actions = document.createElement("td");
+    actions.className = "row-actions";
+    const delBtn = document.createElement("button");
+    delBtn.textContent = "Delete";
+    delBtn.onclick = () => {
+      if (!confirm(`Delete transaction ${t.id}?`)) return;
+      data.transactions = data.transactions.filter(x => x !== t);
+      scheduleSave("Delete transaction");
+      refreshUI();
+    };
+    actions.appendChild(delBtn);
+    tr.appendChild(actions);
+
+    tbody.appendChild(tr);
+  }
+}
+
+function tdText(text) {
+  const td = document.createElement("td");
+  td.textContent = String(text ?? "");
+  return td;
+}
+
+function tdInput(type, value, onChange) {
+  const td = document.createElement("td");
+  const input = document.createElement("input");
+  input.type = type;
+  input.value = value ?? "";
+  input.onchange = () => onChange(input.value);
+  td.appendChild(input);
+  return td;
+}
+
+function tdSelect(options, value, onChange) {
+  const td = document.createElement("td");
+  const sel = document.createElement("select");
+  for (const opt of options) {
+    const o = document.createElement("option");
+    o.value = opt;
+    o.textContent = opt;
+    sel.appendChild(o);
+  }
+  sel.value = value;
+  sel.onchange = () => onChange(sel.value);
+  td.appendChild(sel);
+  return td;
+}
+
+function tdMoney(value, onChangeNumber) {
+  const td = document.createElement("td");
+  const input = document.createElement("input");
+  input.type = "text";
+  input.inputMode = "decimal";
+  input.value = formatCurrency(value ?? 0);
+
+  input.onfocus = () => {
+    // show plain number while editing
+    input.value = String(parseMoney(input.value));
+    input.select();
+  };
+
+  input.onblur = () => {
+    const num = parseMoney(input.value);
+    input.value = formatCurrency(num);
+    onChangeNumber(num);
+    refreshStatsOnly();
+  };
+
+  td.appendChild(input);
+  return td;
+}
+
+function refreshStatsOnly() {
+  recalcAndRenderStats();
+}
+
+function refreshUI() {
+  recalcAndRenderStats();
+  renderTable();
+}
+
+/** =========================
+ *  Add transaction
+ *  ========================= */
+function addTransaction() {
+  const t = {
+    id: data.nextTransId ?? 2619,
+    date: document.getElementById("transDate").value || todayISO(),
+    account: document.getElementById("account").value,
+    purchaser: document.getElementById("purchaser").value,
+    maincat: document.getElementById("maincat").value.trim() || null,
+    subcat: document.getElementById("subcat").value.trim() || null,
+    subcat2: document.getElementById("subcat2").value.trim() || null,
+    amount: parseMoney(document.getElementById("amount").value),
+    place: document.getElementById("place").value.trim() || null,
+    notes: document.getElementById("notes").value.trim() || null
+  };
+
+  if (!Number.isFinite(t.amount) || t.amount === 0) {
+    alert("Please enter an Amount (non-zero).");
+    return;
+  }
+
+  data.transactions.push(t);
+  data.nextTransId = (t.id + 1);
+
+  // clear fields (keep date)
+  document.getElementById("maincat").value = "";
+  document.getElementById("subcat").value = "";
+  document.getElementById("subcat2").value = "";
+  document.getElementById("amount").value = "";
+  document.getElementById("place").value = "";
+  document.getElementById("notes").value = "";
+
+  scheduleSave("Add transaction");
+  refreshUI();
+}
+
+/** =========================
+ *  Deposit/fixed editing
+ *  ========================= */
+function bindMoneyField(id, getterSetter) {
+  const el = document.getElementById(id);
+
+  el.onfocus = () => {
+    el.value = String(getterSetter.get());
+    el.select();
+  };
+
+  el.onblur = () => {
+    const num = parseMoney(el.value);
+    getterSetter.set(num);
+    el.value = formatCurrency(num);
+    scheduleSave("Update monthly values");
+    refreshStatsOnly();
+  };
+}
+
+/** =========================
+ *  CSV export
+ *  ========================= */
+function exportCSV() {
+  const headers = [
+    "TransID","TransDate","Account","Purchaser","MainCat","SubCat","SubCat2","Amount","Place","Notes"
+  ];
+
+  const rows = data.transactions.map(t => ([
+    t.id ?? "",
+    t.date ?? "",
+    t.account ?? "",
+    t.purchaser ?? "",
+    t.maincat ?? "",
+    t.subcat ?? "",
+    t.subcat2 ?? "",
+    (Number(t.amount) || 0).toFixed(2),
+    t.place ?? "",
+    t.notes ?? ""
+  ]));
+
+  const csv = [headers, ...rows]
+    .map(r => r.map(cell => `"${String(cell).replace(/"/g, '""')}"`).join(","))
+    .join("\n");
+
+  const blob = new Blob([csv], { type: "text/csv;charset=utf-8;" });
+  const url = URL.createObjectURL(blob);
+
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = "daily_transactions.csv";
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+  URL.revokeObjectURL(url);
+}
+
+/** =========================
+ *  Debounced autosave
+ *  ========================= */
+let saveTimer = null;
+function scheduleSave(message) {
+  if (saveTimer) clearTimeout(saveTimer);
+  saveTimer = setTimeout(async () => {
+    try {
+      await saveDataToGitHub(message);
+      console.log("Saved to GitHub:", message);
+    } catch (e) {
+      console.error(e);
+    }
+  }, 900);
+}
+
+/** =========================
+ *  Startup
+ *  ========================= */
+async function startup() {
+  // Default date in form
+  document.getElementById("transDate").value = todayISO();
+
+  document.getElementById("addBtn").onclick = addTransaction;
+  document.getElementById("exportBtn").onclick = exportCSV;
+  document.getElementById("resetTokenBtn").onclick = resetToken;
+
+  document.getElementById("syncNowBtn").onclick = async () => {
+    await loadDataFromGitHub();
+    hydrateUIFromData();
+    refreshUI();
+    alert("Synced.");
+  };
+
+  await loadDataFromGitHub();
+  hydrateUIFromData();
+  refreshUI();
+}
+
+function hydrateUIFromData() {
+  // deposit/fixed displayed as currency
+  const depEl = document.getElementById("deposit");
+  const fixEl = document.getElementById("fixed");
+
+  depEl.value = formatCurrency(data.deposit || 0);
+  fixEl.value = formatCurrency(data.fixed || 0);
+
+  bindMoneyField("deposit", {
+    get: () => data.deposit || 0,
+    set: (v) => { data.deposit = v; }
+  });
+
+  bindMoneyField("fixed", {
+    get: () => data.fixed || 0,
+    set: (v) => { data.fixed = v; }
   });
 }
 
-/* ===== Startup ===== */
-(async () => {
-  await loadData();
-  deposit.value = data.deposit;
-  fixed.value = data.fixed;
-  recalc();
-  renderTable();
-})();
-  
+startup().catch(err => {
+  console.error(err);
+});
 </script>
-
 
 </body>
 </html>
