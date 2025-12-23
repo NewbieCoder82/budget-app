@@ -1,7 +1,7 @@
 {
   "deposit": 11426,
   "fixed": 8250,
-  "nextTransId": 2620,
+  "nextTransId": 2621,
   "transactions": [
     {
       "id": 2619,
@@ -14,6 +14,18 @@
       "amount": 34,
       "place": "SANA CAFE",
       "notes": "WITH RAIHAN"
+    },
+    {
+      "id": 2620,
+      "date": "2025-12-20",
+      "account": "HYTT",
+      "purchaser": "AA",
+      "maincat": "Abdul",
+      "subcat": "Food",
+      "subcat2": "Dinner",
+      "amount": 18,
+      "place": null,
+      "notes": null
     }
   ]
 }
