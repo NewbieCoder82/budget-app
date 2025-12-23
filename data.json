@@ -1,7 +1,7 @@
 {
   "deposit": 11426,
   "fixed": 8250,
-  "nextTransId": 2623,
+  "nextTransId": 2624,
   "transactions": [
     {
       "id": 2619,
@@ -49,6 +49,18 @@
       "subcat2": "Lunch",
       "amount": 110,
       "place": "Paesanos",
+      "notes": null
+    },
+    {
+      "id": 2623,
+      "date": "2025-12-21",
+      "account": "HYTT",
+      "purchaser": "JJ",
+      "maincat": "Us",
+      "subcat": "Grocery",
+      "subcat2": "Weekly",
+      "amount": 87,
+      "place": "Raleys",
       "notes": null
     }
   ]
