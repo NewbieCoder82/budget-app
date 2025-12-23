@@ -1,7 +1,7 @@
 {
   "deposit": 11426,
   "fixed": 8250,
-  "nextTransId": 2626,
+  "nextTransId": 2627,
   "transactions": [
     {
       "id": 2619,
@@ -86,6 +86,18 @@
       "amount": 20,
       "place": "Target",
       "notes": "Diaper Cream"
+    },
+    {
+      "id": 2626,
+      "date": "2025-12-22",
+      "account": "HYTT",
+      "purchaser": "AA",
+      "maincat": "Home",
+      "subcat": null,
+      "subcat2": null,
+      "amount": 14,
+      "place": "Target",
+      "notes": "Laundry Detergent"
     }
   ]
 }
