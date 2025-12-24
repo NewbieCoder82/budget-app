@@ -1,7 +1,7 @@
 {
   "deposit": 11426,
   "fixed": 10888,
-  "nextTransId": 2630,
+  "nextTransId": 2631,
   "transactions": [
     {
       "id": 2619,
@@ -134,6 +134,18 @@
       "amount": 20,
       "place": "Nuggets",
       "notes": null
+    },
+    {
+      "id": 2630,
+      "date": "2025-12-23",
+      "account": "HYTT",
+      "purchaser": "JJ",
+      "maincat": "Us",
+      "subcat": "Grocery",
+      "subcat2": "Other",
+      "amount": 18,
+      "place": "Raleys",
+      "notes": "Turkey breast"
     }
   ]
 }
