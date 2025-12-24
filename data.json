@@ -1,7 +1,7 @@
 {
   "deposit": 11426,
   "fixed": 10888,
-  "nextTransId": 2631,
+  "nextTransId": 2632,
   "transactions": [
     {
       "id": 2619,
@@ -146,6 +146,18 @@
       "amount": 18,
       "place": "Raleys",
       "notes": "Turkey breast"
+    },
+    {
+      "id": 2631,
+      "date": "2025-12-23",
+      "account": "HYTT",
+      "purchaser": "AA",
+      "maincat": "Yamin",
+      "subcat": "Food",
+      "subcat2": "Formula",
+      "amount": 96,
+      "place": "Walmart",
+      "notes": null
     }
   ]
 }
