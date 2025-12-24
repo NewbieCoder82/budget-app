@@ -1,7 +1,7 @@
 {
   "deposit": 11426,
   "fixed": 10888,
-  "nextTransId": 2628,
+  "nextTransId": 2629,
   "transactions": [
     {
       "id": 2619,
@@ -110,6 +110,18 @@
       "amount": 12,
       "place": "Amazon",
       "notes": "Aisha Doll"
+    },
+    {
+      "id": 2628,
+      "date": "2025-12-23",
+      "account": "HYTT",
+      "purchaser": "JJ",
+      "maincat": "Us",
+      "subcat": "Food",
+      "subcat2": "Snacks",
+      "amount": 18,
+      "place": "Trader Joes",
+      "notes": "Chips and Peanut Butter Puffs"
     }
   ]
 }
