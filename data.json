@@ -1,7 +1,7 @@
 {
   "deposit": 11426,
   "fixed": 10888,
-  "nextTransId": 2629,
+  "nextTransId": 2630,
   "transactions": [
     {
       "id": 2619,
@@ -122,6 +122,18 @@
       "amount": 18,
       "place": "Trader Joes",
       "notes": "Chips and Peanut Butter Puffs"
+    },
+    {
+      "id": 2629,
+      "date": "2025-12-23",
+      "account": "HYTT",
+      "purchaser": "JJ",
+      "maincat": "Us",
+      "subcat": "Grocery",
+      "subcat2": "Other",
+      "amount": 20,
+      "place": "Nuggets",
+      "notes": null
     }
   ]
 }
