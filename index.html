@@ -50,6 +50,7 @@
     <strong id="dailyAvg">$0.00</strong>
   </div>
 
+  <button onclick="resetForNewMonth()">Start New Month</button>
   <button id="syncNowBtn">Sync now</button>
   <button id="resetTokenBtn" class="danger">Reset token</button>
 </div>
@@ -254,6 +255,26 @@ async function saveDataToGitHub(commitMessage = "Update budget data") {
   fileSha = result.content.sha; // update sha after save
 }
 
+function resetForNewMonth() {
+  if (!confirm("Start new month? This will clear all transactions.")) return;
+
+  // clear transactions
+  data.transactions = [];
+
+  // DO NOT reset TransId
+  // data.nextTransId stays as-is
+
+  // Update deposit & fixed from UI (user may have changed them)
+  data.deposit = parseMoney(document.getElementById("deposit").value);
+  data.fixed   = parseMoney(document.getElementById("fixed").value);
+
+  recalc();
+  renderTable();
+
+  markDirty();   // so you remember to Sync
+  alert("Month reset complete. Click Sync Now to save.");
+}
+  
 /** =========================
  *  UI: calculations + render
  *  ========================= */
