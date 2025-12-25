@@ -1,7 +1,7 @@
 {
   "deposit": 11426,
   "fixed": 10888,
-  "nextTransId": 2633,
+  "nextTransId": 2634,
   "transactions": [
     {
       "id": 2619,
@@ -170,6 +170,18 @@
       "amount": 65,
       "place": "Costco Gas",
       "notes": null
+    },
+    {
+      "id": 2633,
+      "date": "2025-12-25",
+      "account": "HYTT",
+      "purchaser": "AA",
+      "maincat": "TEST",
+      "subcat": "TEST",
+      "subcat2": "TEST",
+      "amount": 1,
+      "place": "TEST",
+      "notes": "TEST"
     }
   ]
 }
