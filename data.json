@@ -1,7 +1,7 @@
 {
   "deposit": 11426,
   "fixed": 10888,
-  "nextTransId": 2632,
+  "nextTransId": 2633,
   "transactions": [
     {
       "id": 2619,
@@ -157,6 +157,18 @@
       "subcat2": "Formula",
       "amount": 96,
       "place": "Walmart",
+      "notes": null
+    },
+    {
+      "id": 2632,
+      "date": "2025-12-24",
+      "account": "HYTT",
+      "purchaser": "AA",
+      "maincat": "Transportation",
+      "subcat": "Navi",
+      "subcat2": "Gas",
+      "amount": 65,
+      "place": "Costco Gas",
       "notes": null
     }
   ]
