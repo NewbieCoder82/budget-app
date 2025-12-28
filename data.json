@@ -1,7 +1,7 @@
 {
   "deposit": 11426,
   "fixed": 10888,
-  "nextTransId": 2639,
+  "nextTransId": 2640,
   "transactions": [
     {
       "id": 2619,
@@ -241,6 +241,18 @@
       "subcat2": null,
       "amount": 135,
       "place": "Gap",
+      "notes": null
+    },
+    {
+      "id": 2639,
+      "date": "2025-12-27",
+      "account": "HYTT",
+      "purchaser": "AA",
+      "maincat": "Kids",
+      "subcat": null,
+      "subcat2": null,
+      "amount": 55,
+      "place": "Century Theater",
       "notes": null
     }
   ]
