@@ -1,7 +1,7 @@
 {
   "deposit": 11426,
   "fixed": 10888,
-  "nextTransId": 2636,
+  "nextTransId": 2637,
   "transactions": [
     {
       "id": 2619,
@@ -206,6 +206,18 @@
       "amount": 82,
       "place": "Juliennes",
       "notes": null
+    },
+    {
+      "id": 2636,
+      "date": "2025-12-27",
+      "account": "HYTT",
+      "purchaser": "AA",
+      "maincat": "Kids",
+      "subcat": null,
+      "subcat2": null,
+      "amount": 95,
+      "place": "Nike",
+      "notes": "Shoes"
     }
   ]
 }
