@@ -1,7 +1,7 @@
 {
   "deposit": 11426,
   "fixed": 10888,
-  "nextTransId": 2635,
+  "nextTransId": 2636,
   "transactions": [
     {
       "id": 2619,
@@ -193,6 +193,18 @@
       "subcat2": "Dinner",
       "amount": 34,
       "place": "In n out",
+      "notes": null
+    },
+    {
+      "id": 2635,
+      "date": "2025-12-27",
+      "account": "HYTT",
+      "purchaser": "AA",
+      "maincat": "Us",
+      "subcat": "Food",
+      "subcat2": "Lunch",
+      "amount": 82,
+      "place": "Juliennes",
       "notes": null
     }
   ]
