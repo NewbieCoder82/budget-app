@@ -1,7 +1,7 @@
 {
   "deposit": 11426,
   "fixed": 10888,
-  "nextTransId": 2640,
+  "nextTransId": 2641,
   "transactions": [
     {
       "id": 2619,
@@ -254,6 +254,18 @@
       "amount": 55,
       "place": "Century Theater",
       "notes": null
+    },
+    {
+      "id": 2640,
+      "date": "2025-12-29",
+      "account": "HYTT",
+      "purchaser": "AA",
+      "maincat": "Yamin",
+      "subcat": null,
+      "subcat2": null,
+      "amount": 24,
+      "place": "Amazon",
+      "notes": "Bamboo clothes and beanie"
     }
   ]
 }
