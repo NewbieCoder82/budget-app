@@ -1,7 +1,7 @@
 {
   "deposit": 11426,
   "fixed": 10888,
-  "nextTransId": 2645,
+  "nextTransId": 2646,
   "transactions": [
     {
       "id": 2619,
@@ -314,6 +314,18 @@
       "amount": 29,
       "place": "Raleys",
       "notes": "For Kaka Z NYE party eggplant"
+    },
+    {
+      "id": 2645,
+      "date": "2025-12-30",
+      "account": "HYTT",
+      "purchaser": "AA",
+      "maincat": "Us",
+      "subcat": "Food",
+      "subcat2": "Dinner",
+      "amount": 41,
+      "place": "Pieology",
+      "notes": null
     }
   ]
 }
