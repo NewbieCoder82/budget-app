@@ -1,7 +1,7 @@
 {
   "deposit": 11426,
   "fixed": 10888,
-  "nextTransId": 2642,
+  "nextTransId": 2643,
   "transactions": [
     {
       "id": 2619,
@@ -278,6 +278,18 @@
       "amount": 60,
       "place": "Lil Caesars",
       "notes": "Walid and his fam"
+    },
+    {
+      "id": 2642,
+      "date": "2025-12-30",
+      "account": "HYTT",
+      "purchaser": "JJ",
+      "maincat": "A_Family",
+      "subcat": null,
+      "subcat2": null,
+      "amount": 39,
+      "place": "Home Goods",
+      "notes": null
     }
   ]
 }
