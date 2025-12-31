@@ -1,7 +1,7 @@
 {
   "deposit": 11426,
   "fixed": 10888,
-  "nextTransId": 2643,
+  "nextTransId": 2644,
   "transactions": [
     {
       "id": 2619,
@@ -290,6 +290,18 @@
       "amount": 39,
       "place": "Home Goods",
       "notes": null
+    },
+    {
+      "id": 2643,
+      "date": "2025-12-30",
+      "account": "HYTT",
+      "purchaser": "JJ",
+      "maincat": "A_Family",
+      "subcat": null,
+      "subcat2": null,
+      "amount": 27,
+      "place": "Trader Joes",
+      "notes": "More items for Kaka Azim house warming"
     }
   ]
 }
