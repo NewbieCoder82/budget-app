@@ -1,7 +1,7 @@
 {
   "deposit": 11426,
   "fixed": 10888,
-  "nextTransId": 2646,
+  "nextTransId": 2647,
   "transactions": [
     {
       "id": 2619,
@@ -326,6 +326,18 @@
       "amount": 41,
       "place": "Pieology",
       "notes": null
+    },
+    {
+      "id": 2646,
+      "date": "2025-12-30",
+      "account": "HYTT",
+      "purchaser": "JJ",
+      "maincat": "J_Family",
+      "subcat": null,
+      "subcat2": null,
+      "amount": 9,
+      "place": "Raleys",
+      "notes": "Oil for Kaka Z bonjon"
     }
   ]
 }
