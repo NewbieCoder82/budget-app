@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2649,
+  "nextTransId": 2650,
   "transactions": [
     {
       "id": 2647,
@@ -26,6 +26,18 @@
       "amount": 100,
       "place": "Amazon",
       "notes": "Pjs and Ms Rachel Stuffie"
+    },
+    {
+      "id": 2649,
+      "date": "2026-01-01",
+      "account": "ULTM",
+      "purchaser": "AA",
+      "maincat": "US",
+      "subcat": "FOOD",
+      "subcat2": "PASTRY",
+      "amount": 33,
+      "place": "GELATO CLASSICO",
+      "notes": "NOT BAD"
     }
   ]
 }
