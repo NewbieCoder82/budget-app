@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2648,
+  "nextTransId": 2649,
   "transactions": [
     {
       "id": 2647,
@@ -14,6 +14,18 @@
       "amount": 12,
       "place": "Chipotle",
       "notes": null
+    },
+    {
+      "id": 2648,
+      "date": "2026-01-01",
+      "account": "APLE",
+      "purchaser": "JJ",
+      "maincat": "Kids",
+      "subcat": "Clothing",
+      "subcat2": "Other",
+      "amount": 100,
+      "place": "Amazon",
+      "notes": "Pjs and Ms Rachel Stuffie"
     }
   ]
 }
