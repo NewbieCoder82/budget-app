@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2653,
+  "nextTransId": 2654,
   "transactions": [
     {
       "id": 2647,
@@ -73,6 +73,18 @@
       "subcat2": "Dinner",
       "amount": 108,
       "place": "Broadway Gyro",
+      "notes": "SF trip"
+    },
+    {
+      "id": 2653,
+      "date": "2026-01-03",
+      "account": "ULTM",
+      "purchaser": "AA",
+      "maincat": "Us",
+      "subcat": "Food",
+      "subcat2": "Bfst",
+      "amount": 56,
+      "place": "Cafe",
       "notes": "SF trip"
     }
   ]
