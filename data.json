@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2650,
+  "nextTransId": 2651,
   "transactions": [
     {
       "id": 2647,
@@ -38,6 +38,18 @@
       "amount": 33,
       "place": "GELATO CLASSICO",
       "notes": "NOT BAD"
+    },
+    {
+      "id": 2650,
+      "date": "2026-01-02",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Transportation",
+      "subcat": "Navi",
+      "subcat2": "Gas",
+      "amount": 62,
+      "place": "Costco Gas",
+      "notes": "SF trip"
     }
   ]
 }
