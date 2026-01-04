@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2657,
+  "nextTransId": 2658,
   "transactions": [
     {
       "id": 2647,
@@ -121,6 +121,18 @@
       "subcat2": "Dinner",
       "amount": 141,
       "place": "360",
+      "notes": "SF Trip"
+    },
+    {
+      "id": 2657,
+      "date": "2026-01-03",
+      "account": "HYTT",
+      "purchaser": "AA",
+      "maincat": "Jahan",
+      "subcat": "Health",
+      "subcat2": "Medication",
+      "amount": 20,
+      "place": "Hyatt",
       "notes": "SF Trip"
     }
   ]
