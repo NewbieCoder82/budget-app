@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2659,
+  "nextTransId": 2660,
   "transactions": [
     {
       "id": 2647,
@@ -146,6 +146,18 @@
       "amount": 60,
       "place": "Royal Donut",
       "notes": "SF Trip"
+    },
+    {
+      "id": 2659,
+      "date": "2026-01-04",
+      "account": "HYTT",
+      "purchaser": "JJ",
+      "maincat": "Aisha",
+      "subcat": null,
+      "subcat2": null,
+      "amount": 65,
+      "place": "Amazon",
+      "notes": "Rolling back pack"
     }
   ]
 }
