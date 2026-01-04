@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2655,
+  "nextTransId": 2656,
   "transactions": [
     {
       "id": 2647,
@@ -97,6 +97,18 @@
       "subcat2": "Snacks",
       "amount": 15,
       "place": "Trader Joes",
+      "notes": "SF Trip"
+    },
+    {
+      "id": 2655,
+      "date": "2026-01-03",
+      "account": "ULTM",
+      "purchaser": "JJ",
+      "maincat": "Kids",
+      "subcat": null,
+      "subcat2": null,
+      "amount": 80,
+      "place": "Golden Gate Store",
       "notes": "SF Trip"
     }
   ]
