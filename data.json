@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2660,
+  "nextTransId": 2661,
   "transactions": [
     {
       "id": 2647,
@@ -158,6 +158,18 @@
       "amount": 65,
       "place": "Amazon",
       "notes": "Rolling back pack"
+    },
+    {
+      "id": 2660,
+      "date": "2026-01-04",
+      "account": "HYTT",
+      "purchaser": "AA",
+      "maincat": "Yamin",
+      "subcat": "Food",
+      "subcat2": "Formula",
+      "amount": 96,
+      "place": "Walmart",
+      "notes": null
     }
   ]
 }
