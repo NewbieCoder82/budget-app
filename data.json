@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2662,
+  "nextTransId": 2663,
   "transactions": [
     {
       "id": 2647,
@@ -181,6 +181,18 @@
       "subcat2": "Lunch",
       "amount": 45,
       "place": "Jack in the Box",
+      "notes": "SF trip"
+    },
+    {
+      "id": 2662,
+      "date": "2026-01-04",
+      "account": "HYTT",
+      "purchaser": "AA",
+      "maincat": "Jahan",
+      "subcat": "Food",
+      "subcat2": "Coffee",
+      "amount": 8,
+      "place": "Peetes",
       "notes": "SF trip"
     }
   ]
