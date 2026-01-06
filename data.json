@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2665,
+  "nextTransId": 2666,
   "transactions": [
     {
       "id": 2647,
@@ -217,6 +217,18 @@
       "subcat2": "Bfst",
       "amount": 19,
       "place": "Macdonalds",
+      "notes": null
+    },
+    {
+      "id": 2665,
+      "date": "2026-01-05",
+      "account": "HYTT",
+      "purchaser": "JJ",
+      "maincat": "Us",
+      "subcat": "Grocery",
+      "subcat2": "Weekly",
+      "amount": 67,
+      "place": "Raleys",
       "notes": null
     }
   ]
