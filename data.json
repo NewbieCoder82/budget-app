@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2667,
+  "nextTransId": 2668,
   "transactions": [
     {
       "id": 2647,
@@ -242,6 +242,18 @@
       "amount": 43,
       "place": "Target",
       "notes": null
+    },
+    {
+      "id": 2667,
+      "date": "2026-01-06",
+      "account": "HYTT",
+      "purchaser": "AA",
+      "maincat": "Yamin",
+      "subcat": "Food",
+      "subcat2": "Formula",
+      "amount": 14,
+      "place": "Target",
+      "notes": "Single bottle"
     }
   ]
 }
