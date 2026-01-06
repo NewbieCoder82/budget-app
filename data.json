@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2666,
+  "nextTransId": 2667,
   "transactions": [
     {
       "id": 2647,
@@ -229,6 +229,18 @@
       "subcat2": "Weekly",
       "amount": 67,
       "place": "Raleys",
+      "notes": null
+    },
+    {
+      "id": 2666,
+      "date": "2026-01-06",
+      "account": "HYTT",
+      "purchaser": "AA",
+      "maincat": "Abdul",
+      "subcat": "Personal",
+      "subcat2": "Nicotine",
+      "amount": 43,
+      "place": "Target",
       "notes": null
     }
   ]
