@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2668,
+  "nextTransId": 2669,
   "transactions": [
     {
       "id": 2647,
@@ -254,6 +254,18 @@
       "amount": 14,
       "place": "Target",
       "notes": "Single bottle"
+    },
+    {
+      "id": 2668,
+      "date": "2026-01-06",
+      "account": "HYTT",
+      "purchaser": "AA",
+      "maincat": "Transportation",
+      "subcat": "Subaru",
+      "subcat2": "Gas",
+      "amount": 67,
+      "place": "Costco Gas",
+      "notes": null
     }
   ]
 }
