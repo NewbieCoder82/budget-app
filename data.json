@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2670,
+  "nextTransId": 2671,
   "transactions": [
     {
       "id": 2647,
@@ -278,6 +278,18 @@
       "amount": 50,
       "place": "ER",
       "notes": "Checked out for battery"
+    },
+    {
+      "id": 2670,
+      "date": "2026-01-07",
+      "account": "HYTT",
+      "purchaser": "AA",
+      "maincat": "Us",
+      "subcat": "Food",
+      "subcat2": "Lunch",
+      "amount": 44,
+      "place": "Beach Hut",
+      "notes": null
     }
   ]
 }
