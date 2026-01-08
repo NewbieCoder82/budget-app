@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2671,
+  "nextTransId": 2672,
   "transactions": [
     {
       "id": 2647,
@@ -290,6 +290,18 @@
       "amount": 44,
       "place": "Beach Hut",
       "notes": null
+    },
+    {
+      "id": 2671,
+      "date": "2026-01-07",
+      "account": "HYTT",
+      "purchaser": "AA",
+      "maincat": "Us",
+      "subcat": "Grocery",
+      "subcat2": "Weekly",
+      "amount": 244,
+      "place": "Costco",
+      "notes": "Paper towels, toilet paper, tissues, kids gummies, kids shake, snack items, my Bfst items, bread, muffins, chips"
     }
   ]
 }
