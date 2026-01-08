@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2669,
+  "nextTransId": 2670,
   "transactions": [
     {
       "id": 2647,
@@ -266,6 +266,18 @@
       "amount": 58,
       "place": "Costco Gas",
       "notes": null
+    },
+    {
+      "id": 2669,
+      "date": "2026-01-07",
+      "account": "HYTT",
+      "purchaser": "AA",
+      "maincat": "Yamin",
+      "subcat": "Health",
+      "subcat2": null,
+      "amount": 50,
+      "place": "ER",
+      "notes": "Checked out for battery"
     }
   ]
 }
