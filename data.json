@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2673,
+  "nextTransId": 2674,
   "transactions": [
     {
       "id": 2647,
@@ -314,6 +314,18 @@
       "amount": 85,
       "place": "Walmart",
       "notes": "Gift for Jenna (bday) and for Noah"
+    },
+    {
+      "id": 2673,
+      "date": "2026-01-09",
+      "account": "HYTT",
+      "purchaser": "AA",
+      "maincat": "Us",
+      "subcat": "Food",
+      "subcat2": "Dinner",
+      "amount": 45,
+      "place": "Fire Wings",
+      "notes": null
     }
   ]
 }
