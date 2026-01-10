@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2672,
+  "nextTransId": 2673,
   "transactions": [
     {
       "id": 2647,
@@ -302,6 +302,18 @@
       "amount": 244,
       "place": "Costco",
       "notes": "Paper towels, toilet paper, tissues, kids gummies, kids shake, snack items, my Bfst items, bread, muffins, chips"
+    },
+    {
+      "id": 2672,
+      "date": "2026-01-09",
+      "account": "HYTT",
+      "purchaser": "JJ",
+      "maincat": "A Family",
+      "subcat": "Gift",
+      "subcat2": null,
+      "amount": 85,
+      "place": "Walmart",
+      "notes": "Gift for Jenna (bday) and for Noah"
     }
   ]
 }
