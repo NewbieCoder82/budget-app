@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2679,
+  "nextTransId": 2680,
   "transactions": [
     {
       "id": 2647,
@@ -386,6 +386,18 @@
       "amount": 49,
       "place": null,
       "notes": "Diapers"
+    },
+    {
+      "id": 2679,
+      "date": "2026-01-12",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Home",
+      "subcat": null,
+      "subcat2": null,
+      "amount": 33,
+      "place": "Samsung",
+      "notes": "Water Filter"
     }
   ]
 }
