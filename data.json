@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2675,
+  "nextTransId": 2676,
   "transactions": [
     {
       "id": 2647,
@@ -338,6 +338,18 @@
       "amount": 103,
       "place": "MCF",
       "notes": "Missed Fast Days Donation"
+    },
+    {
+      "id": 2675,
+      "date": "2026-01-11",
+      "account": "HYTT",
+      "purchaser": "AA",
+      "maincat": "Transportation",
+      "subcat": "Navi",
+      "subcat2": "Gas",
+      "amount": 68,
+      "place": "Costco Gas",
+      "notes": null
     }
   ]
 }
