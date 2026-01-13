@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2681,
+  "nextTransId": 2682,
   "transactions": [
     {
       "id": 2647,
@@ -408,8 +408,20 @@
       "subcat": "Groceries",
       "subcat2": null,
       "amount": 42,
-      "place": "Trader Joe’s",
+      "place": "Trader Joeâs",
       "notes": null
+    },
+    {
+      "id": 2681,
+      "date": "2026-01-13",
+      "account": "APLE",
+      "purchaser": "JJ",
+      "maincat": "Kids",
+      "subcat": "Personal",
+      "subcat2": "Other",
+      "amount": 43,
+      "place": "Amazon",
+      "notes": "100 school day shirt and sensory item"
     }
   ]
 }
