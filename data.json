@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2683,
+  "nextTransId": 2684,
   "transactions": [
     {
       "id": 2647,
@@ -408,7 +408,7 @@
       "subcat": "Groceries",
       "subcat2": null,
       "amount": 42,
-      "place": "Trader JoeÃ¢ÂÂs",
+      "place": "Trader JoeÃÂ¢ÃÂÃÂs",
       "notes": null
     },
     {
@@ -434,6 +434,18 @@
       "amount": 17,
       "place": "Amazon",
       "notes": "Nail biting deterrent"
+    },
+    {
+      "id": 2683,
+      "date": "2026-01-14",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Us",
+      "subcat": "Food",
+      "subcat2": "Lunch",
+      "amount": 20,
+      "place": "Subway",
+      "notes": null
     }
   ]
 }
