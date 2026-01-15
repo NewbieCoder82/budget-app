@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2685,
+  "nextTransId": 2686,
   "transactions": [
     {
       "id": 2647,
@@ -408,7 +408,7 @@
       "subcat": "Groceries",
       "subcat2": null,
       "amount": 42,
-      "place": "Trader JoeÃÂÃÂ¢ÃÂÃÂÃÂÃÂs",
+      "place": "Trader JoeÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂs",
       "notes": null
     },
     {
@@ -458,6 +458,18 @@
       "amount": 25,
       "place": "Amazon",
       "notes": "Candy for kids school"
+    },
+    {
+      "id": 2685,
+      "date": "2026-01-15",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Us",
+      "subcat": "Food",
+      "subcat2": null,
+      "amount": 30,
+      "place": "Beach Hut Deli",
+      "notes": "Me and JJ"
     }
   ]
 }
