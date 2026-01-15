@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2684,
+  "nextTransId": 2685,
   "transactions": [
     {
       "id": 2647,
@@ -408,7 +408,7 @@
       "subcat": "Groceries",
       "subcat2": null,
       "amount": 42,
-      "place": "Trader JoeÃÂ¢ÃÂÃÂs",
+      "place": "Trader JoeÃÂÃÂ¢ÃÂÃÂÃÂÃÂs",
       "notes": null
     },
     {
@@ -446,6 +446,18 @@
       "amount": 20,
       "place": "Subway",
       "notes": null
+    },
+    {
+      "id": 2684,
+      "date": "2026-01-14",
+      "account": "APLE",
+      "purchaser": "JJ",
+      "maincat": "Kids",
+      "subcat": null,
+      "subcat2": null,
+      "amount": 25,
+      "place": "Amazon",
+      "notes": "Candy for kids school"
     }
   ]
 }
