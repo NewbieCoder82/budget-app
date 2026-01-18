@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2687,
+  "nextTransId": 2688,
   "transactions": [
     {
       "id": 2647,
@@ -408,7 +408,7 @@
       "subcat": "Groceries",
       "subcat2": null,
       "amount": 42,
-      "place": "Trader JoeÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂs",
+      "place": "Trader JoeÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂs",
       "notes": null
     },
     {
@@ -481,6 +481,18 @@
       "subcat2": "Formula",
       "amount": 96,
       "place": "Walmart",
+      "notes": null
+    },
+    {
+      "id": 2687,
+      "date": "2026-01-17",
+      "account": "APLE",
+      "purchaser": "JJ",
+      "maincat": "Us",
+      "subcat": "Food",
+      "subcat2": "Lunch",
+      "amount": 36,
+      "place": "In n Out",
       "notes": null
     }
   ]
