@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2694,
+  "nextTransId": 2695,
   "transactions": [
     {
       "id": 2647,
@@ -566,6 +566,18 @@
       "amount": 42,
       "place": "Target",
       "notes": null
+    },
+    {
+      "id": 2694,
+      "date": "2026-01-20",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Kids",
+      "subcat": null,
+      "subcat2": null,
+      "amount": 24,
+      "place": "Target",
+      "notes": "Toys for going to sleep and listening to me"
     }
   ]
 }
