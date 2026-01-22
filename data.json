@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2696,
+  "nextTransId": 2697,
   "transactions": [
     {
       "id": 2647,
@@ -590,6 +590,18 @@
       "amount": 16,
       "place": "Naan Boy",
       "notes": "Bread 2 bags (6 breads total)"
+    },
+    {
+      "id": 2696,
+      "date": "2026-01-21",
+      "account": "APLE",
+      "purchaser": "JJ",
+      "maincat": "Kids",
+      "subcat": null,
+      "subcat2": null,
+      "amount": 22,
+      "place": "Amazon",
+      "notes": "4 pack undershirts"
     }
   ]
 }
