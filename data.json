@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2698,
+  "nextTransId": 2699,
   "transactions": [
     {
       "id": 2647,
@@ -614,6 +614,18 @@
       "amount": 45,
       "place": "Kang Taekwondo",
       "notes": "New uniform"
+    },
+    {
+      "id": 2698,
+      "date": "2026-01-22",
+      "account": "APLE",
+      "purchaser": "JJ",
+      "maincat": "Us",
+      "subcat": "Grocery",
+      "subcat2": null,
+      "amount": 16,
+      "place": "Raleys",
+      "notes": "Ramen Noodles, Thin Mints, condensed milk"
     }
   ]
 }
