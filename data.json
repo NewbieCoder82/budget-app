@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2699,
+  "nextTransId": 2700,
   "transactions": [
     {
       "id": 2647,
@@ -626,6 +626,18 @@
       "amount": 16,
       "place": "Raleys",
       "notes": "Ramen Noodles, Thin Mints, condensed milk"
+    },
+    {
+      "id": 2699,
+      "date": "2026-01-22",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Us",
+      "subcat": "Grocery",
+      "subcat2": "Coffee",
+      "amount": 56,
+      "place": "Nespresso",
+      "notes": null
     }
   ]
 }
