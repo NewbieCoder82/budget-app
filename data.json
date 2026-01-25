@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2702,
+  "nextTransId": 2703,
   "transactions": [
     {
       "id": 2647,
@@ -661,6 +661,18 @@
       "subcat2": "Other",
       "amount": 17,
       "place": "Raleys",
+      "notes": null
+    },
+    {
+      "id": 2702,
+      "date": "2026-01-24",
+      "account": "APLE",
+      "purchaser": "JJ",
+      "maincat": "Us",
+      "subcat": "Food",
+      "subcat2": "Dinner",
+      "amount": 44,
+      "place": "Panda Express",
       "notes": null
     }
   ]
