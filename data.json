@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2704,
+  "nextTransId": 2705,
   "transactions": [
     {
       "id": 2647,
@@ -686,6 +686,18 @@
       "amount": 35,
       "place": "Sahar",
       "notes": "Haircut"
+    },
+    {
+      "id": 2704,
+      "date": "2026-01-26",
+      "account": "APLE",
+      "purchaser": "JJ",
+      "maincat": "Idris",
+      "subcat": null,
+      "subcat2": null,
+      "amount": 22,
+      "place": "Amazon",
+      "notes": "Items for 100th day of school"
     }
   ]
 }
