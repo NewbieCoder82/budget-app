@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2706,
+  "nextTransId": 2707,
   "transactions": [
     {
       "id": 2647,
@@ -710,6 +710,18 @@
       "amount": 13,
       "place": "Rumis",
       "notes": "Roat for work"
+    },
+    {
+      "id": 2706,
+      "date": "2026-01-27",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Us",
+      "subcat": null,
+      "subcat2": null,
+      "amount": 466,
+      "place": null,
+      "notes": "2026 Mosque Membership Fees"
     }
   ]
 }
