@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2710,
+  "nextTransId": 2711,
   "transactions": [
     {
       "id": 2647,
@@ -758,6 +758,18 @@
       "amount": 25,
       "place": "Walmart",
       "notes": "Rain boots"
+    },
+    {
+      "id": 2710,
+      "date": "2026-01-28",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Abdul",
+      "subcat": null,
+      "subcat2": null,
+      "amount": 10,
+      "place": "Costco",
+      "notes": "300 ct nicotine (used $43 discount)"
     }
   ]
 }
