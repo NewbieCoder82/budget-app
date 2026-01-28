@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2707,
+  "nextTransId": 2708,
   "transactions": [
     {
       "id": 2647,
@@ -722,6 +722,18 @@
       "amount": 466,
       "place": null,
       "notes": "2026 Mosque Membership Fees"
+    },
+    {
+      "id": 2707,
+      "date": "2026-01-27",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Yamin",
+      "subcat": "Grocery",
+      "subcat2": "Formula",
+      "amount": 111,
+      "place": "Walmart",
+      "notes": null
     }
   ]
 }
