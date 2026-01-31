@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2714,
+  "nextTransId": 2715,
   "transactions": [
     {
       "id": 2647,
@@ -806,6 +806,18 @@
       "amount": 52,
       "place": "Macdonalds",
       "notes": null
+    },
+    {
+      "id": 2714,
+      "date": "2026-01-30",
+      "account": "APLE",
+      "purchaser": "JJ",
+      "maincat": "J_Family",
+      "subcat": null,
+      "subcat2": null,
+      "amount": 35,
+      "place": "Costco",
+      "notes": "Protein Shake for Raihan"
     }
   ]
 }
