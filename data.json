@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2716,
+  "nextTransId": 2717,
   "transactions": [
     {
       "id": 2647,
@@ -830,6 +830,18 @@
       "amount": 11,
       "place": "Costco",
       "notes": "4 slices and 1 hot dog"
+    },
+    {
+      "id": 2716,
+      "date": "2026-01-30",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Us",
+      "subcat": "Food",
+      "subcat2": null,
+      "amount": 25,
+      "place": "Gelato",
+      "notes": null
     }
   ]
 }
