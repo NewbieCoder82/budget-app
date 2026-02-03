@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2723,
+  "nextTransId": 2724,
   "transactions": [
     {
       "id": 2717,
@@ -74,6 +74,18 @@
       "amount": 50,
       "place": "TRADER JOES",
       "notes": null
+    },
+    {
+      "id": 2723,
+      "date": "2026-02-02",
+      "account": "APLE",
+      "purchaser": "JJ",
+      "maincat": "KIDS",
+      "subcat": "HEALTH",
+      "subcat2": "OTHER",
+      "amount": 36,
+      "place": "AMAZON",
+      "notes": "TOOTH BRUSH AND PASTE AND SOME OTHER STUFF"
     }
   ]
 }
