@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2722,
+  "nextTransId": 2723,
   "transactions": [
     {
       "id": 2717,
@@ -62,6 +62,18 @@
       "amount": 17,
       "place": "AMAZON",
       "notes": "SENSORY NECKLACE"
+    },
+    {
+      "id": 2722,
+      "date": "2026-02-02",
+      "account": "APLE",
+      "purchaser": "JJ",
+      "maincat": "US",
+      "subcat": "GROCERY",
+      "subcat2": "WEEKLY",
+      "amount": 50,
+      "place": "TRADER JOES",
+      "notes": null
     }
   ]
 }
