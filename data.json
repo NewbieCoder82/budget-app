@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2721,
+  "nextTransId": 2722,
   "transactions": [
     {
       "id": 2717,
@@ -50,6 +50,18 @@
       "amount": 20,
       "place": "PANDA EXPRESS",
       "notes": "AT JJ'S PARENTS HOURS"
+    },
+    {
+      "id": 2721,
+      "date": "2026-02-01",
+      "account": "APLE",
+      "purchaser": "JJ",
+      "maincat": "IDRIS",
+      "subcat": "PERSONAL",
+      "subcat2": "OTHER",
+      "amount": 17,
+      "place": "AMAZON",
+      "notes": "SENSORY NECKLACE"
     }
   ]
 }
