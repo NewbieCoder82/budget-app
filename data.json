@@ -1,6 +1,19 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2717,
-  "transactions": []
+  "nextTransId": 2718,
+  "transactions": [
+    {
+      "id": 2717,
+      "date": "2026-02-01",
+      "account": "APLE",
+      "purchaser": "JJ",
+      "maincat": "KIDS",
+      "subcat": "FOOD",
+      "subcat2": "PASTRY",
+      "amount": 16,
+      "place": "STAR BREAD",
+      "notes": "DURING OVERNIGHT STAY AT JJ'S PARENTS'"
+    }
+  ]
 }
