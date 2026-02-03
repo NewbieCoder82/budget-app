@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2725,
+  "nextTransId": 2726,
   "transactions": [
     {
       "id": 2717,
@@ -98,6 +98,18 @@
       "amount": 1000,
       "place": "KANG TAEKWONDO",
       "notes": "6 MONTH MEMBERSHIP"
+    },
+    {
+      "id": 2725,
+      "date": "2026-02-03",
+      "account": "APLE",
+      "purchaser": "JJ",
+      "maincat": "J_Family",
+      "subcat": "Gift",
+      "subcat2": null,
+      "amount": 142,
+      "place": "Amazon",
+      "notes": "Some b.s. including more nail clippers, diaper genie, could be baby shower gift"
     }
   ]
 }
