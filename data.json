@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2719,
+  "nextTransId": 2720,
   "transactions": [
     {
       "id": 2717,
@@ -26,6 +26,18 @@
       "amount": 38,
       "place": "CHEESE STEAK SHOP",
       "notes": "BOGO PASTRAMI AND PHILLY CHZ. BOTH WERE GOOD"
+    },
+    {
+      "id": 2719,
+      "date": "2026-02-01",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "TRANSPORTATION",
+      "subcat": "NAVI",
+      "subcat2": "GAS",
+      "amount": 70,
+      "place": "COSTCO GAS",
+      "notes": null
     }
   ]
 }
