@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2718,
+  "nextTransId": 2719,
   "transactions": [
     {
       "id": 2717,
@@ -14,6 +14,18 @@
       "amount": 16,
       "place": "STAR BREAD",
       "notes": "DURING OVERNIGHT STAY AT JJ'S PARENTS'"
+    },
+    {
+      "id": 2718,
+      "date": "2026-02-01",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "ABDUL",
+      "subcat": "FOOD",
+      "subcat2": "DINNER",
+      "amount": 38,
+      "place": "CHEESE STEAK SHOP",
+      "notes": "BOGO PASTRAMI AND PHILLY CHZ. BOTH WERE GOOD"
     }
   ]
 }
