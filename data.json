@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2720,
+  "nextTransId": 2721,
   "transactions": [
     {
       "id": 2717,
@@ -38,6 +38,18 @@
       "amount": 70,
       "place": "COSTCO GAS",
       "notes": null
+    },
+    {
+      "id": 2720,
+      "date": "2026-02-01",
+      "account": "APLE",
+      "purchaser": "JJ",
+      "maincat": "KIDS",
+      "subcat": "FOOD",
+      "subcat2": "LUNCH",
+      "amount": 20,
+      "place": "PANDA EXPRESS",
+      "notes": "AT JJ'S PARENTS HOURS"
     }
   ]
 }
