@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2729,
+  "nextTransId": 2730,
   "transactions": [
     {
       "id": 2717,
@@ -146,6 +146,18 @@
       "amount": 41,
       "place": "Sanas Cafe",
       "notes": "After dentist appointment"
+    },
+    {
+      "id": 2729,
+      "date": "2026-02-04",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Home",
+      "subcat": null,
+      "subcat2": "Other",
+      "amount": 88,
+      "place": "Amazon",
+      "notes": "80” gate for kitchen"
     }
   ]
 }
