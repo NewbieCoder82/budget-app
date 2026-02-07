@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2732,
+  "nextTransId": 2733,
   "transactions": [
     {
       "id": 2717,
@@ -157,7 +157,7 @@
       "subcat2": "Other",
       "amount": 88,
       "place": "Amazon",
-      "notes": "80â gate for kitchen"
+      "notes": "80Ã¢ÂÂ gate for kitchen"
     },
     {
       "id": 2730,
@@ -181,6 +181,18 @@
       "subcat2": "Dinner",
       "amount": 30,
       "place": "Panda Express",
+      "notes": null
+    },
+    {
+      "id": 2732,
+      "date": "2026-02-06",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Us",
+      "subcat": "Food",
+      "subcat2": "Dinner",
+      "amount": 42,
+      "place": "Cheesesteak Shop",
       "notes": null
     }
   ]
