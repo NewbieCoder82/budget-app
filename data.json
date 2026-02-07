@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2733,
+  "nextTransId": 2734,
   "transactions": [
     {
       "id": 2717,
@@ -194,6 +194,18 @@
       "amount": 42,
       "place": "Cheesesteak Shop",
       "notes": null
+    },
+    {
+      "id": 2733,
+      "date": "2026-02-06",
+      "account": "APLE",
+      "purchaser": "JJ",
+      "maincat": "Us",
+      "subcat": "Food",
+      "subcat2": "Lunch",
+      "amount": 48,
+      "place": "Food Truck",
+      "notes": "At multicultural event"
     }
   ]
 }
