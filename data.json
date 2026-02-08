@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2736,
+  "nextTransId": 2737,
   "transactions": [
     {
       "id": 2717,
@@ -157,7 +157,7 @@
       "subcat2": "Other",
       "amount": 88,
       "place": "Amazon",
-      "notes": "80ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ gate for kitchen"
+      "notes": "80ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ gate for kitchen"
     },
     {
       "id": 2730,
@@ -230,6 +230,18 @@
       "amount": 46,
       "place": "ChickFla",
       "notes": null
+    },
+    {
+      "id": 2736,
+      "date": "2026-02-08",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Yamin",
+      "subcat": null,
+      "subcat2": null,
+      "amount": 56,
+      "place": "Target",
+      "notes": "Diapers and dish wash"
     }
   ]
 }
