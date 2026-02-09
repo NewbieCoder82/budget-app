@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2737,
+  "nextTransId": 2738,
   "transactions": [
     {
       "id": 2717,
@@ -157,7 +157,7 @@
       "subcat2": "Other",
       "amount": 88,
       "place": "Amazon",
-      "notes": "80ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ gate for kitchen"
+      "notes": "80ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ gate for kitchen"
     },
     {
       "id": 2730,
@@ -242,6 +242,18 @@
       "amount": 56,
       "place": "Target",
       "notes": "Diapers and dish wash"
+    },
+    {
+      "id": 2737,
+      "date": "2026-02-08",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Abdul",
+      "subcat": "Food",
+      "subcat2": "Lunch",
+      "amount": 20,
+      "place": null,
+      "notes": "Mexican SB"
     }
   ]
 }
