@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2750,
+  "nextTransId": 2751,
   "transactions": [
     {
       "id": 2717,
@@ -396,6 +396,18 @@
       "subcat": "VDAY",
       "subcat2": "CELEBRATION",
       "amount": 78,
+      "place": null,
+      "notes": null
+    },
+    {
+      "id": 2750,
+      "date": "2026-02-14",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "US",
+      "subcat": "VDAY",
+      "subcat2": "CELEBRATION",
+      "amount": 34,
       "place": null,
       "notes": null
     }
