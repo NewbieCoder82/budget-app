@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2747,
+  "nextTransId": 2748,
   "transactions": [
     {
       "id": 2717,
@@ -362,6 +362,18 @@
       "amount": 15,
       "place": "Kaiser",
       "notes": "Leg appointment"
+    },
+    {
+      "id": 2747,
+      "date": "2026-02-13",
+      "account": "APLE",
+      "purchaser": "JJ",
+      "maincat": "Transportation",
+      "subcat": "Subaru",
+      "subcat2": "Gas",
+      "amount": 31,
+      "place": "Chevron",
+      "notes": "After doctor appointment"
     }
   ]
 }
