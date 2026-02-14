@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2748,
+  "nextTransId": 2749,
   "transactions": [
     {
       "id": 2717,
@@ -374,6 +374,18 @@
       "amount": 31,
       "place": "Chevron",
       "notes": "After doctor appointment"
+    },
+    {
+      "id": 2748,
+      "date": "2026-02-13",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Us",
+      "subcat": "Food",
+      "subcat2": "Dinner",
+      "amount": 53,
+      "place": null,
+      "notes": "Smashburger"
     }
   ]
 }
