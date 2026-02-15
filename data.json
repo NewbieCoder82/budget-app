@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2752,
+  "nextTransId": 2753,
   "transactions": [
     {
       "id": 2717,
@@ -422,6 +422,18 @@
       "amount": 33,
       "place": "Savemart",
       "notes": "Roseville"
+    },
+    {
+      "id": 2752,
+      "date": "2026-02-14",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Abdul",
+      "subcat": "Food",
+      "subcat2": "Dinner",
+      "amount": 19,
+      "place": null,
+      "notes": null
     }
   ]
 }
