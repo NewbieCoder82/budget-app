@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2757,
+  "nextTransId": 2758,
   "transactions": [
     {
       "id": 2717,
@@ -482,6 +482,18 @@
       "amount": 17,
       "place": "Walmart",
       "notes": "Jackets (white/Lilac)"
+    },
+    {
+      "id": 2757,
+      "date": "2026-02-18",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Us",
+      "subcat": "Grocery",
+      "subcat2": "Weekly",
+      "amount": 58,
+      "place": "Raleys",
+      "notes": "Hash brown, green onions, buttermilk"
     }
   ]
 }
