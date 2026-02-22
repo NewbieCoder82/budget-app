@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2762,
+  "nextTransId": 2763,
   "transactions": [
     {
       "id": 2717,
@@ -542,6 +542,18 @@
       "amount": 110,
       "place": "Chicago Fire",
       "notes": "Iftari - first outside food"
+    },
+    {
+      "id": 2762,
+      "date": "2026-02-21",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Us",
+      "subcat": "Food",
+      "subcat2": "Pastry",
+      "amount": 32,
+      "place": "Whole Foods",
+      "notes": "Cake and soda"
     }
   ]
 }
