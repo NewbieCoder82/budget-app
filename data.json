@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2761,
+  "nextTransId": 2762,
   "transactions": [
     {
       "id": 2717,
@@ -530,6 +530,18 @@
       "amount": 60,
       "place": "Amazon",
       "notes": "2 pack fertilizer spikes and 2 pack onesie for Ya"
+    },
+    {
+      "id": 2761,
+      "date": "2026-02-21",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Us",
+      "subcat": "Food",
+      "subcat2": "Dinner",
+      "amount": 110,
+      "place": "Chicago Fire",
+      "notes": "Iftari - first outside food"
     }
   ]
 }
