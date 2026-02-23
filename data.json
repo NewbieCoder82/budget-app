@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2765,
+  "nextTransId": 2766,
   "transactions": [
     {
       "id": 2717,
@@ -577,6 +577,18 @@
       "subcat2": "Weekly",
       "amount": 70,
       "place": "Costco",
+      "notes": null
+    },
+    {
+      "id": 2765,
+      "date": "2026-02-22",
+      "account": "APLE",
+      "purchaser": "JJ",
+      "maincat": "Us",
+      "subcat": "Grocery",
+      "subcat2": "Other",
+      "amount": 74,
+      "place": "Naan Boy",
       "notes": null
     }
   ]
