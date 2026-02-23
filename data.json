@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2763,
+  "nextTransId": 2764,
   "transactions": [
     {
       "id": 2717,
@@ -554,6 +554,18 @@
       "amount": 32,
       "place": "Whole Foods",
       "notes": "Cake and soda"
+    },
+    {
+      "id": 2763,
+      "date": "2026-02-22",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Kids",
+      "subcat": "Food",
+      "subcat2": "Snack",
+      "amount": 12,
+      "place": "Jamba Juice",
+      "notes": null
     }
   ]
 }
