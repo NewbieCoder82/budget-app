@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2768,
+  "nextTransId": 2769,
   "transactions": [
     {
       "id": 2717,
@@ -614,6 +614,18 @@
       "amount": 68,
       "place": "Kabob Palace",
       "notes": null
+    },
+    {
+      "id": 2768,
+      "date": "2026-02-23",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Us",
+      "subcat": "Grocery",
+      "subcat2": "Other",
+      "amount": 20,
+      "place": "Raleys",
+      "notes": "Soda"
     }
   ]
 }
