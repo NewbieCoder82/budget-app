@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2766,
+  "nextTransId": 2767,
   "transactions": [
     {
       "id": 2717,
@@ -590,6 +590,18 @@
       "amount": 74,
       "place": "Naan Boy",
       "notes": null
+    },
+    {
+      "id": 2766,
+      "date": "2026-02-23",
+      "account": "APLE",
+      "purchaser": "JJ",
+      "maincat": "Kids",
+      "subcat": null,
+      "subcat2": null,
+      "amount": 53,
+      "place": "Amazon",
+      "notes": "Shoe laces, other items"
     }
   ]
 }
