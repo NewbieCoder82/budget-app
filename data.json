@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2771,
+  "nextTransId": 2772,
   "transactions": [
     {
       "id": 2717,
@@ -650,6 +650,18 @@
       "amount": 50,
       "place": "Costco Gas",
       "notes": null
+    },
+    {
+      "id": 2771,
+      "date": "2026-02-26",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Jahan",
+      "subcat": null,
+      "subcat2": null,
+      "amount": 20,
+      "place": "Costco",
+      "notes": "Work event"
     }
   ]
 }
