@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2770,
+  "nextTransId": 2771,
   "transactions": [
     {
       "id": 2717,
@@ -638,6 +638,18 @@
       "amount": 50,
       "place": "Raleys",
       "notes": "Chips, pasta, ice cream"
+    },
+    {
+      "id": 2770,
+      "date": "2026-02-26",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Transportation",
+      "subcat": "Subaru",
+      "subcat2": "Gas",
+      "amount": 50,
+      "place": "Costco Gas",
+      "notes": null
     }
   ]
 }
