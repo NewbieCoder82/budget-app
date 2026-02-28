@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2772,
+  "nextTransId": 2773,
   "transactions": [
     {
       "id": 2717,
@@ -662,6 +662,18 @@
       "amount": 20,
       "place": "Costco",
       "notes": "Work event"
+    },
+    {
+      "id": 2772,
+      "date": "2026-02-27",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Abdul",
+      "subcat": "Food",
+      "subcat2": "Dinner",
+      "amount": 43,
+      "place": null,
+      "notes": null
     }
   ]
 }
