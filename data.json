@@ -710,18 +710,6 @@
       "amount": 131,
       "place": "Carters",
       "notes": "Clothing for lil man at Roseville"
-    },
-    {
-      "id": 2776,
-      "date": "2026-02-28",
-      "account": "APLE",
-      "purchaser": "AA",
-      "maincat": "Yamin",
-      "subcat": null,
-      "subcat2": null,
-      "amount": 131,
-      "place": "Carters",
-      "notes": "Clothing for lil guy at Roseville"
     }
   ]
 }
