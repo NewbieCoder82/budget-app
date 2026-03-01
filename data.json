@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2779,
+  "nextTransId": 2780,
   "transactions": [
     {
       "id": 2717,
@@ -734,6 +734,18 @@
       "amount": 152,
       "place": null,
       "notes": "Clothing and gift for Emran baby $75"
+    },
+    {
+      "id": 2779,
+      "date": "2026-02-28",
+      "account": "APLE",
+      "purchaser": "JJ",
+      "maincat": "Us",
+      "subcat": "Grocery",
+      "subcat2": "Other",
+      "amount": 32,
+      "place": "Savemar",
+      "notes": null
     }
   ]
 }
