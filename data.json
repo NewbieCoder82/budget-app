@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2778,
+  "nextTransId": 2779,
   "transactions": [
     {
       "id": 2717,
@@ -722,6 +722,18 @@
       "amount": 60,
       "place": null,
       "notes": null
+    },
+    {
+      "id": 2778,
+      "date": "2026-02-28",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Kids",
+      "subcat": null,
+      "subcat2": null,
+      "amount": 152,
+      "place": null,
+      "notes": "Clothing and gift for Emran baby $75"
     }
   ]
 }
