@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2777,
+  "nextTransId": 2778,
   "transactions": [
     {
       "id": 2717,
@@ -710,6 +710,18 @@
       "amount": 131,
       "place": "Carters",
       "notes": "Clothing for lil man at Roseville"
+    },
+    {
+      "id": 2777,
+      "date": "2026-02-28",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Transportation",
+      "subcat": "Navi",
+      "subcat2": "Gas",
+      "amount": 60,
+      "place": null,
+      "notes": null
     }
   ]
 }
