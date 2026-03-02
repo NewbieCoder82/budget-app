@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2781,
+  "nextTransId": 2782,
   "transactions": [
     {
       "id": 2780,
@@ -14,6 +14,18 @@
       "amount": 96,
       "place": "Walmart",
       "notes": null
+    },
+    {
+      "id": 2781,
+      "date": "2026-03-01",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Us",
+      "subcat": "Food",
+      "subcat2": "Dinner",
+      "amount": 101,
+      "place": "Buckhorn Grill",
+      "notes": "Good times"
     }
   ]
 }
