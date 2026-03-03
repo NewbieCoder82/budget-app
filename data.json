@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2783,
+  "nextTransId": 2784,
   "transactions": [
     {
       "id": 2780,
@@ -38,6 +38,18 @@
       "amount": 24,
       "place": "Qarami",
       "notes": "Good vibes"
+    },
+    {
+      "id": 2783,
+      "date": "2026-03-02",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Us",
+      "subcat": "Food",
+      "subcat2": "Dinner",
+      "amount": 41,
+      "place": "In n Out",
+      "notes": "On way to warriors game"
     }
   ]
 }
