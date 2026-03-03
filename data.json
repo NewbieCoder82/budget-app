@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2786,
+  "nextTransId": 2787,
   "transactions": [
     {
       "id": 2780,
@@ -74,6 +74,18 @@
       "amount": 270,
       "place": "Chase Center",
       "notes": "Game tickets and souvenirs"
+    },
+    {
+      "id": 2786,
+      "date": "2026-03-02",
+      "account": "APLE",
+      "purchaser": "JJ",
+      "maincat": "Jahan",
+      "subcat": "Personal",
+      "subcat2": "Other",
+      "amount": 53,
+      "place": "Walmart",
+      "notes": "Baby carrier"
     }
   ]
 }
