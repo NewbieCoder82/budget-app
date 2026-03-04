@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2788,
+  "nextTransId": 2789,
   "transactions": [
     {
       "id": 2780,
@@ -97,6 +97,18 @@
       "subcat2": "Weekly",
       "amount": 148,
       "place": "Costco",
+      "notes": null
+    },
+    {
+      "id": 2788,
+      "date": "2026-03-03",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Us",
+      "subcat": "Food",
+      "subcat2": "Dinner",
+      "amount": 45,
+      "place": "Panda Express",
       "notes": null
     }
   ]
