@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2791,
+  "nextTransId": 2792,
   "transactions": [
     {
       "id": 2780,
@@ -134,6 +134,18 @@
       "amount": 40,
       "place": "Target",
       "notes": "Nicotine"
+    },
+    {
+      "id": 2791,
+      "date": "2026-03-04",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Home",
+      "subcat": null,
+      "subcat2": null,
+      "amount": 7,
+      "place": "Target",
+      "notes": "Hand soap"
     }
   ]
 }
