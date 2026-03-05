@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2792,
+  "nextTransId": 2793,
   "transactions": [
     {
       "id": 2780,
@@ -146,6 +146,18 @@
       "amount": 7,
       "place": "Target",
       "notes": "Hand soap"
+    },
+    {
+      "id": 2792,
+      "date": "2026-03-05",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Us",
+      "subcat": "Food",
+      "subcat2": "Coffee",
+      "amount": 56,
+      "place": "Nespresso",
+      "notes": null
     }
   ]
 }
