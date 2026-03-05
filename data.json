@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2789,
+  "nextTransId": 2790,
   "transactions": [
     {
       "id": 2780,
@@ -110,6 +110,18 @@
       "amount": 45,
       "place": "Panda Express",
       "notes": null
+    },
+    {
+      "id": 2789,
+      "date": "2026-03-04",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Yamin",
+      "subcat": null,
+      "subcat2": null,
+      "amount": 50,
+      "place": "Target",
+      "notes": "Diapers"
     }
   ]
 }
