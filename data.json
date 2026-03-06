@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2793,
+  "nextTransId": 2794,
   "transactions": [
     {
       "id": 2780,
@@ -157,6 +157,18 @@
       "subcat2": "Coffee",
       "amount": 56,
       "place": "Nespresso",
+      "notes": null
+    },
+    {
+      "id": 2793,
+      "date": "2026-03-06",
+      "account": "SPHRE",
+      "purchaser": "AA",
+      "maincat": "Us",
+      "subcat": "Experiences",
+      "subcat2": "Other",
+      "amount": 136,
+      "place": "Sac Kings",
       "notes": null
     }
   ]
