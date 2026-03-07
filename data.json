@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2794,
+  "nextTransId": 2795,
   "transactions": [
     {
       "id": 2780,
@@ -170,6 +170,18 @@
       "amount": 136,
       "place": "Sac Kings",
       "notes": null
+    },
+    {
+      "id": 2794,
+      "date": "2026-03-07",
+      "account": "APLE",
+      "purchaser": "JJ",
+      "maincat": "Kids",
+      "subcat": "Personal",
+      "subcat2": "Other",
+      "amount": 43,
+      "place": "Amazon",
+      "notes": "New bigger Stanley water bottles"
     }
   ]
 }
