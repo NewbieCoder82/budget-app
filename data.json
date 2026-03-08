@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2795,
+  "nextTransId": 2796,
   "transactions": [
     {
       "id": 2780,
@@ -182,6 +182,18 @@
       "amount": 43,
       "place": "Amazon",
       "notes": "New bigger Stanley water bottles"
+    },
+    {
+      "id": 2795,
+      "date": "2026-03-07",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Us",
+      "subcat": "Clothing",
+      "subcat2": "Other",
+      "amount": 110,
+      "place": "Naz Boutique",
+      "notes": "Eid clothes for Aish, Idris, and Me"
     }
   ]
 }
