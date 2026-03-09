@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2797,
+  "nextTransId": 2798,
   "transactions": [
     {
       "id": 2780,
@@ -206,6 +206,18 @@
       "amount": 217,
       "place": "Afghan Place",
       "notes": "Iftari and tarmooz for JJ"
+    },
+    {
+      "id": 2797,
+      "date": "2026-03-08",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Us",
+      "subcat": "Food",
+      "subcat2": "Dinner",
+      "amount": 89,
+      "place": "The Melt",
+      "notes": null
     }
   ]
 }
