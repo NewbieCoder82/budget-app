@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2798,
+  "nextTransId": 2799,
   "transactions": [
     {
       "id": 2780,
@@ -217,6 +217,18 @@
       "subcat2": "Dinner",
       "amount": 89,
       "place": "The Melt",
+      "notes": null
+    },
+    {
+      "id": 2798,
+      "date": "2026-03-09",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Us",
+      "subcat": "Food",
+      "subcat2": "Dinner",
+      "amount": 65,
+      "place": "Chipotle",
       "notes": null
     }
   ]
