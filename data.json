@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2802,
+  "nextTransId": 2803,
   "transactions": [
     {
       "id": 2780,
@@ -266,6 +266,18 @@
       "amount": 161,
       "place": "Golden 1",
       "notes": "Food and merchandise"
+    },
+    {
+      "id": 2802,
+      "date": "2026-03-11",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Us",
+      "subcat": "Experiences",
+      "subcat2": "Other",
+      "amount": 25,
+      "place": "Golden 1",
+      "notes": "Parking"
     }
   ]
 }
