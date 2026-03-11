@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2800,
+  "nextTransId": 2801,
   "transactions": [
     {
       "id": 2780,
@@ -242,6 +242,18 @@
       "amount": 24,
       "place": null,
       "notes": "ChxFla"
+    },
+    {
+      "id": 2800,
+      "date": "2026-03-11",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Transportation",
+      "subcat": "Navi",
+      "subcat2": "Gas",
+      "amount": 27,
+      "place": "Arco",
+      "notes": "Kings Game"
     }
   ]
 }
