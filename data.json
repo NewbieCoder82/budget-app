@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2801,
+  "nextTransId": 2802,
   "transactions": [
     {
       "id": 2780,
@@ -254,6 +254,18 @@
       "amount": 27,
       "place": "Arco",
       "notes": "Kings Game"
+    },
+    {
+      "id": 2801,
+      "date": "2026-03-11",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Us",
+      "subcat": "Experiences",
+      "subcat2": "Other",
+      "amount": 161,
+      "place": "Golden 1",
+      "notes": "Food and merchandise"
     }
   ]
 }
