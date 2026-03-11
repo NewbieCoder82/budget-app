@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2803,
+  "nextTransId": 2804,
   "transactions": [
     {
       "id": 2780,
@@ -278,6 +278,18 @@
       "amount": 25,
       "place": "Golden 1",
       "notes": "Parking"
+    },
+    {
+      "id": 2803,
+      "date": "2026-03-11",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Aisha",
+      "subcat": null,
+      "subcat2": null,
+      "amount": 340,
+      "place": "Michaels",
+      "notes": "Bday Party"
     }
   ]
 }
