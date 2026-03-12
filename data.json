@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2805,
+  "nextTransId": 2806,
   "transactions": [
     {
       "id": 2780,
@@ -302,6 +302,18 @@
       "amount": 114,
       "place": "Amazon",
       "notes": "Bday Goodies"
+    },
+    {
+      "id": 2805,
+      "date": "2026-03-12",
+      "account": "APLE",
+      "purchaser": "JJ",
+      "maincat": "Us",
+      "subcat": "Grocery",
+      "subcat2": "Weekly",
+      "amount": 68,
+      "place": "Raleys",
+      "notes": null
     }
   ]
 }
