@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2807,
+  "nextTransId": 2808,
   "transactions": [
     {
       "id": 2780,
@@ -326,6 +326,18 @@
       "amount": 24,
       "place": "Raleys",
       "notes": null
+    },
+    {
+      "id": 2807,
+      "date": "2026-03-13",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Yamin",
+      "subcat": null,
+      "subcat2": null,
+      "amount": 96,
+      "place": "Walmart",
+      "notes": "Formula"
     }
   ]
 }
