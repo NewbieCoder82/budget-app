@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2810,
+  "nextTransId": 2811,
   "transactions": [
     {
       "id": 2780,
@@ -362,6 +362,18 @@
       "amount": 24,
       "place": "Banana Republic",
       "notes": "T Shirt"
+    },
+    {
+      "id": 2810,
+      "date": "2026-03-15",
+      "account": "APLE",
+      "purchaser": "JJ",
+      "maincat": "Us",
+      "subcat": "Grocery",
+      "subcat2": "Weekly",
+      "amount": 167,
+      "place": "Costco",
+      "notes": "Oil, brisket, beef , strawberries, blueberries, etc"
     }
   ]
 }
