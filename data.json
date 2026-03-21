@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2829,
+  "nextTransId": 2830,
   "transactions": [
     {
       "id": 2780,
@@ -590,6 +590,18 @@
       "amount": 34,
       "place": "Naan Boy",
       "notes": "Cookies for home"
+    },
+    {
+      "id": 2829,
+      "date": "2026-03-21",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Kids",
+      "subcat": null,
+      "subcat2": null,
+      "amount": 34,
+      "place": "Old Navy",
+      "notes": "Clothes for park parties"
     }
   ]
 }
