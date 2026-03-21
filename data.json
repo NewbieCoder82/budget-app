@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2826,
+  "nextTransId": 2827,
   "transactions": [
     {
       "id": 2780,
@@ -554,6 +554,18 @@
       "amount": 1061,
       "place": "Tahweed Mosque",
       "notes": "Donation"
+    },
+    {
+      "id": 2826,
+      "date": "2026-03-20",
+      "account": "SVNG",
+      "purchaser": "AA",
+      "maincat": "Kids",
+      "subcat": "Food",
+      "subcat2": "Lunch",
+      "amount": 20,
+      "place": "Macdonalds",
+      "notes": null
     }
   ]
 }
