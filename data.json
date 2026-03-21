@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2825,
+  "nextTransId": 2826,
   "transactions": [
     {
       "id": 2780,
@@ -409,7 +409,7 @@
       "subcat2": null,
       "amount": 1,
       "place": "BOFA",
-      "notes": "ZakaÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂt $500"
+      "notes": "ZakaÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂt $500"
     },
     {
       "id": 2814,
@@ -542,6 +542,18 @@
       "amount": 200,
       "place": "Bofa",
       "notes": "Eidy Money"
+    },
+    {
+      "id": 2825,
+      "date": "2026-03-20",
+      "account": "SVNG",
+      "purchaser": "AA",
+      "maincat": "Religion",
+      "subcat": null,
+      "subcat2": null,
+      "amount": 1061,
+      "place": "Tahweed Mosque",
+      "notes": "Donation"
     }
   ]
 }
