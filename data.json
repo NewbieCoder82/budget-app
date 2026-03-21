@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2822,
+  "nextTransId": 2823,
   "transactions": [
     {
       "id": 2780,
@@ -506,6 +506,18 @@
       "amount": 150,
       "place": "MCF",
       "notes": "Sadaqa and JJ missed days"
+    },
+    {
+      "id": 2822,
+      "date": "2026-03-20",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Transportation",
+      "subcat": "Navi",
+      "subcat2": "Gas",
+      "amount": 53,
+      "place": "Costco Gas",
+      "notes": null
     }
   ]
 }
