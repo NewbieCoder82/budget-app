@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2823,
+  "nextTransId": 2824,
   "transactions": [
     {
       "id": 2780,
@@ -517,6 +517,18 @@
       "subcat2": "Gas",
       "amount": 53,
       "place": "Costco Gas",
+      "notes": null
+    },
+    {
+      "id": 2823,
+      "date": "2026-03-20",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Kids",
+      "subcat": "Food",
+      "subcat2": "Bfast",
+      "amount": 25,
+      "place": "Chx fla",
       "notes": null
     }
   ]
