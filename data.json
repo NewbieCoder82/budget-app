@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2821,
+  "nextTransId": 2822,
   "transactions": [
     {
       "id": 2780,
@@ -409,7 +409,7 @@
       "subcat2": null,
       "amount": 1,
       "place": "BOFA",
-      "notes": "ZakaÃÂÃÂ¢ÃÂÃÂÃÂÃÂt $500"
+      "notes": "ZakaÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂt $500"
     },
     {
       "id": 2814,
@@ -494,6 +494,18 @@
       "amount": 22,
       "place": "Costco",
       "notes": "Contacts"
+    },
+    {
+      "id": 2821,
+      "date": "2026-03-20",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Us",
+      "subcat": null,
+      "subcat2": null,
+      "amount": 150,
+      "place": "MCF",
+      "notes": "Sadaqa and JJ missed days"
     }
   ]
 }
