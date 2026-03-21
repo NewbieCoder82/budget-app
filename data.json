@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2830,
+  "nextTransId": 2831,
   "transactions": [
     {
       "id": 2780,
@@ -590,6 +590,18 @@
       "amount": 34,
       "place": "Old Navy",
       "notes": "Clothes for park parties"
+    },
+    {
+      "id": 2830,
+      "date": "2026-03-21",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Religion",
+      "subcat": null,
+      "subcat2": null,
+      "amount": 1,
+      "place": null,
+      "notes": "Zakat"
     }
   ]
 }
