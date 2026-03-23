@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2833,
+  "nextTransId": 2834,
   "transactions": [
     {
       "id": 2780,
@@ -626,6 +626,18 @@
       "amount": 96,
       "place": "Walmart",
       "notes": null
+    },
+    {
+      "id": 2833,
+      "date": "2026-03-23",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Us",
+      "subcat": "Health",
+      "subcat2": "Medication",
+      "amount": 10,
+      "place": "Kaiser",
+      "notes": "Flu meds for JJ and Idris"
     }
   ]
 }
