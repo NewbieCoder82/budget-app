@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2834,
+  "nextTransId": 2835,
   "transactions": [
     {
       "id": 2780,
@@ -638,6 +638,18 @@
       "amount": 10,
       "place": "Kaiser",
       "notes": "Flu meds for JJ and Idris"
+    },
+    {
+      "id": 2834,
+      "date": "2026-03-23",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Us",
+      "subcat": "Food",
+      "subcat2": "Lunch",
+      "amount": 54,
+      "place": "Smash Burger",
+      "notes": null
     }
   ]
 }
