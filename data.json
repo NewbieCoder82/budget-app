@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2836,
+  "nextTransId": 2837,
   "transactions": [
     {
       "id": 2780,
@@ -662,6 +662,18 @@
       "amount": 50,
       "place": "Kaiser",
       "notes": "ER visit after fainting during high fever days"
+    },
+    {
+      "id": 2836,
+      "date": "2026-03-24",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Us",
+      "subcat": "Food",
+      "subcat2": "Dinner",
+      "amount": 28,
+      "place": "Pieology",
+      "notes": "After ER visit"
     }
   ]
 }
