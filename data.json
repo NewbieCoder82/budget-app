@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2835,
+  "nextTransId": 2836,
   "transactions": [
     {
       "id": 2780,
@@ -650,6 +650,18 @@
       "amount": 54,
       "place": "Smash Burger",
       "notes": null
+    },
+    {
+      "id": 2835,
+      "date": "2026-03-24",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Idris",
+      "subcat": "Health",
+      "subcat2": null,
+      "amount": 50,
+      "place": "Kaiser",
+      "notes": "ER visit after fainting during high fever days"
     }
   ]
 }
