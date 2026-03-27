@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2839,
+  "nextTransId": 2840,
   "transactions": [
     {
       "id": 2780,
@@ -698,6 +698,18 @@
       "amount": 70,
       "place": "Costco",
       "notes": "Contact lenses and snacks"
+    },
+    {
+      "id": 2839,
+      "date": "2026-03-27",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Transportation",
+      "subcat": "Gas",
+      "subcat2": "Navi",
+      "amount": 51,
+      "place": "Costco Gas",
+      "notes": null
     }
   ]
 }
