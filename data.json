@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2850,
+  "nextTransId": 2851,
   "transactions": [
     {
       "id": 2780,
@@ -830,6 +830,18 @@
       "amount": 83,
       "place": "Amazon",
       "notes": "Goody bag stuff"
+    },
+    {
+      "id": 2850,
+      "date": "2026-03-30",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Us",
+      "subcat": "Food",
+      "subcat2": "Coffee",
+      "amount": 60,
+      "place": "Nespresso",
+      "notes": null
     }
   ]
 }
