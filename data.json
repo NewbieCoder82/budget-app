@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2848,
+  "nextTransId": 2849,
   "transactions": [
     {
       "id": 2780,
@@ -721,7 +721,7 @@
       "subcat2": "Other",
       "amount": 150,
       "place": "Smart n Final",
-      "notes": "Items for DadÃÂ¢ÃÂÃÂs fatia night"
+      "notes": "Items for DadÃÂÃÂ¢ÃÂÃÂÃÂÃÂs fatia night"
     },
     {
       "id": 2841,
@@ -733,7 +733,7 @@
       "subcat2": "Other",
       "amount": 930,
       "place": "Rumis",
-      "notes": "Food for first night of DadÃ¢ÂÂs passing"
+      "notes": "Food for first night of DadÃÂ¢ÃÂÃÂs passing"
     },
     {
       "id": 2842,
@@ -806,6 +806,18 @@
       "amount": 87,
       "place": "Target",
       "notes": "Bday Toys for both"
+    },
+    {
+      "id": 2848,
+      "date": "2026-03-30",
+      "account": "APLE",
+      "purchaser": "JJ",
+      "maincat": "Us",
+      "subcat": "Grocery",
+      "subcat2": "Weekly",
+      "amount": 36,
+      "place": "Raleys",
+      "notes": null
     }
   ]
 }
