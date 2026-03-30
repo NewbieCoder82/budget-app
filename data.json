@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2843,
+  "nextTransId": 2844,
   "transactions": [
     {
       "id": 2780,
@@ -721,7 +721,7 @@
       "subcat2": "Other",
       "amount": 150,
       "place": "Smart n Final",
-      "notes": "Items for Dadâs fatia night"
+      "notes": "Items for DadÃ¢ÂÂs fatia night"
     },
     {
       "id": 2841,
@@ -733,7 +733,7 @@
       "subcat2": "Other",
       "amount": 930,
       "place": "Rumis",
-      "notes": "Food for first night of Dad’s passing"
+      "notes": "Food for first night of Dadâs passing"
     },
     {
       "id": 2842,
@@ -746,6 +746,18 @@
       "amount": 1416,
       "place": "County",
       "notes": "Burial Permit"
+    },
+    {
+      "id": 2843,
+      "date": "2026-03-29",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Abdul",
+      "subcat": "Personal",
+      "subcat2": "Nicotine",
+      "amount": 62,
+      "place": "Target",
+      "notes": "Also diaper cream"
     }
   ]
 }
