@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2845,
+  "nextTransId": 2846,
   "transactions": [
     {
       "id": 2780,
@@ -770,6 +770,18 @@
       "amount": 52,
       "place": "Costco gas",
       "notes": null
+    },
+    {
+      "id": 2845,
+      "date": "2026-03-29",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Idris",
+      "subcat": null,
+      "subcat2": null,
+      "amount": 77,
+      "place": "Target",
+      "notes": "Funeral clothes"
     }
   ]
 }
