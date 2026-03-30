@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2847,
+  "nextTransId": 2848,
   "transactions": [
     {
       "id": 2780,
@@ -794,6 +794,18 @@
       "amount": 21,
       "place": "Macdonalds",
       "notes": null
+    },
+    {
+      "id": 2847,
+      "date": "2026-03-29",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Kids",
+      "subcat": null,
+      "subcat2": null,
+      "amount": 87,
+      "place": "Target",
+      "notes": "Bday Toys for both"
     }
   ]
 }
