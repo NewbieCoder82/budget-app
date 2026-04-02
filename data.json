@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2857,
+  "nextTransId": 2858,
   "transactions": [
     {
       "id": 2856,
@@ -14,6 +14,18 @@
       "amount": 48,
       "place": "Smash Burger",
       "notes": "Wrong order not good at all"
+    },
+    {
+      "id": 2857,
+      "date": "2026-04-02",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Yamin",
+      "subcat": "Personal",
+      "subcat2": "Formula",
+      "amount": 96,
+      "place": "Walmart",
+      "notes": null
     }
   ]
 }
