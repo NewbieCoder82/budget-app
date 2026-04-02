@@ -1,6 +1,19 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2856,
-  "transactions": []
+  "nextTransId": 2857,
+  "transactions": [
+    {
+      "id": 2856,
+      "date": "2026-04-01",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Us",
+      "subcat": "Food",
+      "subcat2": "Dinner",
+      "amount": 48,
+      "place": "Smash Burger",
+      "notes": "Wrong order not good at all"
+    }
+  ]
 }
