@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2859,
+  "nextTransId": 2860,
   "transactions": [
     {
       "id": 2856,
@@ -37,6 +37,18 @@
       "subcat2": "Lunch",
       "amount": 22,
       "place": "Panda Express",
+      "notes": null
+    },
+    {
+      "id": 2859,
+      "date": "2026-04-03",
+      "account": "APLE",
+      "purchaser": "JJ",
+      "maincat": "Us",
+      "subcat": "Party",
+      "subcat2": "Other",
+      "amount": 50,
+      "place": "Amazon",
       "notes": null
     }
   ]
