@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2860,
+  "nextTransId": 2861,
   "transactions": [
     {
       "id": 2856,
@@ -50,6 +50,18 @@
       "amount": 50,
       "place": "Amazon",
       "notes": null
+    },
+    {
+      "id": 2860,
+      "date": "2026-04-03",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Kids",
+      "subcat": "Food",
+      "subcat2": "Dinner",
+      "amount": 15,
+      "place": "Macdonalds",
+      "notes": "During Khala Shagul shola night at my parents"
     }
   ]
 }
