@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2862,
+  "nextTransId": 2863,
   "transactions": [
     {
       "id": 2856,
@@ -73,6 +73,18 @@
       "subcat2": "Weekly",
       "amount": 167,
       "place": "Costco",
+      "notes": null
+    },
+    {
+      "id": 2862,
+      "date": "2026-04-04",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Us",
+      "subcat": "Food",
+      "subcat2": "Lunch",
+      "amount": 53,
+      "place": "Taco Bell",
       "notes": null
     }
   ]
