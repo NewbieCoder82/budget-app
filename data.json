@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2865,
+  "nextTransId": 2866,
   "transactions": [
     {
       "id": 2856,
@@ -110,6 +110,18 @@
       "amount": 88,
       "place": "Amazon",
       "notes": "Bday party decorations"
+    },
+    {
+      "id": 2865,
+      "date": "2026-04-07",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "A_AND_J",
+      "subcat": "Personal",
+      "subcat2": "Other",
+      "amount": 37,
+      "place": "Raleys",
+      "notes": "Lubricant and protection"
     }
   ]
 }
