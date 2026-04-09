@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2874,
+  "nextTransId": 2875,
   "transactions": [
     {
       "id": 2856,
@@ -218,6 +218,18 @@
       "amount": 9,
       "place": "Amazon",
       "notes": "Not sure what"
+    },
+    {
+      "id": 2874,
+      "date": "2026-04-08",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Us",
+      "subcat": "Food",
+      "subcat2": "Dinner",
+      "amount": 56,
+      "place": "Chipotle",
+      "notes": null
     }
   ]
 }
