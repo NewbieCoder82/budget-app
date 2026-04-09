@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2871,
+  "nextTransId": 2872,
   "transactions": [
     {
       "id": 2856,
@@ -181,6 +181,18 @@
       "subcat2": "Dinner",
       "amount": 30,
       "place": "Kabob Palace",
+      "notes": "Yamin bday party"
+    },
+    {
+      "id": 2871,
+      "date": "2026-04-07",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Us",
+      "subcat": "Food",
+      "subcat2": "Dinner",
+      "amount": 61,
+      "place": "Taco Bell",
       "notes": "Yamin bday party"
     }
   ]
