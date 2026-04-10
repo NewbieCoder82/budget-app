@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2875,
+  "nextTransId": 2876,
   "transactions": [
     {
       "id": 2856,
@@ -229,6 +229,18 @@
       "subcat2": "Dinner",
       "amount": 56,
       "place": "Chipotle",
+      "notes": null
+    },
+    {
+      "id": 2875,
+      "date": "2026-04-09",
+      "account": "APLE",
+      "purchaser": "JJ",
+      "maincat": "Us",
+      "subcat": "Grocery",
+      "subcat2": "Other",
+      "amount": 73,
+      "place": "Raleys",
       "notes": null
     }
   ]
