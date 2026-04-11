@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2878,
+  "nextTransId": 2879,
   "transactions": [
     {
       "id": 2856,
@@ -265,6 +265,18 @@
       "subcat2": "Formula",
       "amount": 96,
       "place": "Walmart",
+      "notes": null
+    },
+    {
+      "id": 2878,
+      "date": "2026-04-11",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Us",
+      "subcat": "Food",
+      "subcat2": "Bfast",
+      "amount": 23,
+      "place": "ChxFla",
       "notes": null
     }
   ]
