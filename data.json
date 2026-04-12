@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2879,
+  "nextTransId": 2880,
   "transactions": [
     {
       "id": 2856,
@@ -278,6 +278,18 @@
       "amount": 23,
       "place": "ChxFla",
       "notes": null
+    },
+    {
+      "id": 2879,
+      "date": "2026-04-12",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Home",
+      "subcat": null,
+      "subcat2": null,
+      "amount": 33,
+      "place": "Target",
+      "notes": "Carpet cleaning solutions"
     }
   ]
 }
