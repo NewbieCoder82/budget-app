@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2880,
+  "nextTransId": 2881,
   "transactions": [
     {
       "id": 2856,
@@ -290,6 +290,18 @@
       "amount": 33,
       "place": "Target",
       "notes": "Carpet cleaning solutions"
+    },
+    {
+      "id": 2880,
+      "date": "2026-04-11",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Us",
+      "subcat": "Food",
+      "subcat2": "Lunch",
+      "amount": 73,
+      "place": "Subway",
+      "notes": "Me and Idris and JJ and Aish sourdough co"
     }
   ]
 }
