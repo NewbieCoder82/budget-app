@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2881,
+  "nextTransId": 2882,
   "transactions": [
     {
       "id": 2856,
@@ -302,6 +302,18 @@
       "amount": 73,
       "place": "Subway",
       "notes": "Me and Idris and JJ and Aish sourdough co"
+    },
+    {
+      "id": 2881,
+      "date": "2026-04-11",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Aisha",
+      "subcat": "Personal",
+      "subcat2": null,
+      "amount": 207,
+      "place": "Luxury Nails",
+      "notes": "Girls Day"
     }
   ]
 }
