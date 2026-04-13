@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2883,
+  "nextTransId": 2884,
   "transactions": [
     {
       "id": 2856,
@@ -324,7 +324,19 @@
       "subcat": "Food",
       "subcat2": "Bfast",
       "amount": 33,
-      "place": "Noah’s Bagel",
+      "place": "Noahâs Bagel",
+      "notes": null
+    },
+    {
+      "id": 2883,
+      "date": "2026-04-12",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Transportation",
+      "subcat": "Subaru",
+      "subcat2": "Gas",
+      "amount": 53,
+      "place": null,
       "notes": null
     }
   ]
