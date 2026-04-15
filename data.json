@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2887,
+  "nextTransId": 2888,
   "transactions": [
     {
       "id": 2856,
@@ -324,7 +324,7 @@
       "subcat": "Food",
       "subcat2": "Bfast",
       "amount": 33,
-      "place": "NoahÃÂ¢ÃÂÃÂs Bagel",
+      "place": "NoahÃÂÃÂ¢ÃÂÃÂÃÂÃÂs Bagel",
       "notes": null
     },
     {
@@ -374,6 +374,18 @@
       "amount": 58,
       "place": "Taco Bell",
       "notes": null
+    },
+    {
+      "id": 2887,
+      "date": "2026-04-14",
+      "account": "APLE",
+      "purchaser": "JJ",
+      "maincat": "Us",
+      "subcat": "Grocery",
+      "subcat2": "Other",
+      "amount": 56,
+      "place": "Raleys",
+      "notes": "N - yogurt juice, sipie cup, pouch and some other bs"
     }
   ]
 }
