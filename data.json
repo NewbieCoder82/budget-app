@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2888,
+  "nextTransId": 2889,
   "transactions": [
     {
       "id": 2856,
@@ -386,6 +386,18 @@
       "amount": 56,
       "place": "Raleys",
       "notes": "N - yogurt juice, sipie cup, pouch and some other bs"
+    },
+    {
+      "id": 2888,
+      "date": "2026-04-15",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Us",
+      "subcat": "Food",
+      "subcat2": "Lunch",
+      "amount": 48,
+      "place": "Subway",
+      "notes": null
     }
   ]
 }
