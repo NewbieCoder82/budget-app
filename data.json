@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2893,
+  "nextTransId": 2894,
   "transactions": [
     {
       "id": 2856,
@@ -445,6 +445,18 @@
       "subcat2": "Coffees",
       "amount": 62,
       "place": "Nespresso",
+      "notes": null
+    },
+    {
+      "id": 2893,
+      "date": "2026-04-18",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Transportation",
+      "subcat": "Navi",
+      "subcat2": "Gas",
+      "amount": 55,
+      "place": "Costco Gas",
       "notes": null
     }
   ]
