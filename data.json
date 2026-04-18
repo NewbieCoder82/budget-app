@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2890,
+  "nextTransId": 2891,
   "transactions": [
     {
       "id": 2856,
@@ -410,6 +410,18 @@
       "amount": 50,
       "place": "Dorian Studios",
       "notes": "Spring Pictures"
+    },
+    {
+      "id": 2890,
+      "date": "2026-04-17",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Abdul",
+      "subcat": "Food",
+      "subcat2": "Dinner",
+      "amount": 18,
+      "place": "Panda Express",
+      "notes": null
     }
   ]
 }
