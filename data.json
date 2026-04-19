@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2894,
+  "nextTransId": 2895,
   "transactions": [
     {
       "id": 2856,
@@ -457,6 +457,18 @@
       "subcat2": "Gas",
       "amount": 55,
       "place": "Costco Gas",
+      "notes": null
+    },
+    {
+      "id": 2894,
+      "date": "2026-04-18",
+      "account": "APLE",
+      "purchaser": "JJ",
+      "maincat": "Jahan",
+      "subcat": "Food",
+      "subcat2": "Lunch",
+      "amount": 42,
+      "place": "I love teriyaki",
       "notes": null
     }
   ]
