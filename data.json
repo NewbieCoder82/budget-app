@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2895,
+  "nextTransId": 2896,
   "transactions": [
     {
       "id": 2856,
@@ -469,6 +469,18 @@
       "subcat2": "Lunch",
       "amount": 42,
       "place": "I love teriyaki",
+      "notes": null
+    },
+    {
+      "id": 2895,
+      "date": "2026-04-18",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Abdul",
+      "subcat": "Food",
+      "subcat2": "Dinner",
+      "amount": 13,
+      "place": "Panda Express",
       "notes": null
     }
   ]
