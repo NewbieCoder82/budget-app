@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2899,
+  "nextTransId": 2900,
   "transactions": [
     {
       "id": 2856,
@@ -518,6 +518,18 @@
       "amount": 15,
       "place": "Target",
       "notes": "Juice for Michaels bday party"
+    },
+    {
+      "id": 2899,
+      "date": "2026-04-19",
+      "account": "APLE",
+      "purchaser": "JJ",
+      "maincat": "Aisha",
+      "subcat": "Bday",
+      "subcat2": "Pastry",
+      "amount": 36,
+      "place": "Costco",
+      "notes": "Bday Cake"
     }
   ]
 }
