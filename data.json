@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2897,
+  "nextTransId": 2898,
   "transactions": [
     {
       "id": 2856,
@@ -494,6 +494,18 @@
       "amount": 122,
       "place": "Senora Pizza",
       "notes": "For Michaels bday party"
+    },
+    {
+      "id": 2897,
+      "date": "2026-04-19",
+      "account": "APLE",
+      "purchaser": "JJ",
+      "maincat": "Aisha",
+      "subcat": "Bday",
+      "subcat2": "Party",
+      "amount": 165,
+      "place": "Michaels",
+      "notes": "Additional guests and tip"
     }
   ]
 }
