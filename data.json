@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2898,
+  "nextTransId": 2899,
   "transactions": [
     {
       "id": 2856,
@@ -506,6 +506,18 @@
       "amount": 165,
       "place": "Michaels",
       "notes": "Additional guests and tip"
+    },
+    {
+      "id": 2898,
+      "date": "2026-04-19",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Aisha",
+      "subcat": "Bday",
+      "subcat2": "Lunch",
+      "amount": 15,
+      "place": "Target",
+      "notes": "Juice for Michaels bday party"
     }
   ]
 }
