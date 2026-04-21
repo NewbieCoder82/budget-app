@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2900,
+  "nextTransId": 2901,
   "transactions": [
     {
       "id": 2856,
@@ -530,6 +530,18 @@
       "amount": 36,
       "place": "Costco",
       "notes": "Bday Cake"
+    },
+    {
+      "id": 2900,
+      "date": "2026-04-21",
+      "account": "APLE",
+      "purchaser": "JJ",
+      "maincat": "Us",
+      "subcat": "Grocery",
+      "subcat2": "Weekly",
+      "amount": 23,
+      "place": "Nuggets",
+      "notes": "Soup and bread"
     }
   ]
 }
