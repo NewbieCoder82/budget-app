@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2902,
+  "nextTransId": 2903,
   "transactions": [
     {
       "id": 2856,
@@ -554,6 +554,18 @@
       "amount": 96,
       "place": "Walmart",
       "notes": null
+    },
+    {
+      "id": 2902,
+      "date": "2026-04-21",
+      "account": "APLE",
+      "purchaser": "JJ",
+      "maincat": "Kids",
+      "subcat": "Grocery",
+      "subcat2": "Snack",
+      "amount": 105,
+      "place": "Costco",
+      "notes": "School snacks, sugar and blueberries"
     }
   ]
 }
