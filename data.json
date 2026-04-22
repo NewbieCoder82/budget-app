@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2901,
+  "nextTransId": 2902,
   "transactions": [
     {
       "id": 2856,
@@ -542,6 +542,18 @@
       "amount": 23,
       "place": "Nuggets",
       "notes": "Soup and bread"
+    },
+    {
+      "id": 2901,
+      "date": "2026-04-21",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Yamin",
+      "subcat": "Personal",
+      "subcat2": "Formula",
+      "amount": 96,
+      "place": "Walmart",
+      "notes": null
     }
   ]
 }
