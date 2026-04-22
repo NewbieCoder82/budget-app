@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2903,
+  "nextTransId": 2904,
   "transactions": [
     {
       "id": 2856,
@@ -566,6 +566,18 @@
       "amount": 105,
       "place": "Costco",
       "notes": "School snacks, sugar and blueberries"
+    },
+    {
+      "id": 2903,
+      "date": "2026-04-22",
+      "account": "APLE",
+      "purchaser": "JJ",
+      "maincat": "Jahan",
+      "subcat": "Personal",
+      "subcat2": "Other",
+      "amount": 17,
+      "place": "Amazon",
+      "notes": "Water testing kit"
     }
   ]
 }
