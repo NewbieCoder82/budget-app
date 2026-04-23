@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2905,
+  "nextTransId": 2906,
   "transactions": [
     {
       "id": 2856,
@@ -589,6 +589,18 @@
       "subcat2": "Makeup",
       "amount": 33,
       "place": "Sephora",
+      "notes": null
+    },
+    {
+      "id": 2905,
+      "date": "2026-04-22",
+      "account": "APLE",
+      "purchaser": "JJ",
+      "maincat": "Us",
+      "subcat": "Food",
+      "subcat2": "Dinner",
+      "amount": 63,
+      "place": "Kabob and gyro",
       "notes": null
     }
   ]
