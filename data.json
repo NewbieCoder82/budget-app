@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2904,
+  "nextTransId": 2905,
   "transactions": [
     {
       "id": 2856,
@@ -578,6 +578,18 @@
       "amount": 49,
       "place": "Amazon",
       "notes": "Water testing kit"
+    },
+    {
+      "id": 2904,
+      "date": "2026-04-22",
+      "account": "APLE",
+      "purchaser": "JJ",
+      "maincat": "Jahan",
+      "subcat": "Personal",
+      "subcat2": "Makeup",
+      "amount": 33,
+      "place": "Sephora",
+      "notes": null
     }
   ]
 }
