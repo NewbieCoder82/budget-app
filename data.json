@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2906,
+  "nextTransId": 2907,
   "transactions": [
     {
       "id": 2856,
@@ -602,6 +602,18 @@
       "amount": 63,
       "place": "Kabob and gyro",
       "notes": null
+    },
+    {
+      "id": 2906,
+      "date": "2026-04-23",
+      "account": "APLE",
+      "purchaser": "JJ",
+      "maincat": "Us",
+      "subcat": "Grocery",
+      "subcat2": "Other",
+      "amount": 43,
+      "place": "Raleys",
+      "notes": "Dinner ingredients"
     }
   ]
 }
