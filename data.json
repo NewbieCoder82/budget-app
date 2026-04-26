@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2911,
+  "nextTransId": 2912,
   "transactions": [
     {
       "id": 2856,
@@ -662,6 +662,18 @@
       "amount": 74,
       "place": "Amazon",
       "notes": "Clothes for Idris"
+    },
+    {
+      "id": 2911,
+      "date": "2026-04-26",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Us",
+      "subcat": "Food",
+      "subcat2": "Lunch",
+      "amount": 37,
+      "place": "In n out",
+      "notes": null
     }
   ]
 }
