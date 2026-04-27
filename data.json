@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2912,
+  "nextTransId": 2913,
   "transactions": [
     {
       "id": 2856,
@@ -673,6 +673,18 @@
       "subcat2": "Lunch",
       "amount": 37,
       "place": "In n out",
+      "notes": null
+    },
+    {
+      "id": 2912,
+      "date": "2026-04-26",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Us",
+      "subcat": "Grocery",
+      "subcat2": "Weekly",
+      "amount": 39,
+      "place": "Raleys",
       "notes": null
     }
   ]
