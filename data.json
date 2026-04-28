@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2914,
+  "nextTransId": 2915,
   "transactions": [
     {
       "id": 2856,
@@ -697,6 +697,18 @@
       "subcat2": "Weekly",
       "amount": 36,
       "place": "Raleys",
+      "notes": null
+    },
+    {
+      "id": 2914,
+      "date": "2026-04-27",
+      "account": "APLE",
+      "purchaser": "JJ",
+      "maincat": "Us",
+      "subcat": "Food",
+      "subcat2": "Pastry",
+      "amount": 24,
+      "place": "Gelato",
       "notes": null
     }
   ]
