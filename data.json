@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2915,
+  "nextTransId": 2916,
   "transactions": [
     {
       "id": 2856,
@@ -710,6 +710,18 @@
       "amount": 24,
       "place": "Gelato",
       "notes": null
+    },
+    {
+      "id": 2915,
+      "date": "2026-04-29",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Yamin",
+      "subcat": null,
+      "subcat2": null,
+      "amount": 15,
+      "place": "Kaiser",
+      "notes": "Doc visit"
     }
   ]
 }
