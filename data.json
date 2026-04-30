@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2917,
+  "nextTransId": 2918,
   "transactions": [
     {
       "id": 2856,
@@ -734,6 +734,18 @@
       "amount": 19,
       "place": "Taqueria Puerto",
       "notes": "Was actually good"
+    },
+    {
+      "id": 2917,
+      "date": "2026-04-29",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Yamin",
+      "subcat": "Personal",
+      "subcat2": null,
+      "amount": 48,
+      "place": "Amazon",
+      "notes": "Diapers"
     }
   ]
 }
