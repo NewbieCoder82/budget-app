@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2920,
+  "nextTransId": 2921,
   "transactions": [
     {
       "id": 2856,
@@ -756,7 +756,7 @@
       "subcat": "Grocery",
       "subcat2": "Weekly",
       "amount": 32,
-      "place": "Trader Joeâs",
+      "place": "Trader JoeÃ¢ÂÂs",
       "notes": null
     },
     {
@@ -770,6 +770,18 @@
       "amount": 95,
       "place": "Banana Republic",
       "notes": "Jeans and two t shirts"
+    },
+    {
+      "id": 2920,
+      "date": "2026-04-30",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Us",
+      "subcat": "Food",
+      "subcat2": "Dinner",
+      "amount": 52,
+      "place": "Macdonalds",
+      "notes": null
     }
   ]
 }
