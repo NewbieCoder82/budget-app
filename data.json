@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2924,
+  "nextTransId": 2925,
   "transactions": [
     {
       "id": 2922,
@@ -26,6 +26,18 @@
       "amount": 30,
       "place": "Chx Fla",
       "notes": null
+    },
+    {
+      "id": 2924,
+      "date": "2026-05-10",
+      "account": "SVNG",
+      "purchaser": "AA",
+      "maincat": "J_Family",
+      "subcat": null,
+      "subcat2": null,
+      "amount": 200,
+      "place": "BofA",
+      "notes": "Mother’s Day"
     }
   ]
 }
