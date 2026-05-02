@@ -1,6 +1,19 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2922,
-  "transactions": []
+  "nextTransId": 2923,
+  "transactions": [
+    {
+      "id": 2922,
+      "date": "2026-05-01",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Yamin",
+      "subcat": "Personal",
+      "subcat2": "Formula",
+      "amount": 96,
+      "place": "Walmart",
+      "notes": null
+    }
+  ]
 }
