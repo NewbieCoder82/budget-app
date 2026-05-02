@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2925,
+  "nextTransId": 2926,
   "transactions": [
     {
       "id": 2922,
@@ -33,6 +33,18 @@
       "account": "SVNG",
       "purchaser": "AA",
       "maincat": "J_Family",
+      "subcat": null,
+      "subcat2": null,
+      "amount": 200,
+      "place": "BofA",
+      "notes": "Mother’s Day"
+    },
+    {
+      "id": 2925,
+      "date": "2026-05-10",
+      "account": "SVNG",
+      "purchaser": "AA",
+      "maincat": "A_Family",
       "subcat": null,
       "subcat2": null,
       "amount": 200,
