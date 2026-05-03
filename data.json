@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2926,
+  "nextTransId": 2927,
   "transactions": [
     {
       "id": 2922,
@@ -37,7 +37,7 @@
       "subcat2": null,
       "amount": 200,
       "place": "BofA",
-      "notes": "Mother’s Day"
+      "notes": "Motherâs Day"
     },
     {
       "id": 2925,
@@ -49,7 +49,19 @@
       "subcat2": null,
       "amount": 200,
       "place": "BofA",
-      "notes": "Mother’s Day"
+      "notes": "Motherâs Day"
+    },
+    {
+      "id": 2926,
+      "date": "2026-05-03",
+      "account": "ULTM",
+      "purchaser": "JJ",
+      "maincat": "J_FAMILY",
+      "subcat": "FOOD",
+      "subcat2": "LUNCH",
+      "amount": 127,
+      "place": "RALEYS",
+      "notes": "THE DAY HER PARENTS WERE COMING OVER PRIOR TO MOTHERS DAY WEEKEND"
     }
   ]
 }
