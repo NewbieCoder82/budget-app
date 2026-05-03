@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2928,
+  "nextTransId": 2929,
   "transactions": [
     {
       "id": 2922,
@@ -74,6 +74,18 @@
       "amount": 45,
       "place": "SUBWAY",
       "notes": "IDRIS CHOICE"
+    },
+    {
+      "id": 2928,
+      "date": "2026-05-03",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Us",
+      "subcat": "Grocery",
+      "subcat2": "Weekly",
+      "amount": 200,
+      "place": "Costco",
+      "notes": null
     }
   ]
 }
