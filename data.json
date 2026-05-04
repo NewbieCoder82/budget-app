@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2930,
+  "nextTransId": 2931,
   "transactions": [
     {
       "id": 2922,
@@ -98,6 +98,18 @@
       "amount": 327,
       "place": "Target",
       "notes": "Mothers day gift of vitamix blender"
+    },
+    {
+      "id": 2930,
+      "date": "2026-05-04",
+      "account": "APLE",
+      "purchaser": "JJ",
+      "maincat": "Kids",
+      "subcat": null,
+      "subcat2": null,
+      "amount": 109,
+      "place": "Amazon",
+      "notes": "Gift cards for teachers"
     }
   ]
 }
