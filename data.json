@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2929,
+  "nextTransId": 2930,
   "transactions": [
     {
       "id": 2922,
@@ -86,6 +86,18 @@
       "amount": 200,
       "place": "Costco",
       "notes": null
+    },
+    {
+      "id": 2929,
+      "date": "2026-05-04",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Jahan",
+      "subcat": null,
+      "subcat2": null,
+      "amount": 327,
+      "place": "Target",
+      "notes": "Mothers day gift of vitamix blender"
     }
   ]
 }
