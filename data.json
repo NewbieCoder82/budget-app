@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2931,
+  "nextTransId": 2932,
   "transactions": [
     {
       "id": 2922,
@@ -110,6 +110,18 @@
       "amount": 109,
       "place": "Amazon",
       "notes": "Gift cards for teachers"
+    },
+    {
+      "id": 2931,
+      "date": "2026-05-05",
+      "account": "APLE",
+      "purchaser": "JJ",
+      "maincat": "Us",
+      "subcat": "Grocery",
+      "subcat2": "Weekly",
+      "amount": 25,
+      "place": "Raleys",
+      "notes": "Ingredients for lasagna"
     }
   ]
 }
