@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2932,
+  "nextTransId": 2933,
   "transactions": [
     {
       "id": 2922,
@@ -122,6 +122,18 @@
       "amount": 25,
       "place": "Raleys",
       "notes": "Ingredients for lasagna"
+    },
+    {
+      "id": 2932,
+      "date": "2026-05-05",
+      "account": "SVNG",
+      "purchaser": "AA",
+      "maincat": "J_Family",
+      "subcat": null,
+      "subcat2": null,
+      "amount": 65,
+      "place": "Starbread",
+      "notes": "Payback to Khala Jaan"
     }
   ]
 }
