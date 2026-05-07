@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2934,
+  "nextTransId": 2935,
   "transactions": [
     {
       "id": 2922,
@@ -146,6 +146,18 @@
       "amount": 15,
       "place": "Macdonalds",
       "notes": "McFlurry"
+    },
+    {
+      "id": 2934,
+      "date": "2026-05-07",
+      "account": "APLE",
+      "purchaser": "JJ",
+      "maincat": "Idris",
+      "subcat": null,
+      "subcat2": null,
+      "amount": 48,
+      "place": "Amazon",
+      "notes": "Bday decorations"
     }
   ]
 }
