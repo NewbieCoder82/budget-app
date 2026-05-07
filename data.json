@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2933,
+  "nextTransId": 2934,
   "transactions": [
     {
       "id": 2922,
@@ -134,6 +134,18 @@
       "amount": 65,
       "place": "Starbread",
       "notes": "Payback to Khala Jaan"
+    },
+    {
+      "id": 2933,
+      "date": "2026-05-06",
+      "account": "APLE",
+      "purchaser": "JJ",
+      "maincat": "Us",
+      "subcat": "Food",
+      "subcat2": "Pastry",
+      "amount": 15,
+      "place": "Macdonalds",
+      "notes": "McFlurry"
     }
   ]
 }
