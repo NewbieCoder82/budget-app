@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2940,
+  "nextTransId": 2941,
   "transactions": [
     {
       "id": 2922,
@@ -218,6 +218,18 @@
       "amount": 17,
       "place": "AMAZON",
       "notes": "BDAY STUFF"
+    },
+    {
+      "id": 2940,
+      "date": "2026-05-08",
+      "account": "ULTM",
+      "purchaser": "JJ",
+      "maincat": "US",
+      "subcat": "FOOD",
+      "subcat2": "LUNCH",
+      "amount": 29,
+      "place": "MACDONALDS",
+      "notes": "IDRIS EARLY DAY FROM SCHOOL"
     }
   ]
 }
