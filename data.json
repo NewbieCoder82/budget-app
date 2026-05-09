@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2937,
+  "nextTransId": 2938,
   "transactions": [
     {
       "id": 2922,
@@ -182,6 +182,18 @@
       "amount": 60,
       "place": "COSTCO GAS",
       "notes": null
+    },
+    {
+      "id": 2937,
+      "date": "2026-05-07",
+      "account": "ULTM",
+      "purchaser": "JJ",
+      "maincat": "HOME",
+      "subcat": null,
+      "subcat2": "OTHER",
+      "amount": 23,
+      "place": "WALMART",
+      "notes": "DISH SOAP AND SOME NAKED CHIPS"
     }
   ]
 }
