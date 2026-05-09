@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2939,
+  "nextTransId": 2940,
   "transactions": [
     {
       "id": 2922,
@@ -206,6 +206,18 @@
       "amount": 37,
       "place": "PANDA EXPRESS",
       "notes": null
+    },
+    {
+      "id": 2939,
+      "date": "2026-05-07",
+      "account": "ULTM",
+      "purchaser": "JJ",
+      "maincat": "IDRIS",
+      "subcat": "CLOTHING",
+      "subcat2": "OTHER",
+      "amount": 17,
+      "place": "AMAZON",
+      "notes": "BDAY STUFF"
     }
   ]
 }
