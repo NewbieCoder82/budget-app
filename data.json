@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2936,
+  "nextTransId": 2937,
   "transactions": [
     {
       "id": 2922,
@@ -170,6 +170,18 @@
       "amount": 18,
       "place": "Naan Boy",
       "notes": "Ingredients for gathering at my parents"
+    },
+    {
+      "id": 2936,
+      "date": "2026-05-07",
+      "account": "ULTM",
+      "purchaser": "AA",
+      "maincat": "TRANSPORTATION",
+      "subcat": "NAVI",
+      "subcat2": "GAS",
+      "amount": 60,
+      "place": "COSTCO GAS",
+      "notes": null
     }
   ]
 }
