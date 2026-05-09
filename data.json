@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2935,
+  "nextTransId": 2936,
   "transactions": [
     {
       "id": 2922,
@@ -158,6 +158,18 @@
       "amount": 48,
       "place": "Amazon",
       "notes": "Bday decorations"
+    },
+    {
+      "id": 2935,
+      "date": "2026-05-07",
+      "account": "ULTM",
+      "purchaser": "AA",
+      "maincat": "A_Family",
+      "subcat": "Grocery",
+      "subcat2": "Other",
+      "amount": 18,
+      "place": "Naan Boy",
+      "notes": "Ingredients for gathering at my parents"
     }
   ]
 }
