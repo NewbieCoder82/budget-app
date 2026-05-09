@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2938,
+  "nextTransId": 2939,
   "transactions": [
     {
       "id": 2922,
@@ -194,6 +194,18 @@
       "amount": 23,
       "place": "WALMART",
       "notes": "DISH SOAP AND SOME NAKED CHIPS"
+    },
+    {
+      "id": 2938,
+      "date": "2026-05-07",
+      "account": "ULTM",
+      "purchaser": "JJ",
+      "maincat": "US",
+      "subcat": "FOOD",
+      "subcat2": "DINNER",
+      "amount": 37,
+      "place": "PANDA EXPRESS",
+      "notes": null
     }
   ]
 }
