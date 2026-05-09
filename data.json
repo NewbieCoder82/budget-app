@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2941,
+  "nextTransId": 2942,
   "transactions": [
     {
       "id": 2922,
@@ -230,6 +230,18 @@
       "amount": 29,
       "place": "MACDONALDS",
       "notes": "IDRIS EARLY DAY FROM SCHOOL"
+    },
+    {
+      "id": 2941,
+      "date": "2026-05-08",
+      "account": "ULTM",
+      "purchaser": "AA",
+      "maincat": "ABDUL",
+      "subcat": "PERSONAL",
+      "subcat2": "NICOTINE",
+      "amount": 49,
+      "place": "TARGET",
+      "notes": "NICOTINE AND BOTTLE CLEANING SOAP"
     }
   ]
 }
