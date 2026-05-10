@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2942,
+  "nextTransId": 2943,
   "transactions": [
     {
       "id": 2922,
@@ -242,6 +242,18 @@
       "amount": 49,
       "place": "TARGET",
       "notes": "NICOTINE AND BOTTLE CLEANING SOAP"
+    },
+    {
+      "id": 2942,
+      "date": "2026-05-09",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Us",
+      "subcat": "Food",
+      "subcat2": "Dinner",
+      "amount": 36,
+      "place": "Taco Bell",
+      "notes": null
     }
   ]
 }
