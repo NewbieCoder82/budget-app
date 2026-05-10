@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2943,
+  "nextTransId": 2944,
   "transactions": [
     {
       "id": 2922,
@@ -254,6 +254,18 @@
       "amount": 36,
       "place": "Taco Bell",
       "notes": null
+    },
+    {
+      "id": 2943,
+      "date": "2026-05-09",
+      "account": "APLE",
+      "purchaser": "JJ",
+      "maincat": "Idris",
+      "subcat": null,
+      "subcat2": null,
+      "amount": 37,
+      "place": "Nuggets",
+      "notes": "Cake ingredients"
     }
   ]
 }
