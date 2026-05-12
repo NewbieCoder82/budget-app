@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2948,
+  "nextTransId": 2949,
   "transactions": [
     {
       "id": 2922,
@@ -314,6 +314,18 @@
       "amount": 88,
       "place": "Costco",
       "notes": "Smoothie ingredients"
+    },
+    {
+      "id": 2948,
+      "date": "2026-05-11",
+      "account": "APLE",
+      "purchaser": "JJ",
+      "maincat": "Idris",
+      "subcat": null,
+      "subcat2": null,
+      "amount": 1157,
+      "place": "Kang Taekwondo",
+      "notes": "Enrollment and uniform"
     }
   ]
 }
