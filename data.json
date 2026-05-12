@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2949,
+  "nextTransId": 2950,
   "transactions": [
     {
       "id": 2922,
@@ -326,6 +326,18 @@
       "amount": 45,
       "place": "Kang Taekwondo",
       "notes": "Enrollment and uniform"
+    },
+    {
+      "id": 2949,
+      "date": "2026-05-12",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Us",
+      "subcat": "Personal",
+      "subcat2": "Coffee",
+      "amount": 62,
+      "place": "Nespresso",
+      "notes": null
     }
   ]
 }
