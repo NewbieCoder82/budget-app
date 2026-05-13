@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2950,
+  "nextTransId": 2951,
   "transactions": [
     {
       "id": 2922,
@@ -338,6 +338,18 @@
       "amount": 62,
       "place": "Nespresso",
       "notes": null
+    },
+    {
+      "id": 2950,
+      "date": "2026-05-12",
+      "account": "SVNG",
+      "purchaser": "AA",
+      "maincat": "Religion",
+      "subcat": null,
+      "subcat2": null,
+      "amount": 300,
+      "place": null,
+      "notes": "Qurbani"
     }
   ]
 }
