@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2951,
+  "nextTransId": 2952,
   "transactions": [
     {
       "id": 2922,
@@ -350,6 +350,18 @@
       "amount": 300,
       "place": null,
       "notes": "Qurbani"
+    },
+    {
+      "id": 2951,
+      "date": "2026-05-13",
+      "account": "APLE",
+      "purchaser": "JJ",
+      "maincat": "Jahan",
+      "subcat": null,
+      "subcat2": null,
+      "amount": 395,
+      "place": null,
+      "notes": null
     }
   ]
 }
