@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2956,
+  "nextTransId": 2957,
   "transactions": [
     {
       "id": 2922,
@@ -410,6 +410,18 @@
       "amount": 163,
       "place": "Target",
       "notes": "Idris bday toys"
+    },
+    {
+      "id": 2956,
+      "date": "2026-05-16",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Us",
+      "subcat": "Food",
+      "subcat2": "Lunch",
+      "amount": 31,
+      "place": "Macdonalds",
+      "notes": null
     }
   ]
 }
