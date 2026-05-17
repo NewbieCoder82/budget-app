@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2957,
+  "nextTransId": 2958,
   "transactions": [
     {
       "id": 2922,
@@ -422,6 +422,18 @@
       "amount": 31,
       "place": "Macdonalds",
       "notes": null
+    },
+    {
+      "id": 2957,
+      "date": "2026-05-16",
+      "account": "APLE",
+      "purchaser": "JJ",
+      "maincat": "J_Family",
+      "subcat": "Food",
+      "subcat2": null,
+      "amount": 42,
+      "place": "Jacks",
+      "notes": "RG and JJ"
     }
   ]
 }
