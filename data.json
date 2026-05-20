@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2963,
+  "nextTransId": 2964,
   "transactions": [
     {
       "id": 2922,
@@ -494,6 +494,18 @@
       "amount": 52,
       "place": "Raleys",
       "notes": "Juices and stuff for illness"
+    },
+    {
+      "id": 2963,
+      "date": "2026-05-19",
+      "account": "APLE",
+      "purchaser": "JJ",
+      "maincat": "A_and_J",
+      "subcat": null,
+      "subcat2": null,
+      "amount": 44,
+      "place": "Kabob and gyro",
+      "notes": null
     }
   ]
 }
