@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2968,
+  "nextTransId": 2969,
   "transactions": [
     {
       "id": 2922,
@@ -554,6 +554,18 @@
       "amount": 19,
       "place": "Macdonalds",
       "notes": "Soft serves"
+    },
+    {
+      "id": 2968,
+      "date": "2026-05-21",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Abdul",
+      "subcat": null,
+      "subcat2": null,
+      "amount": 71,
+      "place": "Happy",
+      "notes": null
     }
   ]
 }
