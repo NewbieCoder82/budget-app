@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2967,
+  "nextTransId": 2968,
   "transactions": [
     {
       "id": 2922,
@@ -542,6 +542,18 @@
       "amount": 50,
       "place": "Raleys",
       "notes": "Ear infection day"
+    },
+    {
+      "id": 2967,
+      "date": "2026-05-20",
+      "account": "APLE",
+      "purchaser": "JJ",
+      "maincat": "Us",
+      "subcat": null,
+      "subcat2": null,
+      "amount": 19,
+      "place": "Macdonalds",
+      "notes": "Soft serves"
     }
   ]
 }
