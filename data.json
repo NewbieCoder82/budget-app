@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2969,
+  "nextTransId": 2970,
   "transactions": [
     {
       "id": 2922,
@@ -566,6 +566,18 @@
       "amount": 71,
       "place": "Happy",
       "notes": null
+    },
+    {
+      "id": 2969,
+      "date": "2026-05-21",
+      "account": "APLE",
+      "purchaser": "JJ",
+      "maincat": "Jahan",
+      "subcat": "Grocery",
+      "subcat2": "Other",
+      "amount": 50,
+      "place": "Costco",
+      "notes": "Work picnic"
     }
   ]
 }
