@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2972,
+  "nextTransId": 2973,
   "transactions": [
     {
       "id": 2922,
@@ -602,6 +602,18 @@
       "amount": 33,
       "place": "Target",
       "notes": "Water wipes"
+    },
+    {
+      "id": 2972,
+      "date": "2026-05-22",
+      "account": "APLE",
+      "purchaser": "JJ",
+      "maincat": "Us",
+      "subcat": "Grocery",
+      "subcat2": "Other",
+      "amount": 25,
+      "place": "Naan Boy",
+      "notes": "Leiks"
     }
   ]
 }
