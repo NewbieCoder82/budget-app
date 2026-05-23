@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2975,
+  "nextTransId": 2976,
   "transactions": [
     {
       "id": 2922,
@@ -638,6 +638,18 @@
       "amount": 87,
       "place": "Costco Gas",
       "notes": null
+    },
+    {
+      "id": 2975,
+      "date": "2026-05-22",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Us",
+      "subcat": "Food",
+      "subcat2": "Pastry",
+      "amount": 11,
+      "place": "Land park",
+      "notes": "Land park donuts"
     }
   ]
 }
