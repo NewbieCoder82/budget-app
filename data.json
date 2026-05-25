@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2982,
+  "nextTransId": 2983,
   "transactions": [
     {
       "id": 2922,
@@ -722,6 +722,18 @@
       "amount": 51,
       "place": "Raleys",
       "notes": "Milk, pouches, chx strips"
+    },
+    {
+      "id": 2982,
+      "date": "2026-05-25",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Abdul",
+      "subcat": "Food",
+      "subcat2": "Lunch",
+      "amount": 20,
+      "place": "Taqueria Puerta",
+      "notes": null
     }
   ]
 }
