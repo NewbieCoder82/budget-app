@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2979,
+  "nextTransId": 2980,
   "transactions": [
     {
       "id": 2922,
@@ -686,6 +686,18 @@
       "amount": 15,
       "place": "Trader Joes",
       "notes": "Trip snacks"
+    },
+    {
+      "id": 2979,
+      "date": "2026-05-24",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Transportation",
+      "subcat": "Navi",
+      "subcat2": "Gas",
+      "amount": 62,
+      "place": "Costco Gas",
+      "notes": null
     }
   ]
 }
