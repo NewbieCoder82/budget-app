@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2987,
+  "nextTransId": 2988,
   "transactions": [
     {
       "id": 2922,
@@ -781,6 +781,18 @@
       "subcat2": "Gas",
       "amount": 57,
       "place": "Costco Gas",
+      "notes": null
+    },
+    {
+      "id": 2987,
+      "date": "2026-05-28",
+      "account": "APLE",
+      "purchaser": "JJ",
+      "maincat": "Us",
+      "subcat": "Food",
+      "subcat2": "Dinner",
+      "amount": 50,
+      "place": "Kabob and Gyro",
       "notes": null
     }
   ]
