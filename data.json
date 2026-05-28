@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2985,
+  "nextTransId": 2986,
   "transactions": [
     {
       "id": 2922,
@@ -758,6 +758,18 @@
       "amount": 25,
       "place": "Raleys",
       "notes": "Suffy for kinder graduation"
+    },
+    {
+      "id": 2985,
+      "date": "2026-05-27",
+      "account": "APLE",
+      "purchaser": "JJ",
+      "maincat": "Us",
+      "subcat": null,
+      "subcat2": null,
+      "amount": 50,
+      "place": "Subway",
+      "notes": "After graduation"
     }
   ]
 }
