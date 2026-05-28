@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2983,
+  "nextTransId": 2984,
   "transactions": [
     {
       "id": 2922,
@@ -734,6 +734,18 @@
       "amount": 20,
       "place": "Taqueria Puerta",
       "notes": null
+    },
+    {
+      "id": 2983,
+      "date": "2026-05-27",
+      "account": "APLE",
+      "purchaser": "JJ",
+      "maincat": "Yamin",
+      "subcat": null,
+      "subcat2": null,
+      "amount": 36,
+      "place": "Amazon",
+      "notes": "2 pack bamboo clothes"
     }
   ]
 }
