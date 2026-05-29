@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2988,
+  "nextTransId": 2989,
   "transactions": [
     {
       "id": 2922,
@@ -794,6 +794,18 @@
       "amount": 50,
       "place": "Kabob and Gyro",
       "notes": null
+    },
+    {
+      "id": 2988,
+      "date": "2026-05-28",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Us",
+      "subcat": "Food",
+      "subcat2": "Dinner",
+      "amount": 55,
+      "place": "Pieology",
+      "notes": "Belt grad dinner"
     }
   ]
 }
