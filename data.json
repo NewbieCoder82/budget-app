@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2991,
+  "nextTransId": 2992,
   "transactions": [
     {
       "id": 2922,
@@ -830,6 +830,18 @@
       "amount": 89,
       "place": "Costco",
       "notes": "Kids last day of school"
+    },
+    {
+      "id": 2991,
+      "date": "2026-05-30",
+      "account": "APLE",
+      "purchaser": "JJ",
+      "maincat": "Us",
+      "subcat": "Grocery",
+      "subcat2": "Other",
+      "amount": 19,
+      "place": "Raleys",
+      "notes": null
     }
   ]
 }
