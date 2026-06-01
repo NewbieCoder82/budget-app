@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2997,
+  "nextTransId": 2998,
   "transactions": [
     {
       "id": 2922,
@@ -902,6 +902,18 @@
       "amount": 25,
       "place": "Raleys",
       "notes": null
+    },
+    {
+      "id": 2997,
+      "date": "2026-05-31",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Us",
+      "subcat": "Food",
+      "subcat2": "Lunch",
+      "amount": 26,
+      "place": "McDonalds",
+      "notes": "Food on way to Sly park"
     }
   ]
 }
