@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2996,
+  "nextTransId": 2997,
   "transactions": [
     {
       "id": 2922,
@@ -890,6 +890,18 @@
       "amount": 18,
       "place": "Raleys",
       "notes": "Pouches"
+    },
+    {
+      "id": 2996,
+      "date": "2026-05-31",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Us",
+      "subcat": "Grocery",
+      "subcat2": "Other",
+      "amount": 25,
+      "place": "Raleys",
+      "notes": null
     }
   ]
 }
