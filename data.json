@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 3001,
+  "nextTransId": 3002,
   "transactions": [
     {
       "id": 3000,
@@ -14,6 +14,18 @@
       "amount": 50,
       "place": "Target",
       "notes": "Millie Moon"
+    },
+    {
+      "id": 3001,
+      "date": "2026-06-01",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Abdul",
+      "subcat": "Personal",
+      "subcat2": "Nicotine",
+      "amount": 43,
+      "place": "Target",
+      "notes": null
     }
   ]
 }
