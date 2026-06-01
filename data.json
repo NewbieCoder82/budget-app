@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2999,
+  "nextTransId": 3000,
   "transactions": [
     {
       "id": 2922,
@@ -926,6 +926,18 @@
       "amount": 59,
       "place": "Costco Gas",
       "notes": null
+    },
+    {
+      "id": 2999,
+      "date": "2026-05-31",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Us",
+      "subcat": "Food",
+      "subcat2": "Dinner",
+      "amount": 29,
+      "place": "In n Out",
+      "notes": "Food on way back from Sly park. Kids had a good time"
     }
   ]
 }
