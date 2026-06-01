@@ -1,6 +1,19 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 3000,
-  "transactions": []
+  "nextTransId": 3001,
+  "transactions": [
+    {
+      "id": 3000,
+      "date": "2026-06-01",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Yamin",
+      "subcat": "Personal",
+      "subcat2": "Diapers Related",
+      "amount": 50,
+      "place": "Target",
+      "notes": "Millie Moon"
+    }
+  ]
 }
