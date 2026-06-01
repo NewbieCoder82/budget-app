@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 2998,
+  "nextTransId": 2999,
   "transactions": [
     {
       "id": 2922,
@@ -914,6 +914,18 @@
       "amount": 26,
       "place": "McDonalds",
       "notes": "Food on way to Sly park"
+    },
+    {
+      "id": 2998,
+      "date": "2026-05-31",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Transportation",
+      "subcat": "Navi",
+      "subcat2": "Gas",
+      "amount": 59,
+      "place": "Costco Gas",
+      "notes": null
     }
   ]
 }
