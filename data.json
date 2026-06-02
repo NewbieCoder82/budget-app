@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 3002,
+  "nextTransId": 3003,
   "transactions": [
     {
       "id": 3000,
@@ -25,6 +25,18 @@
       "subcat2": "Nicotine",
       "amount": 43,
       "place": "Target",
+      "notes": null
+    },
+    {
+      "id": 3002,
+      "date": "2026-06-01",
+      "account": "APLE",
+      "purchaser": "JJ",
+      "maincat": "Us",
+      "subcat": "Grocery",
+      "subcat2": "Snacks",
+      "amount": 45,
+      "place": "Costco",
       "notes": null
     }
   ]
