@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 3003,
+  "nextTransId": 3004,
   "transactions": [
     {
       "id": 3000,
@@ -38,6 +38,18 @@
       "amount": 35,
       "place": "Costco",
       "notes": null
+    },
+    {
+      "id": 3003,
+      "date": "2026-06-01",
+      "account": "APLE",
+      "purchaser": "JJ",
+      "maincat": "Kids",
+      "subcat": null,
+      "subcat2": null,
+      "amount": 119,
+      "place": "Amazon",
+      "notes": "Swim wear"
     }
   ]
 }
