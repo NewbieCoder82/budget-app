@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 3005,
+  "nextTransId": 3006,
   "transactions": [
     {
       "id": 3000,
@@ -62,6 +62,18 @@
       "amount": 272,
       "place": "Costco",
       "notes": "Paper towel kids snax batteries beef etc"
+    },
+    {
+      "id": 3005,
+      "date": "2026-06-03",
+      "account": "APLE",
+      "purchaser": "JJ",
+      "maincat": "Us",
+      "subcat": "Costco",
+      "subcat2": "Weekly",
+      "amount": 21,
+      "place": "Costco",
+      "notes": "Guac and mango"
     }
   ]
 }
