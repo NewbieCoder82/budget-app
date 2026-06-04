@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 3004,
+  "nextTransId": 3005,
   "transactions": [
     {
       "id": 3000,
@@ -50,6 +50,18 @@
       "amount": 119,
       "place": "Amazon",
       "notes": "Swim wear"
+    },
+    {
+      "id": 3004,
+      "date": "2026-06-03",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Us",
+      "subcat": "Grocery",
+      "subcat2": "Weekly",
+      "amount": 272,
+      "place": "Costco",
+      "notes": "Paper towel kids snax batteries beef etc"
     }
   ]
 }
