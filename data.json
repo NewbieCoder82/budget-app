@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 3007,
+  "nextTransId": 3008,
   "transactions": [
     {
       "id": 3000,
@@ -86,6 +86,18 @@
       "amount": 25,
       "place": "Raleys",
       "notes": "Milk and stuff for snack"
+    },
+    {
+      "id": 3007,
+      "date": "2026-06-04",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Home",
+      "subcat": null,
+      "subcat2": null,
+      "amount": 36,
+      "place": "Home Depot",
+      "notes": "Air Filter and painter tape for kids"
     }
   ]
 }
