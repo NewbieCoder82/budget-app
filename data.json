@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 3015,
+  "nextTransId": 3016,
   "transactions": [
     {
       "id": 3000,
@@ -182,6 +182,18 @@
       "amount": 52,
       "place": "Kabob and Gyro",
       "notes": "After Morse park with Shoaib and Twins"
+    },
+    {
+      "id": 3015,
+      "date": "2026-06-07",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Us",
+      "subcat": null,
+      "subcat2": null,
+      "amount": 75,
+      "place": "Nespresso",
+      "notes": null
     }
   ]
 }
