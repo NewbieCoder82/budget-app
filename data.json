@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 3013,
+  "nextTransId": 3014,
   "transactions": [
     {
       "id": 3000,
@@ -158,6 +158,18 @@
       "amount": 15,
       "place": "Raleys",
       "notes": "Bday Card for Omar and Snax for Yamin"
+    },
+    {
+      "id": 3013,
+      "date": "2026-06-06",
+      "account": "APLE",
+      "purchaser": "JJ",
+      "maincat": "Us",
+      "subcat": null,
+      "subcat2": null,
+      "amount": 19,
+      "place": "Raleys",
+      "notes": "Ginger Ale and milk"
     }
   ]
 }
