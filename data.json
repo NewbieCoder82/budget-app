@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 3017,
+  "nextTransId": 3018,
   "transactions": [
     {
       "id": 3000,
@@ -206,6 +206,18 @@
       "amount": 23,
       "place": "Car wash",
       "notes": "Car wash"
+    },
+    {
+      "id": 3017,
+      "date": "2026-06-07",
+      "account": "APLE",
+      "purchaser": "JJ",
+      "maincat": "Us",
+      "subcat": "Grocery",
+      "subcat2": null,
+      "amount": 35,
+      "place": "Raleys",
+      "notes": "More bs plus liners"
     }
   ]
 }
