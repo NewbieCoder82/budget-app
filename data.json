@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 3020,
+  "nextTransId": 3021,
   "transactions": [
     {
       "id": 3000,
@@ -242,6 +242,18 @@
       "amount": 37,
       "place": "Raleys",
       "notes": "Shrimp pasta ingredients"
+    },
+    {
+      "id": 3020,
+      "date": "2026-06-10",
+      "account": "APLE",
+      "purchaser": "JJ",
+      "maincat": "Us",
+      "subcat": "Grocery",
+      "subcat2": "Weekly",
+      "amount": 53,
+      "place": "Raleys",
+      "notes": "Multiple milk and waffles"
     }
   ]
 }
