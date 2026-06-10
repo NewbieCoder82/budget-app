@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 3019,
+  "nextTransId": 3020,
   "transactions": [
     {
       "id": 3000,
@@ -230,6 +230,18 @@
       "amount": 74,
       "place": "Chopan Kabob",
       "notes": "New owners food was ok"
+    },
+    {
+      "id": 3019,
+      "date": "2026-06-09",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Us",
+      "subcat": "Grocery",
+      "subcat2": "Other",
+      "amount": 37,
+      "place": "Raleys",
+      "notes": "Shrimp pasta ingredients"
     }
   ]
 }
