@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 3023,
+  "nextTransId": 3024,
   "transactions": [
     {
       "id": 3000,
@@ -278,6 +278,18 @@
       "amount": 242,
       "place": "DMV",
       "notes": "Registration"
+    },
+    {
+      "id": 3023,
+      "date": "2026-06-11",
+      "account": "APLE",
+      "purchaser": "JJ",
+      "maincat": "Us",
+      "subcat": "Grocery",
+      "subcat2": "Other",
+      "amount": 6,
+      "place": "Trader Joes",
+      "notes": null
     }
   ]
 }
