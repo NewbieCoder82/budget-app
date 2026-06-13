@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 3028,
+  "nextTransId": 3029,
   "transactions": [
     {
       "id": 3000,
@@ -338,6 +338,18 @@
       "amount": 30,
       "place": "Arco",
       "notes": "Roseville after helping JJ parents"
+    },
+    {
+      "id": 3028,
+      "date": "2026-06-13",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Home",
+      "subcat": null,
+      "subcat2": null,
+      "amount": 18,
+      "place": "Amazon",
+      "notes": "Cockroach trap"
     }
   ]
 }
