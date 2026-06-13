@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 3026,
+  "nextTransId": 3027,
   "transactions": [
     {
       "id": 3000,
@@ -314,6 +314,18 @@
       "amount": 16,
       "place": "NuYu",
       "notes": null
+    },
+    {
+      "id": 3026,
+      "date": "2026-06-12",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "J_Family",
+      "subcat": "Food",
+      "subcat2": "Dinner",
+      "amount": 26,
+      "place": "Chx Fla",
+      "notes": "For JJ PARENTS"
     }
   ]
 }
