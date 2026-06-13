@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 3024,
+  "nextTransId": 3025,
   "transactions": [
     {
       "id": 3000,
@@ -290,6 +290,18 @@
       "amount": 6,
       "place": "Trader Joes",
       "notes": null
+    },
+    {
+      "id": 3024,
+      "date": "2026-06-12",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Us",
+      "subcat": "Food",
+      "subcat2": "Dinner",
+      "amount": 71,
+      "place": "Sactown Pizza",
+      "notes": "Cancelled chiFi due to JJ MOM WATER HEATER"
     }
   ]
 }
