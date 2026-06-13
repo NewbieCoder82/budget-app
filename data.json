@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 3027,
+  "nextTransId": 3028,
   "transactions": [
     {
       "id": 3000,
@@ -326,6 +326,18 @@
       "amount": 26,
       "place": "Chx Fla",
       "notes": "For JJ PARENTS"
+    },
+    {
+      "id": 3027,
+      "date": "2026-06-12",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Transportation",
+      "subcat": "Navi",
+      "subcat2": "Gas",
+      "amount": 30,
+      "place": "Arco",
+      "notes": "Roseville after helping JJ parents"
     }
   ]
 }
