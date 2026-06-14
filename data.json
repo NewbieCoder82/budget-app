@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 3030,
+  "nextTransId": 3031,
   "transactions": [
     {
       "id": 3000,
@@ -362,6 +362,18 @@
       "amount": 31,
       "place": "Raleys",
       "notes": "Ingredients to take food to Shoaib party"
+    },
+    {
+      "id": 3030,
+      "date": "2026-06-14",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Yamin",
+      "subcat": null,
+      "subcat2": null,
+      "amount": 48,
+      "place": "Childrens place",
+      "notes": "Tanks shorts and another 3 piece set"
     }
   ]
 }
