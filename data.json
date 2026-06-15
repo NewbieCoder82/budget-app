@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 3037,
+  "nextTransId": 3038,
   "transactions": [
     {
       "id": 3000,
@@ -445,6 +445,18 @@
       "subcat2": null,
       "amount": 15,
       "place": "Chipotle",
+      "notes": null
+    },
+    {
+      "id": 3037,
+      "date": "2026-06-15",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Abdul",
+      "subcat": null,
+      "subcat2": null,
+      "amount": 42,
+      "place": "Target",
       "notes": null
     }
   ]
