@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 3039,
+  "nextTransId": 3040,
   "transactions": [
     {
       "id": 3000,
@@ -470,6 +470,18 @@
       "amount": 21,
       "place": "Target",
       "notes": "Diaper cream"
+    },
+    {
+      "id": 3039,
+      "date": "2026-06-15",
+      "account": "APLE",
+      "purchaser": "JJ",
+      "maincat": "Us",
+      "subcat": null,
+      "subcat2": null,
+      "amount": 16,
+      "place": "Indian market",
+      "notes": "Some snacks"
     }
   ]
 }
