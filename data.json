@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 3042,
+  "nextTransId": 3043,
   "transactions": [
     {
       "id": 3000,
@@ -506,6 +506,18 @@
       "amount": 55,
       "place": "Amazon",
       "notes": "Fire blankets after she got flames on skillet"
+    },
+    {
+      "id": 3042,
+      "date": "2026-06-17",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Us",
+      "subcat": "Grocery",
+      "subcat2": null,
+      "amount": 101,
+      "place": "Costco",
+      "notes": "Kid snacks and chicken and milk"
     }
   ]
 }
