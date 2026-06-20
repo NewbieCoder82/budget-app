@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 3046,
+  "nextTransId": 3047,
   "transactions": [
     {
       "id": 3000,
@@ -554,6 +554,18 @@
       "amount": 117,
       "place": "Nordstrom rack",
       "notes": "Dress for grad party"
+    },
+    {
+      "id": 3046,
+      "date": "2026-06-19",
+      "account": "APLE",
+      "purchaser": "JJ",
+      "maincat": "Jahan",
+      "subcat": null,
+      "subcat2": null,
+      "amount": 55,
+      "place": "Sephora",
+      "notes": "I Liner and moisturizer"
     }
   ]
 }
