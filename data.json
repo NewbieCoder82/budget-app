@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 3047,
+  "nextTransId": 3048,
   "transactions": [
     {
       "id": 3000,
@@ -566,6 +566,18 @@
       "amount": 55,
       "place": "Sephora",
       "notes": "I Liner and moisturizer"
+    },
+    {
+      "id": 3047,
+      "date": "2026-06-19",
+      "account": "APLE",
+      "purchaser": "JJ",
+      "maincat": "Transportation",
+      "subcat": "Subaru",
+      "subcat2": "Gas",
+      "amount": 28,
+      "place": "Costco Gas",
+      "notes": null
     }
   ]
 }
