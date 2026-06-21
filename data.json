@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 3050,
+  "nextTransId": 3051,
   "transactions": [
     {
       "id": 3000,
@@ -602,6 +602,18 @@
       "amount": 63,
       "place": "Fikscue",
       "notes": "Dino Rib Good"
+    },
+    {
+      "id": 3050,
+      "date": "2026-06-21",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Transportation",
+      "subcat": "Navi",
+      "subcat2": "Gas",
+      "amount": 30,
+      "place": "Costco gas",
+      "notes": null
     }
   ]
 }
