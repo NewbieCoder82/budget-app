@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 3052,
+  "nextTransId": 3053,
   "transactions": [
     {
       "id": 3000,
@@ -626,6 +626,18 @@
       "amount": 1,
       "place": "BofA",
       "notes": "$100 Fathers Day gift"
+    },
+    {
+      "id": 3052,
+      "date": "2026-06-21",
+      "account": "SVNG",
+      "purchaser": "JJ",
+      "maincat": "J_Family",
+      "subcat": "Food",
+      "subcat2": "Lunch",
+      "amount": 40,
+      "place": "Rumis",
+      "notes": "Bolani for Fathers Day"
     }
   ]
 }
