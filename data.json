@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 3048,
+  "nextTransId": 3049,
   "transactions": [
     {
       "id": 3000,
@@ -578,6 +578,18 @@
       "amount": 28,
       "place": "Costco Gas",
       "notes": null
+    },
+    {
+      "id": 3048,
+      "date": "2026-06-20",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Transportation",
+      "subcat": "Subaru",
+      "subcat2": "Gas",
+      "amount": 25,
+      "place": "Costco gas",
+      "notes": "On day to visit Shamahmood"
     }
   ]
 }
