@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 3051,
+  "nextTransId": 3052,
   "transactions": [
     {
       "id": 3000,
@@ -614,6 +614,18 @@
       "amount": 30,
       "place": "Costco gas",
       "notes": null
+    },
+    {
+      "id": 3051,
+      "date": "2026-06-21",
+      "account": "SVNG",
+      "purchaser": "AA",
+      "maincat": "J_Family",
+      "subcat": null,
+      "subcat2": null,
+      "amount": 1,
+      "place": "BofA",
+      "notes": "$100 Fathers Day gift"
     }
   ]
 }
