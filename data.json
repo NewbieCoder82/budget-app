@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 3054,
+  "nextTransId": 3055,
   "transactions": [
     {
       "id": 3000,
@@ -650,6 +650,18 @@
       "amount": 7,
       "place": "Bel Air",
       "notes": "Fathers Day card"
+    },
+    {
+      "id": 3054,
+      "date": "2026-06-21",
+      "account": "APLE",
+      "purchaser": "JJ",
+      "maincat": "Home",
+      "subcat": null,
+      "subcat2": null,
+      "amount": 60,
+      "place": "Amazon",
+      "notes": "Bidet"
     }
   ]
 }
