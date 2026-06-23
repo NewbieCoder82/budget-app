@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 3059,
+  "nextTransId": 3060,
   "transactions": [
     {
       "id": 3000,
@@ -709,6 +709,18 @@
       "subcat2": "Gas",
       "amount": 16,
       "place": "Costco gas",
+      "notes": null
+    },
+    {
+      "id": 3059,
+      "date": "2026-06-22",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Us",
+      "subcat": "Food",
+      "subcat2": "Dinner",
+      "amount": 34,
+      "place": "In n out",
       "notes": null
     }
   ]
