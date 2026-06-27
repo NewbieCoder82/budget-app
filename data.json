@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 3063,
+  "nextTransId": 3064,
   "transactions": [
     {
       "id": 3000,
@@ -758,6 +758,18 @@
       "amount": 33,
       "place": "Mountain mikes",
       "notes": "After PTA meeting"
+    },
+    {
+      "id": 3063,
+      "date": "2026-06-25",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Us",
+      "subcat": null,
+      "subcat2": null,
+      "amount": 74,
+      "place": "Kintaro sushi",
+      "notes": "Aisha belt grad dinner"
     }
   ]
 }
