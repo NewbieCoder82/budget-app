@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 3069,
+  "nextTransId": 3070,
   "transactions": [
     {
       "id": 3000,
@@ -830,6 +830,18 @@
       "amount": 8,
       "place": "Raleys",
       "notes": null
+    },
+    {
+      "id": 3069,
+      "date": "2026-06-28",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "US",
+      "subcat": "GROCERY",
+      "subcat2": "OTHER",
+      "amount": 21,
+      "place": "RALYES",
+      "notes": "MILK EGGS CREAM"
     }
   ]
 }
