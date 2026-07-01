@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 3073,
+  "nextTransId": 3074,
   "transactions": [
     {
       "id": 3000,
@@ -878,6 +878,18 @@
       "amount": 46,
       "place": "Amazon",
       "notes": "Swimsuit for Raihan"
+    },
+    {
+      "id": 3073,
+      "date": "2026-06-30",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "J_Family",
+      "subcat": "Food",
+      "subcat2": "Dinner",
+      "amount": 55,
+      "place": "Panda Express",
+      "notes": "Bcz of twins had to get food from outside"
     }
   ]
 }
