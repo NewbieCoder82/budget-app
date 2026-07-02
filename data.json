@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 3077,
+  "nextTransId": 3078,
   "transactions": [
     {
       "id": 3074,
@@ -38,6 +38,18 @@
       "amount": 56,
       "place": "Amazon",
       "notes": "Floaty and swim clothes"
+    },
+    {
+      "id": 3077,
+      "date": "2026-07-02",
+      "account": "APLE",
+      "purchaser": "JJ",
+      "maincat": "Yamin",
+      "subcat": null,
+      "subcat2": null,
+      "amount": 23,
+      "place": "Target",
+      "notes": "Special body wash and shampoo"
     }
   ]
 }
