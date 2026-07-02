@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 3075,
+  "nextTransId": 3076,
   "transactions": [
     {
       "id": 3074,
@@ -14,6 +14,18 @@
       "amount": 42,
       "place": "Target",
       "notes": null
+    },
+    {
+      "id": 3075,
+      "date": "2026-07-02",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Yamin",
+      "subcat": null,
+      "subcat2": null,
+      "amount": 51,
+      "place": "Target",
+      "notes": "Swim and regular diapers"
     }
   ]
 }
