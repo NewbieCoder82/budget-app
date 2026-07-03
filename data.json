@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 3078,
+  "nextTransId": 3079,
   "transactions": [
     {
       "id": 3074,
@@ -50,6 +50,18 @@
       "amount": 23,
       "place": "Target",
       "notes": "Special body wash and shampoo"
+    },
+    {
+      "id": 3078,
+      "date": "2026-07-02",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Us",
+      "subcat": "Grocery",
+      "subcat2": "Weekly",
+      "amount": 48,
+      "place": "Raleys",
+      "notes": "Fettuccine mushrooms gr onion chx also frozen chx tikka cherry tomatoes"
     }
   ]
 }
