@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 3079,
+  "nextTransId": 3080,
   "transactions": [
     {
       "id": 3074,
@@ -62,6 +62,18 @@
       "amount": 48,
       "place": "Raleys",
       "notes": "Fettuccine mushrooms gr onion chx also frozen chx tikka cherry tomatoes"
+    },
+    {
+      "id": 3079,
+      "date": "2026-07-04",
+      "account": "APLE",
+      "purchaser": "JJ",
+      "maincat": "Yamin",
+      "subcat": "Personal",
+      "subcat2": "Other",
+      "amount": 53,
+      "place": "Target",
+      "notes": "Water bottle bib fiber powder"
     }
   ]
 }
