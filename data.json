@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 3090,
+  "nextTransId": 3091,
   "transactions": [
     {
       "id": 3074,
@@ -194,6 +194,18 @@
       "amount": 23,
       "place": "Chx fla",
       "notes": "Breakfast after first night"
+    },
+    {
+      "id": 3090,
+      "date": "2026-07-07",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Us",
+      "subcat": "Travel",
+      "subcat2": "Coffee",
+      "amount": 18,
+      "place": "Krisp",
+      "notes": "Two coffees and one almond croissant"
     }
   ]
 }
