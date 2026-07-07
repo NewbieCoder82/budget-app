@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 3084,
+  "nextTransId": 3085,
   "transactions": [
     {
       "id": 3074,
@@ -122,6 +122,18 @@
       "amount": 33,
       "place": "Raleys",
       "notes": "Coffee pouches snacks for Yamin"
+    },
+    {
+      "id": 3084,
+      "date": "2026-07-06",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Us",
+      "subcat": "Travel",
+      "subcat2": "Lunch",
+      "amount": 32,
+      "place": "In n out",
+      "notes": "First stop"
     }
   ]
 }
