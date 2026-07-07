@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 3087,
+  "nextTransId": 3088,
   "transactions": [
     {
       "id": 3074,
@@ -158,6 +158,18 @@
       "amount": 90,
       "place": "76",
       "notes": "Before Grapevine"
+    },
+    {
+      "id": 3087,
+      "date": "2026-07-06",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Us",
+      "subcat": "Travel",
+      "subcat2": "Dinner",
+      "amount": 49,
+      "place": "Daves Chicken",
+      "notes": "Good at irvine"
     }
   ]
 }
