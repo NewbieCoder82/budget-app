@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 3089,
+  "nextTransId": 3090,
   "transactions": [
     {
       "id": 3074,
@@ -182,6 +182,18 @@
       "amount": 17,
       "place": "Stbx",
       "notes": "At Valencia to rest car"
+    },
+    {
+      "id": 3089,
+      "date": "2026-07-07",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Us",
+      "subcat": "Travel",
+      "subcat2": "Bfast",
+      "amount": 23,
+      "place": "Chx fla",
+      "notes": "Breakfast after first night"
     }
   ]
 }
