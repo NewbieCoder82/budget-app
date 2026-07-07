@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 3088,
+  "nextTransId": 3089,
   "transactions": [
     {
       "id": 3074,
@@ -170,6 +170,18 @@
       "amount": 49,
       "place": "Daves Chicken",
       "notes": "Good at irvine"
+    },
+    {
+      "id": 3088,
+      "date": "2026-07-06",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Us",
+      "subcat": "Travel",
+      "subcat2": "Coffee",
+      "amount": 17,
+      "place": "Stbx",
+      "notes": "At Valencia to rest car"
     }
   ]
 }
