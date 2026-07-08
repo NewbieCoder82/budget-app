@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 3094,
+  "nextTransId": 3095,
   "transactions": [
     {
       "id": 3074,
@@ -242,6 +242,18 @@
       "amount": 20,
       "place": "Ralphs",
       "notes": "Pouches juice chocolate"
+    },
+    {
+      "id": 3094,
+      "date": "2026-07-08",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Us",
+      "subcat": "Travel",
+      "subcat2": "Coffee",
+      "amount": 10,
+      "place": "Stbx",
+      "notes": "Irvine"
     }
   ]
 }
