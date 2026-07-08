@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 3095,
+  "nextTransId": 3096,
   "transactions": [
     {
       "id": 3074,
@@ -254,6 +254,18 @@
       "amount": 10,
       "place": "Stbx",
       "notes": "Irvine"
+    },
+    {
+      "id": 3095,
+      "date": "2026-07-08",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Us",
+      "subcat": "Travel",
+      "subcat2": "Bfast",
+      "amount": 27,
+      "place": "Einstein bagels",
+      "notes": null
     }
   ]
 }
