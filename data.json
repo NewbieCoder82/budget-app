@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 3093,
+  "nextTransId": 3094,
   "transactions": [
     {
       "id": 3074,
@@ -230,6 +230,18 @@
       "amount": 44,
       "place": "Chx Fla",
       "notes": null
+    },
+    {
+      "id": 3093,
+      "date": "2026-07-07",
+      "account": "APLE",
+      "purchaser": "JJ",
+      "maincat": "Us",
+      "subcat": "Travel",
+      "subcat2": "Grocery",
+      "amount": 20,
+      "place": "Ralphs",
+      "notes": "Pouches juice chocolate"
     }
   ]
 }
