@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 3098,
+  "nextTransId": 3099,
   "transactions": [
     {
       "id": 3074,
@@ -289,6 +289,18 @@
       "subcat2": "Dinner",
       "amount": 62,
       "place": "Daves Chicken",
+      "notes": null
+    },
+    {
+      "id": 3098,
+      "date": "2026-07-09",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Us",
+      "subcat": "Travel",
+      "subcat2": "Bfast",
+      "amount": 22,
+      "place": "Chx Fla",
       "notes": null
     }
   ]
