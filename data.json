@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 3097,
+  "nextTransId": 3098,
   "transactions": [
     {
       "id": 3074,
@@ -278,6 +278,18 @@
       "amount": 183,
       "place": "Disney Store",
       "notes": "Included items for twins"
+    },
+    {
+      "id": 3097,
+      "date": "2026-07-08",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Us",
+      "subcat": "Travel",
+      "subcat2": "Dinner",
+      "amount": 62,
+      "place": "Daves Chicken",
+      "notes": null
     }
   ]
 }
