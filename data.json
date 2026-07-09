@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 3096,
+  "nextTransId": 3097,
   "transactions": [
     {
       "id": 3074,
@@ -266,6 +266,18 @@
       "amount": 27,
       "place": "Einstein bagels",
       "notes": null
+    },
+    {
+      "id": 3096,
+      "date": "2026-07-08",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Kids",
+      "subcat": "Travel",
+      "subcat2": null,
+      "amount": 183,
+      "place": "Disney Store",
+      "notes": "Included items for twins"
     }
   ]
 }
