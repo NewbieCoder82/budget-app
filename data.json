@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 3099,
+  "nextTransId": 3100,
   "transactions": [
     {
       "id": 3074,
@@ -301,6 +301,18 @@
       "subcat2": "Bfast",
       "amount": 22,
       "place": "Chx Fla",
+      "notes": null
+    },
+    {
+      "id": 3099,
+      "date": "2026-07-09",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Us",
+      "subcat": "Travel",
+      "subcat2": "Coffee",
+      "amount": 10,
+      "place": "Stbx",
       "notes": null
     }
   ]
