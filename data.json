@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 3103,
+  "nextTransId": 3104,
   "transactions": [
     {
       "id": 3074,
@@ -350,6 +350,18 @@
       "amount": 34,
       "place": "In n out",
       "notes": null
+    },
+    {
+      "id": 3103,
+      "date": "2026-07-10",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Transportation",
+      "subcat": "Travel",
+      "subcat2": "Gas",
+      "amount": 80,
+      "place": "Costco Gas",
+      "notes": "Irvine on way back iA"
     }
   ]
 }
