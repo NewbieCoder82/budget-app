@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 3100,
+  "nextTransId": 3101,
   "transactions": [
     {
       "id": 3074,
@@ -314,6 +314,18 @@
       "amount": 10,
       "place": "Stbx",
       "notes": null
+    },
+    {
+      "id": 3100,
+      "date": "2026-07-09",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Us",
+      "subcat": "Travel",
+      "subcat2": "Other",
+      "amount": 33,
+      "place": "Ralphs",
+      "notes": "Pads and pouches"
     }
   ]
 }
