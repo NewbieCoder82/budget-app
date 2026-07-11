@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 3108,
+  "nextTransId": 3109,
   "transactions": [
     {
       "id": 3074,
@@ -408,6 +408,18 @@
       "subcat": "Travel",
       "subcat2": "Gas",
       "amount": 97,
+      "place": "Shell",
+      "notes": "King City"
+    },
+    {
+      "id": 3108,
+      "date": "2026-07-11",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Us",
+      "subcat": "Travel",
+      "subcat2": "Snacks",
+      "amount": 19,
       "place": "Shell",
       "notes": "King City"
     }
