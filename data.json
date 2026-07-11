@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 3105,
+  "nextTransId": 3106,
   "transactions": [
     {
       "id": 3074,
@@ -374,6 +374,18 @@
       "amount": 19,
       "place": "Chx fla",
       "notes": null
+    },
+    {
+      "id": 3105,
+      "date": "2026-07-11",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Us",
+      "subcat": "Travel",
+      "subcat2": "Lunch",
+      "amount": 58,
+      "place": "Jersey Mikes",
+      "notes": "At Santa Barbara changed Yamin"
     }
   ]
 }
