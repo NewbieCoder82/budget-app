@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 3107,
+  "nextTransId": 3108,
   "transactions": [
     {
       "id": 3074,
@@ -398,6 +398,18 @@
       "amount": 9,
       "place": "Stbx",
       "notes": "Venti Mach at Santa Barbara"
+    },
+    {
+      "id": 3107,
+      "date": "2026-07-11",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Transportation",
+      "subcat": "Travel",
+      "subcat2": "Gas",
+      "amount": 97,
+      "place": "Shell",
+      "notes": "King City"
     }
   ]
 }
