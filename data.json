@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 3110,
+  "nextTransId": 3111,
   "transactions": [
     {
       "id": 3074,
@@ -434,6 +434,18 @@
       "amount": 30,
       "place": "Burger King",
       "notes": "Fremont"
+    },
+    {
+      "id": 3110,
+      "date": "2026-07-11",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Us",
+      "subcat": "Grocery",
+      "subcat2": "Weekly",
+      "amount": 57,
+      "place": "Raleys",
+      "notes": "Items for waffles and stuff"
     }
   ]
 }
