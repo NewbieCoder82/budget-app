@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 3112,
+  "nextTransId": 3113,
   "transactions": [
     {
       "id": 3074,
@@ -458,6 +458,18 @@
       "amount": 0.01,
       "place": "DMV",
       "notes": "2026 registration 602 dollars with srvc fee 591 actual"
+    },
+    {
+      "id": 3112,
+      "date": "2026-07-11",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Us",
+      "subcat": "Food",
+      "subcat2": "Lunch",
+      "amount": 32,
+      "place": "Chipotle",
+      "notes": null
     }
   ]
 }
