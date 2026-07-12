@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 3114,
+  "nextTransId": 3115,
   "transactions": [
     {
       "id": 3074,
@@ -481,6 +481,18 @@
       "subcat2": "Dinner",
       "amount": 54,
       "place": "Aryana kabob",
+      "notes": null
+    },
+    {
+      "id": 3114,
+      "date": "2026-07-12",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Kids",
+      "subcat": "Food",
+      "subcat2": "Lunch",
+      "amount": 16,
+      "place": "Macdonalds",
       "notes": null
     }
   ]
