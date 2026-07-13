@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 3120,
+  "nextTransId": 3121,
   "transactions": [
     {
       "id": 3074,
@@ -554,6 +554,18 @@
       "amount": 12,
       "place": "Rumis",
       "notes": "Not sure what she got after getting gas"
+    },
+    {
+      "id": 3120,
+      "date": "2026-07-13",
+      "account": "APLE",
+      "purchaser": "JJ",
+      "maincat": "Transportation",
+      "subcat": "Subaru",
+      "subcat2": "Gas",
+      "amount": 79,
+      "place": "Costco Gas",
+      "notes": null
     }
   ]
 }
