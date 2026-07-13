@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 3118,
+  "nextTransId": 3119,
   "transactions": [
     {
       "id": 3074,
@@ -530,6 +530,18 @@
       "amount": 42,
       "place": "Walmart",
       "notes": "Eating table for Ama Sally"
+    },
+    {
+      "id": 3118,
+      "date": "2026-07-12",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Kids",
+      "subcat": "Food",
+      "subcat2": "Dinner",
+      "amount": 17,
+      "place": "Chipotle",
+      "notes": null
     }
   ]
 }
