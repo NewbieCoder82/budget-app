@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 3116,
+  "nextTransId": 3117,
   "transactions": [
     {
       "id": 3074,
@@ -506,6 +506,18 @@
       "amount": 100,
       "place": "Tandoori nights",
       "notes": "Day we went to visit Ama Sally"
+    },
+    {
+      "id": 3116,
+      "date": "2026-07-12",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Us",
+      "subcat": "Food",
+      "subcat2": "Pastry",
+      "amount": 5,
+      "place": "Whole Foods",
+      "notes": "Cake slice for me and JJ"
     }
   ]
 }
