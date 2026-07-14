@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 3122,
+  "nextTransId": 3123,
   "transactions": [
     {
       "id": 3074,
@@ -578,6 +578,18 @@
       "amount": 179,
       "place": "Costco",
       "notes": "Kids Snax tomato sauce oil paprika protein shake beef chicken etc"
+    },
+    {
+      "id": 3122,
+      "date": "2026-07-10",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Us",
+      "subcat": "Travel",
+      "subcat2": "Other",
+      "amount": 175,
+      "place": "Hyatt",
+      "notes": "Irvine parking fee"
     }
   ]
 }
