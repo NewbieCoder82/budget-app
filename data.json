@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 3123,
+  "nextTransId": 3124,
   "transactions": [
     {
       "id": 3074,
@@ -590,6 +590,18 @@
       "amount": 175,
       "place": "Hyatt",
       "notes": "Irvine parking fee"
+    },
+    {
+      "id": 3123,
+      "date": "2026-07-14",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "A_Family",
+      "subcat": null,
+      "subcat2": null,
+      "amount": 73,
+      "place": "Southwest",
+      "notes": "For rebooking"
     }
   ]
 }
