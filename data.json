@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 3124,
+  "nextTransId": 3125,
   "transactions": [
     {
       "id": 3074,
@@ -602,6 +602,18 @@
       "amount": 73,
       "place": "Southwest",
       "notes": "For rebooking"
+    },
+    {
+      "id": 3124,
+      "date": "2026-07-14",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Us",
+      "subcat": "Food",
+      "subcat2": "Dinner",
+      "amount": 38,
+      "place": "Panda Express",
+      "notes": null
     }
   ]
 }
