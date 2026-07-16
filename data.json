@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 3125,
+  "nextTransId": 3126,
   "transactions": [
     {
       "id": 3074,
@@ -614,6 +614,18 @@
       "amount": 38,
       "place": "Panda Express",
       "notes": null
+    },
+    {
+      "id": 3125,
+      "date": "2026-07-15",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Us",
+      "subcat": "Grocery",
+      "subcat2": "Other",
+      "amount": 26,
+      "place": "Raleys",
+      "notes": "Pasta and Yamin snax"
     }
   ]
 }
