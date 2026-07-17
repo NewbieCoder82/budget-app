@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 3126,
+  "nextTransId": 3127,
   "transactions": [
     {
       "id": 3074,
@@ -626,6 +626,18 @@
       "amount": 26,
       "place": "Raleys",
       "notes": "Pasta and Yamin snax"
+    },
+    {
+      "id": 3126,
+      "date": "2026-07-16",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Transportation",
+      "subcat": "Navi",
+      "subcat2": "Gas",
+      "amount": 30,
+      "place": "Costco Gas",
+      "notes": null
     }
   ]
 }
