@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 3128,
+  "nextTransId": 3129,
   "transactions": [
     {
       "id": 3074,
@@ -650,6 +650,18 @@
       "amount": 44,
       "place": "Target",
       "notes": null
+    },
+    {
+      "id": 3128,
+      "date": "2026-07-17",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Yamin",
+      "subcat": null,
+      "subcat2": null,
+      "amount": 31,
+      "place": "Target",
+      "notes": "Water wipes 540 count"
     }
   ]
 }
