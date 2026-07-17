@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 3127,
+  "nextTransId": 3128,
   "transactions": [
     {
       "id": 3074,
@@ -637,6 +637,18 @@
       "subcat2": "Gas",
       "amount": 30,
       "place": "Costco Gas",
+      "notes": null
+    },
+    {
+      "id": 3127,
+      "date": "2026-07-17",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Abdul",
+      "subcat": "Personal",
+      "subcat2": "Nicotine",
+      "amount": 44,
+      "place": "Target",
       "notes": null
     }
   ]
