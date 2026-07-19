@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 3131,
+  "nextTransId": 3132,
   "transactions": [
     {
       "id": 3074,
@@ -686,6 +686,18 @@
       "amount": 28,
       "place": "Raleys",
       "notes": "Meat for turkey and pastrami sandwich"
+    },
+    {
+      "id": 3131,
+      "date": "2026-07-19",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "J_Family",
+      "subcat": null,
+      "subcat2": null,
+      "amount": 108,
+      "place": "Costco",
+      "notes": "For World Cup party"
     }
   ]
 }
