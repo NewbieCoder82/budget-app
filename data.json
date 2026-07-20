@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 3133,
+  "nextTransId": 3134,
   "transactions": [
     {
       "id": 3074,
@@ -710,6 +710,18 @@
       "amount": 70,
       "place": "Costco",
       "notes": "World Cup watch party"
+    },
+    {
+      "id": 3133,
+      "date": "2026-07-19",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Us",
+      "subcat": "Grocery",
+      "subcat2": "Other",
+      "amount": 45,
+      "place": "Raleys",
+      "notes": "Snacks for Yamin and pasta stuff for us"
     }
   ]
 }
