@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 3135,
+  "nextTransId": 3136,
   "transactions": [
     {
       "id": 3074,
@@ -734,6 +734,18 @@
       "amount": 39,
       "place": "Amazon",
       "notes": "Squeeze thingy"
+    },
+    {
+      "id": 3135,
+      "date": "2026-07-20",
+      "account": "APLE",
+      "purchaser": "JJ",
+      "maincat": "Us",
+      "subcat": "Grocery",
+      "subcat2": "Weekly",
+      "amount": 52,
+      "place": "Raleys",
+      "notes": null
     }
   ]
 }
