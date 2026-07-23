@@ -1,7 +1,7 @@
 {
   "deposit": 12022,
   "fixed": 8450,
-  "nextTransId": 3138,
+  "nextTransId": 3139,
   "transactions": [
     {
       "id": 3074,
@@ -770,6 +770,18 @@
       "amount": 70,
       "place": "Costco",
       "notes": "Protein shake for Khala Shreen"
+    },
+    {
+      "id": 3138,
+      "date": "2026-07-22",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Transportation",
+      "subcat": "Navi",
+      "subcat2": "Gas",
+      "amount": 30,
+      "place": "Costco Gas",
+      "notes": null
     }
   ]
 }
