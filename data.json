@@ -1,7 +1,7 @@
 {
   "deposit": 12022,
   "fixed": 8450,
-  "nextTransId": 3139,
+  "nextTransId": 3140,
   "transactions": [
     {
       "id": 3074,
@@ -782,6 +782,18 @@
       "amount": 30,
       "place": "Costco Gas",
       "notes": null
+    },
+    {
+      "id": 3139,
+      "date": "2026-07-23",
+      "account": "APLE",
+      "purchaser": "JJ",
+      "maincat": "Us",
+      "subcat": "Grocery",
+      "subcat2": "Other",
+      "amount": 35,
+      "place": "Raleys",
+      "notes": "Milk flour vanilla extract"
     }
   ]
 }
