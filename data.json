@@ -1,7 +1,7 @@
 {
   "deposit": 12022,
   "fixed": 8450,
-  "nextTransId": 3140,
+  "nextTransId": 3141,
   "transactions": [
     {
       "id": 3074,
@@ -794,6 +794,18 @@
       "amount": 35,
       "place": "Raleys",
       "notes": "Milk flour vanilla extract"
+    },
+    {
+      "id": 3140,
+      "date": "2026-07-25",
+      "account": "APLE",
+      "purchaser": "JJ",
+      "maincat": "J_Family",
+      "subcat": "Grocery",
+      "subcat2": "Other",
+      "amount": 20,
+      "place": "Trader Joes",
+      "notes": "Ingredients for Shoaib House Gathering"
     }
   ]
 }
