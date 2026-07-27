@@ -1,7 +1,7 @@
 {
   "deposit": 12022,
   "fixed": 8450,
-  "nextTransId": 3142,
+  "nextTransId": 3143,
   "transactions": [
     {
       "id": 3074,
@@ -818,6 +818,18 @@
       "amount": 85,
       "place": "Rumis",
       "notes": "Grand reopening so money spent to support"
+    },
+    {
+      "id": 3142,
+      "date": "2026-07-26",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Us",
+      "subcat": "Grocery",
+      "subcat2": "Weekly",
+      "amount": 62,
+      "place": "Costco",
+      "notes": "Milk ChxBites tomato yogurt pouches"
     }
   ]
 }
