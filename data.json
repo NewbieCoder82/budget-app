@@ -1,7 +1,7 @@
 {
   "deposit": 12022,
   "fixed": 8450,
-  "nextTransId": 3143,
+  "nextTransId": 3144,
   "transactions": [
     {
       "id": 3074,
@@ -830,6 +830,18 @@
       "amount": 62,
       "place": "Costco",
       "notes": "Milk ChxBites tomato yogurt pouches"
+    },
+    {
+      "id": 3143,
+      "date": "2026-07-27",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Us",
+      "subcat": "Grocery",
+      "subcat2": "Dinner",
+      "amount": 29,
+      "place": "Raleys",
+      "notes": "Sandwich bread deli meat snack bars fettuccine and hvy cream"
     }
   ]
 }
