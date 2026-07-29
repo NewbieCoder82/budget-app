@@ -1,7 +1,7 @@
 {
   "deposit": 12022,
   "fixed": 8450,
-  "nextTransId": 3147,
+  "nextTransId": 3148,
   "transactions": [
     {
       "id": 3074,
@@ -878,6 +878,18 @@
       "amount": 32,
       "place": "Amazon",
       "notes": "Bathroom 4 pin bulb and wired airpod adapter"
+    },
+    {
+      "id": 3147,
+      "date": "2026-07-29",
+      "account": "APLE",
+      "purchaser": "JJ",
+      "maincat": "Us",
+      "subcat": "Grocery",
+      "subcat2": "Other",
+      "amount": 28,
+      "place": "Raleys",
+      "notes": "Lunch ingredients and pouches"
     }
   ]
 }
