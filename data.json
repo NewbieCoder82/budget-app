@@ -1,7 +1,7 @@
 {
   "deposit": 12022,
   "fixed": 8450,
-  "nextTransId": 3148,
+  "nextTransId": 3149,
   "transactions": [
     {
       "id": 3074,
@@ -890,6 +890,18 @@
       "amount": 28,
       "place": "Raleys",
       "notes": "Lunch ingredients and pouches"
+    },
+    {
+      "id": 3148,
+      "date": "2026-07-31",
+      "account": "APLE",
+      "purchaser": "JJ",
+      "maincat": "Jahan",
+      "subcat": "Personal",
+      "subcat2": null,
+      "amount": 7,
+      "place": "Amazon",
+      "notes": "Hair ties"
     }
   ]
 }
