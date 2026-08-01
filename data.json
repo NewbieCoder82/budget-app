@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 3151,
+  "nextTransId": 3152,
   "transactions": [
     {
       "id": 3149,
@@ -13,7 +13,7 @@
       "subcat2": null,
       "amount": 74,
       "place": "Smog n go",
-      "notes": "Passed Alhamd’lAllah smog tes"
+      "notes": "Passed AlhamdâlAllah smog tes"
     },
     {
       "id": 3150,
@@ -26,6 +26,18 @@
       "amount": 11,
       "place": "Rescate",
       "notes": "After smog test"
+    },
+    {
+      "id": 3151,
+      "date": "2026-08-01",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Abdul",
+      "subcat": "Personal",
+      "subcat2": null,
+      "amount": 6,
+      "place": "Amazon",
+      "notes": "Face Scrub"
     }
   ]
 }
