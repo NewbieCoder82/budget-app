@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 3152,
+  "nextTransId": 3153,
   "transactions": [
     {
       "id": 3149,
@@ -38,6 +38,18 @@
       "amount": 6,
       "place": "Amazon",
       "notes": "Face Scrub"
+    },
+    {
+      "id": 3152,
+      "date": "2026-08-01",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Yamin",
+      "subcat": "Personal",
+      "subcat2": "Diaper Related",
+      "amount": 19,
+      "place": "Amazon",
+      "notes": "Burts Bees diaper rash cream"
     }
   ]
 }
