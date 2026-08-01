@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 3150,
+  "nextTransId": 3151,
   "transactions": [
     {
       "id": 3149,
@@ -14,6 +14,18 @@
       "amount": 74,
       "place": "Smog n go",
       "notes": "Passed Alhamd’lAllah smog tes"
+    },
+    {
+      "id": 3150,
+      "date": "2026-08-01",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": null,
+      "subcat": "Food",
+      "subcat2": "Coffee",
+      "amount": 11,
+      "place": "Rescate",
+      "notes": "After smog test"
     }
   ]
 }
