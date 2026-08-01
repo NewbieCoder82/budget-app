@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 3153,
+  "nextTransId": 3154,
   "transactions": [
     {
       "id": 3149,
@@ -13,7 +13,7 @@
       "subcat2": null,
       "amount": 74,
       "place": "Smog n go",
-      "notes": "Passed AlhamdâlAllah smog tes"
+      "notes": "Passed AlhamdÃ¢ÂÂlAllah smog tes"
     },
     {
       "id": 3150,
@@ -50,6 +50,18 @@
       "amount": 19,
       "place": "Amazon",
       "notes": "Burts Bees diaper rash cream"
+    },
+    {
+      "id": 3153,
+      "date": "2026-08-01",
+      "account": "SVNG",
+      "purchaser": "AA",
+      "maincat": "Jahan",
+      "subcat": "Personal",
+      "subcat2": null,
+      "amount": 0.01,
+      "place": "Sahar",
+      "notes": "Darker hair color $150"
     }
   ]
 }
