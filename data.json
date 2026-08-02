@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 3155,
+  "nextTransId": 3156,
   "transactions": [
     {
       "id": 3149,
@@ -13,7 +13,7 @@
       "subcat2": null,
       "amount": 74,
       "place": "Smog n go",
-      "notes": "Passed AlhamdÃÂ¢ÃÂÃÂlAllah smog tes"
+      "notes": "Passed AlhamdÃÂÃÂ¢ÃÂÃÂÃÂÃÂlAllah smog tes"
     },
     {
       "id": 3150,
@@ -73,7 +73,19 @@
       "subcat2": "Dinner",
       "amount": 104,
       "place": "Chicago fire",
-      "notes": "Idris belt graduation. Yamin and all of us had a good time Alhamd’lAllah"
+      "notes": "Idris belt graduation. Yamin and all of us had a good time AlhamdâlAllah"
+    },
+    {
+      "id": 3155,
+      "date": "2026-08-01",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Transportation",
+      "subcat": "Navi",
+      "subcat2": "Gas",
+      "amount": 66,
+      "place": "Costco gas",
+      "notes": null
     }
   ]
 }
