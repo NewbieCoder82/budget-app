@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 3159,
+  "nextTransId": 3160,
   "transactions": [
     {
       "id": 3149,
@@ -122,6 +122,18 @@
       "amount": 43,
       "place": "Target",
       "notes": "Toys and Tylenol"
+    },
+    {
+      "id": 3159,
+      "date": "2026-08-02",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": null,
+      "subcat": "Food",
+      "subcat2": "Coffee",
+      "amount": 11,
+      "place": "Raleys",
+      "notes": null
     }
   ]
 }
