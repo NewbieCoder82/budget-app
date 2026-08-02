@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 3154,
+  "nextTransId": 3155,
   "transactions": [
     {
       "id": 3149,
@@ -13,7 +13,7 @@
       "subcat2": null,
       "amount": 74,
       "place": "Smog n go",
-      "notes": "Passed AlhamdÃ¢ÂÂlAllah smog tes"
+      "notes": "Passed AlhamdÃÂ¢ÃÂÃÂlAllah smog tes"
     },
     {
       "id": 3150,
@@ -62,6 +62,18 @@
       "amount": 0.01,
       "place": "Sahar",
       "notes": "Darker hair color $150"
+    },
+    {
+      "id": 3154,
+      "date": "2026-08-01",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Us",
+      "subcat": "Food",
+      "subcat2": "Dinner",
+      "amount": 104,
+      "place": "Chicago fire",
+      "notes": "Idris belt graduation. Yamin and all of us had a good time Alhamd’lAllah"
     }
   ]
 }
