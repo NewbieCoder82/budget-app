@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 3161,
+  "nextTransId": 3162,
   "transactions": [
     {
       "id": 3149,
@@ -13,7 +13,7 @@
       "subcat2": null,
       "amount": 74,
       "place": "Smog n go",
-      "notes": "Passed AlhamdÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂlAllah smog tes"
+      "notes": "Passed AlhamdÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂlAllah smog tes"
     },
     {
       "id": 3150,
@@ -73,7 +73,7 @@
       "subcat2": "Dinner",
       "amount": 104,
       "place": "Chicago fire",
-      "notes": "Idris belt graduation. Yamin and all of us had a good time AlhamdÃÂ¢ÃÂÃÂlAllah"
+      "notes": "Idris belt graduation. Yamin and all of us had a good time AlhamdÃÂÃÂ¢ÃÂÃÂÃÂÃÂlAllah"
     },
     {
       "id": 3155,
@@ -146,6 +146,18 @@
       "amount": 50,
       "place": "Raleys",
       "notes": "Pouches bars pasta Gatorade coffee"
+    },
+    {
+      "id": 3161,
+      "date": "2026-08-02",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": null,
+      "subcat": "Grocery",
+      "subcat2": "Coffee",
+      "amount": 62,
+      "place": "Nespresso",
+      "notes": null
     }
   ]
 }
