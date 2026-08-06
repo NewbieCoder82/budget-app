@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 3165,
+  "nextTransId": 3166,
   "transactions": [
     {
       "id": 3149,
@@ -194,6 +194,18 @@
       "amount": 19,
       "place": "Raleys",
       "notes": "Pasta hot dogs linguini Cream"
+    },
+    {
+      "id": 3165,
+      "date": "2026-08-05",
+      "account": "APLE",
+      "purchaser": "JJ",
+      "maincat": "Kids",
+      "subcat": "Food",
+      "subcat2": "Lunch",
+      "amount": 33,
+      "place": "Chx Fla",
+      "notes": "With Andres and his sister"
     }
   ]
 }
