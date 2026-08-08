@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 3173,
+  "nextTransId": 3174,
   "transactions": [
     {
       "id": 3149,
@@ -289,6 +289,18 @@
       "subcat2": null,
       "amount": 17,
       "place": "Five below",
+      "notes": null
+    },
+    {
+      "id": 3173,
+      "date": "2026-08-08",
+      "account": "APLE",
+      "purchaser": "JJ",
+      "maincat": "Us",
+      "subcat": "Geocery",
+      "subcat2": "Other",
+      "amount": 48,
+      "place": "Raleys",
       "notes": null
     }
   ]
