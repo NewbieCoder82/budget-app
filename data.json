@@ -1,7 +1,7 @@
 {
   "deposit": 11522,
   "fixed": 8450,
-  "nextTransId": 3176,
+  "nextTransId": 3177,
   "transactions": [
     {
       "id": 3149,
@@ -326,6 +326,18 @@
       "amount": 59,
       "place": "Amazon",
       "notes": "Rolling back pack"
+    },
+    {
+      "id": 3176,
+      "date": "2026-08-09",
+      "account": "APLE",
+      "purchaser": "AA",
+      "maincat": "Yamin",
+      "subcat": "Personal",
+      "subcat2": "Diaper Related",
+      "amount": 41,
+      "place": "Target",
+      "notes": null
     }
   ]
 }
